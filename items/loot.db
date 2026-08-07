@@ -1,0 +1,401 @@
+[MonsterLoot]
+Zombie=Verrottetes Fleisch.Eisenbarren.Karotte.Kartoffel
+Skelett=Knochen.Pfeil.Bogen
+Creeper=Schwarzpulver
+Enderman=Enderperle
+Boe=Windladung
+Sumpfskelett=Knochen.Pfeil.Vergifteter Pfeil
+Hexe=Spinnenauge.Schiesspulver.Glowstone-Staub.Redstone-Staub.Zucker.Glasflasche.Stickstoff.Heiltrank.Feuerwiderstandstrank.Wasseratmungstrank.Schnelligkeitstrank.Leere Flasche
+Lohe=Lohenrute
+Magmawuerfel=Magmacreme
+Schleim=Schleimball
+Ertrunkener=Verrottetes Fleisch.Kupferbarren.Dreizack.Nautilus-Schale
+Wuestenzombie=Verrottetes Fleisch.Eisenbarren.Karotte.Kartoffel
+Hoehlenspinne=Faden.Spinnenauge
+Spinne=Faden.Spinnenauge
+Ghast=Ghast-Traene.Schwarzpulver
+Wither-Skelett=Knochen.Kohle.Wither-Skelettschaedel.Steinschwert
+Phantom=Phantomhaut
+Pillager=Smaragd.Armbrust
+Vindicator=Smaragd.Eisenaxt
+Evoker=Smaragd.Totem der Unsterblichkeit
+Vex=Eisenschwert
+Ravager=Sattel
+Piglin=Goldbarren.Leder.Pfeil.Feuerstein.Kies.Netherquarz.Lederfett.Seelensand.Faden.Magmacreme.Feuerladung.Endperle.Eisenschwert.Eisenstiefel
+Piglin-Brute=Goldaxt
+Zombifizierter_Piglin=Verrottetes Fleisch.Goldschneide.Goldbarren.Goldschwert
+Hoglin=Rohes Schweinefleisch.Leder
+Zoglin=Verrottetes Fleisch.Schlamm
+Shulker=Shulker-Schale
+Silberfischchen=Kein Loot
+Endermite=Kein Loot
+Waechter=Prismarinsplitter.Prismarienkristall.Roher Kabeljau
+Grosser_Waechter=Prismarinsplitter.Prismarienkristall.Schwamm.Roher Kabeljau
+Wither=Netherstern
+Enderdrache=Drachenei
+Warden=Katalysator
+Kamel_Husk=Verrottetes Fleisch.Leder
+Zerstoererischer_Husk=Verrottetes Fleisch.Knochen
+Zombie_Nautilus=Verrottetes Fleisch.Nautilus-Schale
+Creaking=Kein Loot
+
+[DungeonLoot]
+Dorf=Brot.Apfel.Smaragd.Eisenhelm.Eisenschwert.Eisenbarren.Kartoffel.Karotte.Brot.Ruesstungsschmiede-Vorlage
+Pruefungskammern=Pruefungsschluessel.Unheilvoller Pruefungsschluessel.Diamant.Eisenbarren.Verzauberter Bogen.Windladung.Smaragd.Vergifteter Pfeil.Unheilvolle Flasche.Goldener Apfel.Goldene Karotte.Verzaubertes Buch.Schwerer Kern.Dreizack
+Wuestentempel=Goldbarren.Diamant.Smaragd.Verzaubertes Buch.Sattel.Eisenbarren.Schkiesspulver.Sand.Verfaultes Fleisch.Verzauberter Goldener Apfel.Schmiedevorlage
+Dschungeltempel=Goldbarren.Diamant.Smaragd.Verzaubertes Buch.Sattel.Eisenbarren.Bambus.Faden.Verfaultes Fleisch.Verzauberter Goldener Apfel
+Verlassener_Minenschacht=Eisenbahn-Schiene.Aktivierungs-Schiene.Antriebs-Schiene.Fackel.Glowstone-Staub.Goldbarren.Eisenbarren.Diamant.Lapislazuli.Rotstein-Staub.Sattel.Namensschild.Verzaubertes Buch.Smaragd.Melonensamen.Kuerbissamen
+Festung=Endperle.Buch.Buecherregal.Smaragd.Eisenbarren.Goldbarren.Diamant.Eisenhelm.Eisenbrustplatte.Eisenbeinschutz.Eisenstiefel.Eisenschwert.Apfel.Goldener Apfel.Verzaubertes Buch.Sattel
+Netherfestung=Lohenrute.Netherwarze.Goldbarren.Eisenbarren.Diamant.Flint_and_Steel.Goldschwert.Goldbrustplatte.Sattel.Goldene Pferderuestung.Eisenpferderuestung.Diamantpferderuestung
+Bastionsruine=Netheritbarren.Netherit-Aufwertung.Antiker Schrott.Goldblock.Goldbarren.Magmacreme.Seelenerde.Weinenes Obsidian.Obsidian.Verzaubertes Buch.Eisenschwert.Diamantschwert.Goldene Karotte.Schweine-Musikdisc
+Endstadt=Diamantbrustplatte.Diamantbeinschutz.Diamantstiefel.Diamanthelm.Diamantschwert.Diamantaxt.Eisenbrustplatte.Eisenbeinschutz.Eisenstiefel.Eisenhelm.Eisenschwert.Eisenaxt.Diamant.Smaragd.Goldbarren.Eisenbarren.Shulker-Schale.Rote-Beete-Samen
+Antike_Stadt=Echoscherbe.Katalysator.Kompakt-Eis.Seelenerde.Seelenfackel.Bücherregal.Kerzen.Verzaubertes Buch.Namensschild.Sattel.Diamant-Pferderuestung.Glow-Beeren.Musikdisc-Fragment
+Ozeanmonument=Schwamm.Goldblock.Prismarinsplitter.Prismarienkristall
+Schiffswrack=Schatzkarte.Eisenbarren.Goldbarren.Smaragd.Diamant.Kohle.Papier.Buch.Weizen.Kartoffel.Karotte.Brot.Lederruestung
+Begrabener_Schatz=Herz des Meeres.Diamant.Smaragd.Eisenbarren.Goldbarren.Roher Kabeljau.Roher Lachs
+Hexenhuette=Keine Truhen
+
+
+
+
+
+
+
+
+
+; --- MONSTER DROPS (Name=Chance_in_Prozent) ---
+
+[Zombie]
+Verrottetes Fleisch=80
+Eisenbarren=2
+Karotte=2
+Kartoffel=2
+
+[Skelett]
+Knochen=80
+Pfeil=80
+Bogen=8
+
+[Creeper]
+Schwarzpulver=80
+
+[Enderman]
+Enderperle=25
+
+[Boe]
+Windladung=100
+
+[Sumpfskelett]
+Knochen=80
+Pfeil=50
+Vergifteter Pfeil=50
+
+[Hexe]
+Spinnenauge=12
+Schiesspulver=12
+Glowstone-Staub=12
+Redstone-Staub=12
+Zucker=12
+Glasflasche=12
+Stickstoff=12
+
+[Lohe]
+Lohenrute=50
+
+[Magmawuerfel]
+Magmacreme=25
+
+[Schleim]
+Schleimball=25
+
+[Ertrunkener]
+Verrottetes Fleisch=80
+Kupferbarren=11
+Dreizack=6
+Nautilus-Schale=3
+
+[Wuestenzombie]
+Verrottetes Fleisch=80
+Eisenbarren=2
+Karotte=2
+Kartoffel=2
+
+[Hoehlenspinne]
+Faden=80
+Spinnenauge=33
+
+[Spinne]
+Faden=80
+Spinnenauge=33
+
+[Ghast]
+Ghast-Traene=50
+Schwarzpulver=50
+
+[Wither-Skelett]
+Knochen=33
+Kohle=33
+Wither-Skelettschaedel=2
+Steinschwert=8
+
+[Phantom]
+Phantomhaut=50
+
+[Pillager=Smaragd]
+Smaragd=4
+Armbrust=8
+
+[Vindicator]
+Smaragd=4
+Eisenaxt=8
+
+[Evoker]
+Smaragd=100
+Totem der Unsterblichkeit=100
+
+[Vex]
+Eisenschwert=0
+
+[Ravager]
+Sattel=100
+
+[Piglin]
+Goldbarren=10
+
+[Piglin-Brute]
+Goldaxt=8
+
+[Zombifizierter_Piglin]
+Verrottetes Fleisch=80
+Goldbarren=2
+Goldschwert=8
+
+[Hoglin]
+Rohes Schweinefleisch=100
+Leder=100
+
+[Zoglin]
+Verrottetes Fleisch=100
+
+[Shulker]
+Shulker-Schale=50
+
+[Silberfischchen]
+
+[Endermite]
+
+[Waechter]
+Prismarinsplitter=40
+Roher Kabeljau=40
+Prismarienkristall=13
+
+[Grosser_Waechter]
+Prismarinsplitter=100
+Schwamm=100
+Prismarienkristall=33
+
+[Wither]
+Netherstern=100
+
+[Enderdrache]
+Drachenei=100
+
+[Warden]
+Katalysator=100
+
+[Kamel_Husk]
+Verrottetes Fleisch=80
+Leder=20
+
+[Zerstoererischer_Husk]
+Verrottetes Fleisch=80
+Knochen=20
+
+[Zombie_Nautilus]
+Verrottetes Fleisch=80
+Nautilus-Schale=100
+
+; --- DUNGEON LOOT ---
+
+[Pruefungskammern]
+Pruefungsschluessel=50
+Unheilvoller Pruefungsschluessel=30
+Diamant=15
+Eisenbarren=40
+Verzauberter Bogen=10
+Windladung=25
+Smaragd=35
+Vergifteter Pfeil=25
+Unheilvolle Flasche=20
+Goldener Apfel=12
+Goldene Karotte=20
+Verzaubertes Buch=15
+Schwerer Kern=2
+Dreizack=1
+
+[Dorf]
+Brot=60
+Apfel=40
+Smaragd=30
+Eisenhelm=10
+Eisenschwert=10
+Eisenbarren=25
+Kartoffel=25
+Karotte=25
+Ruesstungsschmiede-Vorlage=5
+
+[Wuestentempel]
+Goldbarren=65
+Diamant=18
+Smaragd=18
+Verzaubertes Buch=25
+Sattel=15
+Eisenbarren=45
+Schiesspulver=60
+Sand=40
+Verfaultes Fleisch=80
+Verzauberter Goldener Apfel=1
+Schmiedevorlage=5
+
+[Dschungeltempel]
+Goldbarren=50
+Diamant=15
+Smaragd=15
+Verzaubertes Buch=25
+Sattel=15
+Eisenbarren=35
+Bambus=45
+Faden=35
+Verfaultes Fleisch=60
+Verzauberter Goldener Apfel=1
+
+[Verlassener_Minenschacht]
+Eisenbahn-Schiene=40
+Aktivierungs-Schiene=15
+Antriebs-Schiene=15
+Fackel=30
+Glowstone-Staub=25
+Goldbarren=30
+Eisenbarren=35
+Diamant=10
+Lapislazuli=15
+Rotstein-Staub=25
+Sattel=15
+Namensschild=40
+Verzaubertes Buch=15
+Smaragd=15
+Melonensamen=30
+Kuerbissamen=30
+
+[Festung]
+Endperle=25
+Buch=40
+Buecherregal=30
+Smaragd=10
+Eisenbarren=45
+Goldbarren=25
+Diamant=7
+Eisenhelm=10
+Eisenbrustplatte=10
+Eisenbeinschutz=10
+Eisenstiefel=10
+Eisenschwert=10
+Apfel=35
+Goldener Apfel=2
+Verzaubertes Buch=25
+Sattel=10
+
+[Netherfestung]
+Lohenrute=20
+Netherwarze=20
+Goldbarren=40
+Eisenbarren=45
+Diamant=12
+Feuerzeug=20
+Goldschwert=15
+Goldbrustplatte=10
+Sattel=35
+Goldene Pferderuestung=10
+Eisenpferderuestung=10
+Diamantpferderuestung=10
+
+[Bastionsruine]
+Netheritbarren=10
+Netherit-Aufwertung=10
+Antiker Schrott=20
+Goldblock=35
+Goldbarren=50
+Magmacreme=30
+Seelenerde=40
+Weinender Obsidian=30
+Obsidian=35
+Verzaubertes Buch=25
+Eisenschwert=25
+Diamantschwert=15
+Goldene Karotte=25
+Schweine-Musikdisc=5
+
+[Endstadt]
+Diamantbrustplatte=25
+Diamantbeinschutz=25
+Diamantstiefel=25
+Diamanthelm=25
+Diamantschwert=25
+Diamantaxt=25
+Eisenbrustplatte=15
+Eisenbeinschutz=15
+Eisenstiefel=15
+Eisenhelm=15
+Eisenschwert=15
+Eisenaxt=15
+Diamant=60
+Smaragd=50
+Goldbarren=35
+Eisenbarren=35
+Shulker-Schale=20
+Rote-Beete-Samen=25
+
+[Antike_Stadt]
+Echoscherbe=30
+Katalysator=25
+Kompakt-Eis=35
+Seelenerde=45
+Seelenfackel=40
+Buecherregal=25
+Kerzen=35
+Verzaubertes Buch=30
+Namensschild=30
+Sattel=20
+Diamant-Pferderuestung=15
+Glow-Beeren=40
+Musikdisc-Fragment=10
+
+[Ozeanmonument]
+Schwamm=100
+Goldblock=100
+Prismarinsplitter=40
+Prismarienkristall=30
+
+[Schiffswrack]
+Schatzkarte=100
+Eisenbarren=45
+Goldbarren=35
+Smaragd=30
+Diamant=10
+Kohle=50
+Papier=60
+Buch=30
+Weizen=40
+Kartoffel=35
+Karotte=35
+Brot=40
+Lederruestung=25
+
+[Begrabener_Schatz]
+Herz des Meeres=100
+Diamant=50
+Smaragd=50
+Eisenbarren=75
+Goldbarren=75
+Roher Kabeljau=45
+Roher Lachs=45

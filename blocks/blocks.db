@@ -1,0 +1,1217 @@
+[Categories]
+Holz=Eichenstamm.Eichenholz.Entrindeter Eichenstamm.Entrindetes Eichenholz.Eichenbretter.Eichenzaun.Eichenzauntor.Eichentür.Eichenfalltür.Fichtenstamm.Fichtenholz.Entrindeter Fichtenstamm.Entrindetes Fichtenholz.Fichtenbretter.Fichtenzaun.Fichtenzauntor.Fichtentür.Fichtenfalltür.Birkenstamm.Birkenholz.Entrindeter Birkenstamm.Entrindetes Birkenholz.Birkenbretter.Birkenzaun.Birkenzauntor.Birkentür.Birkenfalltür.Tropenholzstamm.Tropenholz.Entrindeter Tropenholzstamm.Entrindetes Tropenholz.Tropenholzbretter.Tropenholzzaun.Tropenholzzauntor.Tropenholztür.Tropenholzfalltür.Akazienstamm.Akazienholz.Entrindeter Akazienstamm.Entrindetes Akazienholz.Akazienbretter.Akazienzaun.Akazienzauntor.Akazientür.Akazienfalltür.Schwarzeichenstamm.Schwarzeichenholz.Entrindeter Schwarzeichenstamm.Entrindetes Schwarzeichenholz.Schwarzeichenbretter.Schwarzeichenzaun.Schwarzeichenzauntor.Schwarzeichentür.Schwarzeichenfalltür.Mangrovenstamm.Mangrovenholz.Entrindeter Mangrovenstamm.Entrindetes Mangrovenholz.Mangrovenbretter.Mangrovenzaun.Mangrovenzauntor.Mangroventür.Mangrovenfalltür.Kirschbaumstamm.Kirschbaumholz.Entrindeter Kirschbaumstamm.Entrindetes Kirschbaumholz.Kirschbaumbretter.Kirschbaumzaun.Kirschbaumzauntor.Kirschbaumtür.Kirschbaumfalltür.Bambusblock.Entrindeter Bambusblock.Bambusbretter.Bambusmosaik.Bambuszaun.Bambuszauntor.Bambustür.Bambusfalltür.Karmesinstamm.Karmesinhylphen.Entrindeter Karmesinstamm.Entrindete Karmesinhylphen.Karmesinbretter.Karmesinzaun.Karmesinzauntor.Karmesintür.Karmesinfalltür.Wirrstamm.Wirrhylphen.Entrindeter Wirrstamm.Entrindete Wirrhylphen.Wirrbretter.Wirrzaun.Wirrzauntor.Wirrtür.Wirrfalltür.Bücherregal.Geschnitztes Bücherregal
+Stein=Stein.Bruchstein.Glatte Stein-Doppelstufe.Glatter Stein.Steinziegel.Meißel-Steinziegel.Rissige Steinziegel.Moosiger Stein.Moosige Steinziegel.Granit.Polierter Granit.Diorit.Polierter Diorit.Andesit.Polierter Andesit.Tiefenschiefer.Geprägter Tiefenschiefer.Bruch-Tiefenschiefer.Polierter Tiefenschiefer.Meißel-Tiefenschiefer.Tiefenschiefer-Fliesen.Rissige Tiefenschiefer-Fliesen.Tiefenschiefer-Ziegel.Rissige Tiefenschiefer-Ziegel.Tuff.Polierter Tuff.Tuffziegel.Rissige Tuffziegel.Meißel-Tuffziegel.Sandstein.Meißel-Sandstein.Glatte Sandstein-Doppelstufe.Glatter Sandstein.Roter Sandstein.Meißel-roter Sandstein.Glatter roter Sandstein.Keramik.Weiße Keramik.Orange Keramik.Magenta Keramik.Hellblaue Keramik.Gelbe Keramik.Hellgrüne Keramik.Rosa Keramik.Graue Keramik.Hellgraue Keramik.Türkise Keramik.Violette Keramik.Blaue Keramik.Braune Keramik.Grüne Keramik.Rote Keramik.Schwarze Keramik.Glasierte Keramik.Netherziegel.Rote Netherziegel.Chiseled Netherziegel.Rissige Netherziegel.Schwarzstein.Polierter Schwarzstein.Polierte Schwarzsteinziegel.Rissige polierte Schwarzsteinziegel.Meißel-Schwarzstein.Basalt.Polierter Basalt.Glatter Basalt.Ziegelblock.Prismarin.Prismarinziegel.Dunkler Prismarin.Quarzblock.Meißel-Quarzblock.Quarzsäule.Glatter Quarzblock.Glatte Quarz-Doppelstufe.Bricks-Quarzblock.Endstein.Endsteinziegel.Purpurbank.Purpurblock.Purpursäule.Obsidian.Weinender Obsidian.Verstärkter Tiefenschiefer
+Erze=Tiefenschiefer-Kohleerz.Tiefenschiefer-Eisenerz.Tiefenschiefer-Kupfererz.Tiefenschiefer-Golderz.Tiefenschiefer-Redstone-Erz.Tiefenschiefer-Lapislazulierz.Tiefenschiefer-Diamanterz.Tiefenschiefer-Smaragderz.Kohleerz.Eisenerz.Kupfererz.Golderz.Redstone-Erz.Lapislazulierz.Diamanterz.Smaragderz.Nethergolderz.Netherquarzerz.Antiker Schrott.Netheritblock.Eisenblock.Goldblock.Diamantblock.Smaragdblock.Lapislazuliblock.Kohleblock.Roheisenblock.Rohkupferblock.Rohgoldblock.Amethystblock.Amethystknospen-Block.Kupferblock.Anwitternder Kupferblock.Verwitterter Kupferblock.Oxidierter Kupferblock.Gekerbter Kupferblock.Gekerbter anwitternder Kupferblock.Gekerbter verwitterter Kupferblock.Gekerbter oxidierter Kupferblock
+Natur=Erde.Grasblock.Grobe Erde.Podsol.Myzel.Verwurzelte Erde.Schlamm.Gepackter Schlamm.Schlammziegel.Sand.Roter Sand.Verdächtiger Sand.Verdächtiger Kies.Kies.Ton.Glas.Gefärbtes Glas.Getöntes Glas.Netherrack.Seelensand.Seelenerde.Magmablock.Glowstone.Karmesin-Nezel.Wirr-Nezel.Wolle.Weißer Beton.Oranger Beton.Magenta Beton.Hellblauer Beton.Gelber Beton.Hellgrüner Beton.Rosa Beton.Grauer Beton.Hellgrauer Beton.Türkiser Beton.Violetter Beton.Blauer Beton.Brauner Beton.Grüner Beton.Roter Beton.Schwarzer Beton.Betonpulver.Seelaterne.Knochenblock.Schwamm.Nasser Schwamm.Heuballen.Honigwabe-Block.Pilzblock.Pilzstiel.Ockerfarbener Froschlicht-Block.Verdant Froschlicht-Block.Perlmuttfarbener Froschlicht-Block
+
+[Verstärkter Tiefenschiefer]
+Hardness=55.0
+ToolRequired=false
+
+[Antiker Schrott]
+Hardness=30.0
+ToolRequired=true
+
+[Netheritblock]
+Hardness=50.0
+ToolRequired=true
+
+[Obsidian]
+Hardness=50.0
+ToolRequired=true
+
+[Weinender Obsidian]
+Hardness=50.0
+ToolRequired=true
+
+[Seelenanker]
+Hardness=50.0
+ToolRequired=true
+
+[Prüfungsspawne]
+Hardness=50.0
+ToolRequired=true
+
+[Tresor]
+Hardness=50.0
+ToolRequired=true
+
+[Schwerer Kern]
+Hardness=3.5
+ToolRequired=true
+
+[Enderkiste]
+Hardness=22.0
+ToolRequired=true
+
+[Amboss]
+Hardness=5.0
+ToolRequired=true
+
+[Angeschlagener Amboss]
+Hardness=5.0
+ToolRequired=true
+
+[Beschädigter Amboss]
+Hardness=5.0
+ToolRequired=true
+
+[Eisenblock]
+Hardness=5.0
+ToolRequired=true
+
+[Eisentür]
+Hardness=5.0
+ToolRequired=true
+
+[Eisenfalltür]
+Hardness=5.0
+ToolRequired=true
+
+[Eisengitter]
+Hardness=5.0
+ToolRequired=true
+
+[Monster-Spawner]
+Hardness=5.0
+ToolRequired=true
+
+[Tiefenschiefer-Kohleerz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Eisenerz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Kupfererz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Golderz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Redstone-Erz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Lapislazulierz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Diamanterz]
+Hardness=4.5
+ToolRequired=true
+
+[Tiefenschiefer-Smaragderz]
+Hardness=4.5
+ToolRequired=true
+
+[Kohleerz]
+Hardness=3.0
+ToolRequired=true
+
+[Eisenerz]
+Hardness=3.0
+ToolRequired=true
+
+[Kupfererz]
+Hardness=3.0
+ToolRequired=true
+
+[Golderz]
+Hardness=3.0
+ToolRequired=true
+
+[Redstone-Erz]
+Hardness=3.0
+ToolRequired=true
+
+[Lapislazulierz]
+Hardness=3.0
+ToolRequired=true
+
+[Diamanterz]
+Hardness=3.0
+ToolRequired=true
+
+[Smaragderz]
+Hardness=3.0
+ToolRequired=true
+
+[Nethergolderz]
+Hardness=3.0
+ToolRequired=true
+
+[Netherquarzerz]
+Hardness=3.0
+ToolRequired=true
+
+[Roheisenblock]
+Hardness=5.0
+ToolRequired=true
+
+[Rohkupferblock]
+Hardness=5.0
+ToolRequired=true
+
+[Rohgoldblock]
+Hardness=5.0
+ToolRequired=true
+
+[Goldblock]
+Hardness=3.0
+ToolRequired=true
+
+[Diamantblock]
+Hardness=5.0
+ToolRequired=true
+
+[Smaragdblock]
+Hardness=5.0
+ToolRequired=true
+
+[Lapislazuliblock]
+Hardness=3.0
+ToolRequired=true
+
+[Kohleblock]
+Hardness=5.0
+ToolRequired=true
+
+[Amethystblock]
+Hardness=1.5
+ToolRequired=true
+
+[Amethystknospen-Block]
+Hardness=1.5
+ToolRequired=true
+
+[Leitstein]
+Hardness=3.5
+ToolRequired=true
+
+[Blitzableiter]
+Hardness=3.0
+ToolRequired=true
+
+[Stein]
+Hardness=1.5
+ToolRequired=true
+
+[Bruchstein]
+Hardness=2.0
+ToolRequired=true
+
+[Glatte Stein-Doppelstufe]
+Hardness=2.0
+ToolRequired=true
+
+[Glatter Stein]
+Hardness=2.0
+ToolRequired=true
+
+[Steinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Meißel-Steinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Rissige Steinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Moosiger Stein]
+Hardness=2.0
+ToolRequired=true
+
+[Moosige Steinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Granit]
+Hardness=1.5
+ToolRequired=true
+
+[Polierter Granit]
+Hardness=1.5
+ToolRequired=true
+
+[Diorit]
+Hardness=1.5
+ToolRequired=true
+
+[Polierter Diorit]
+Hardness=1.5
+ToolRequired=true
+
+[Andesit]
+Hardness=1.5
+ToolRequired=true
+
+[Polierter Andesit]
+Hardness=1.5
+ToolRequired=true
+
+[Tiefenschiefer]
+Hardness=3.0
+ToolRequired=true
+
+[Geprägter Tiefenschiefer]
+Hardness=3.5
+ToolRequired=true
+
+[Bruch-Tiefenschiefer]
+Hardness=3.5
+ToolRequired=true
+
+[Polierter Tiefenschiefer]
+Hardness=3.5
+ToolRequired=true
+
+[Meißel-Tiefenschiefer]
+Hardness=3.5
+ToolRequired=true
+
+[Tiefenschiefer-Fliesen]
+Hardness=3.5
+ToolRequired=true
+
+[Rissige Tiefenschiefer-Fliesen]
+Hardness=3.5
+ToolRequired=true
+
+[Tiefenschiefer-Ziegel]
+Hardness=3.5
+ToolRequired=true
+
+[Rissige Tiefenschiefer-Ziegel]
+Hardness=3.5
+ToolRequired=true
+
+[Tuff]
+Hardness=3.0
+ToolRequired=true
+
+[Polierter Tuff]
+Hardness=3.5
+ToolRequired=true
+
+[Tuffziegel]
+Hardness=3.5
+ToolRequired=true
+
+[Rissige Tuffziegel]
+Hardness=3.5
+ToolRequired=true
+
+[Meißel-Tuffziegel]
+Hardness=3.5
+ToolRequired=true
+
+[Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Anwitternder Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Verwitterter Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Oxidierter Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Gekerbter Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Gekerbter anwitternder Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Gekerbter verwitterter Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Gekerbter oxidierter Kupferblock]
+Hardness=3.0
+ToolRequired=true
+
+[Kupfergitter]
+Hardness=3.0
+ToolRequired=true
+
+[Anwitterndes Kupfergitter]
+Hardness=3.0
+ToolRequired=true
+
+[Verwittertes Kupfergitter]
+Hardness=3.0
+ToolRequired=true
+
+[Oxidiertes Kupfergitter]
+Hardness=3.0
+ToolRequired=true
+
+[Kupferhals]
+Hardness=3.0
+ToolRequired=true
+
+[Anwitternder Kupferhals]
+Hardness=3.0
+ToolRequired=true
+
+[Verwitterter Kupferhals]
+Hardness=3.0
+ToolRequired=true
+
+[Oxidierter Kupferhals]
+Hardness=3.0
+ToolRequired=true
+
+[Kupferlampe]
+Hardness=3.0
+ToolRequired=true
+
+[Anwitternde Kupferlampe]
+Hardness=3.0
+ToolRequired=true
+
+[Verwitterte Kupferlampe]
+Hardness=3.0
+ToolRequired=true
+
+[Oxidierte Kupferlampe]
+Hardness=3.0
+ToolRequired=true
+
+[Eichenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Eichenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Eichenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Eichenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Eichenbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Eichenzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Eichenzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Eichentür]
+Hardness=3.0
+ToolRequired=false
+
+[Eichenfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Fichtenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Fichtenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Fichtenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Fichtenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Fichtenbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Fichtenzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Fichtenzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Fichtentür]
+Hardness=3.0
+ToolRequired=false
+
+[Fichtenfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Birkenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Birkenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Birkenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Birkenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Birkenbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Birkenzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Birkenzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Birkentür]
+Hardness=3.0
+ToolRequired=false
+
+[Birkenfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Tropenholzstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Tropenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Tropenholzstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Tropenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Tropenholzbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Tropenholzzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Tropenholzzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Tropenholztür]
+Hardness=3.0
+ToolRequired=false
+
+[Tropenholzfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Akazienstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Akazienholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Akazienstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Akazienholz]
+Hardness=2.0
+ToolRequired=false
+
+[Akazienbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Akazienzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Akazienzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Akazientür]
+Hardness=3.0
+ToolRequired=false
+
+[Akazienfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Schwarzeichenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Schwarzeichenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Schwarzeichenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Schwarzeichenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Schwarzeichenbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Schwarzeichenzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Schwarzeichenzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Schwarzeichentür]
+Hardness=3.0
+ToolRequired=false
+
+[Schwarzeichenfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Mangrovenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Mangrovenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Mangrovenstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Mangrovenholz]
+Hardness=2.0
+ToolRequired=false
+
+[Mangrovenbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Mangrovenzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Mangrovenzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Mangroventür]
+Hardness=3.0
+ToolRequired=false
+
+[Mangrovenfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Kirschbaumstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Kirschbaumholz]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Kirschbaumstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindetes Kirschbaumholz]
+Hardness=2.0
+ToolRequired=false
+
+[Kirschbaumbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Kirschbaumzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Kirschbaumzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Kirschbaumtür]
+Hardness=3.0
+ToolRequired=false
+
+[Kirschbaumfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Bambusblock]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Bambusblock]
+Hardness=2.0
+ToolRequired=false
+
+[Bambusbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Bambusmosaik]
+Hardness=2.0
+ToolRequired=false
+
+[Bambuszaun]
+Hardness=2.0
+ToolRequired=false
+
+[Bambuszauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Bambustür]
+Hardness=3.0
+ToolRequired=false
+
+[Bambusfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Karmesinstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Karmesinhylphen]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Karmesinstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindete Karmesinhylphen]
+Hardness=2.0
+ToolRequired=false
+
+[Karmesinbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Karmesinzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Karmesinzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Karmesintür]
+Hardness=3.0
+ToolRequired=false
+
+[Karmesinfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Wirrstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Wirrhylphen]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindeter Wirrstamm]
+Hardness=2.0
+ToolRequired=false
+
+[Entrindete Wirrhylphen]
+Hardness=2.0
+ToolRequired=false
+
+[Wirrbretter]
+Hardness=2.0
+ToolRequired=false
+
+[Wirrzaun]
+Hardness=2.0
+ToolRequired=false
+
+[Wirrzauntor]
+Hardness=2.0
+ToolRequired=false
+
+[Wirrtür]
+Hardness=3.0
+ToolRequired=false
+
+[Wirrfalltür]
+Hardness=3.0
+ToolRequired=false
+
+[Erde]
+Hardness=0.5
+ToolRequired=false
+
+[Grasblock]
+Hardness=0.6
+ToolRequired=false
+
+[Grobe Erde]
+Hardness=0.5
+ToolRequired=false
+
+[Podsol]
+Hardness=0.5
+ToolRequired=false
+
+[Myzel]
+Hardness=0.6
+ToolRequired=false
+
+[Verwurzelte Erde]
+Hardness=0.5
+ToolRequired=false
+
+[Schlamm]
+Hardness=0.5
+ToolRequired=false
+
+[Gepackter Schlamm]
+Hardness=1.0
+ToolRequired=false
+
+[Schlammziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Sand]
+Hardness=0.5
+ToolRequired=false
+
+[Roter Sand]
+Hardness=0.5
+ToolRequired=false
+
+[Verdächtiger Sand]
+Hardness=0.5
+ToolRequired=false
+
+[Verdächtiger Kies]
+Hardness=0.5
+ToolRequired=false
+
+[Kies]
+Hardness=0.6
+ToolRequired=false
+
+[Sandstein]
+Hardness=0.8
+ToolRequired=true
+
+[Meißel-Sandstein]
+Hardness=0.8
+ToolRequired=true
+
+[Glatte Sandstein-Doppelstufe]
+Hardness=2.0
+ToolRequired=true
+
+[Glatter Sandstein]
+Hardness=2.0
+ToolRequired=true
+
+[Roter Sandstein]
+Hardness=0.8
+ToolRequired=true
+
+[Meißel-roter Sandstein]
+Hardness=0.8
+ToolRequired=true
+
+[Glatter roter Sandstein]
+Hardness=2.0
+ToolRequired=true
+
+[Ton]
+Hardness=0.6
+ToolRequired=false
+
+[Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Weiße Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Orange Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Magenta Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Hellblaue Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Gelbe Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Hellgrüne Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Rosa Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Graue Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Hellgraue Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Türkise Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Violette Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Blaue Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Braune Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Grüne Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Rote Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Schwarze Keramik]
+Hardness=1.25
+ToolRequired=true
+
+[Glasierte Keramik]
+Hardness=1.4
+ToolRequired=true
+
+[Glas]
+Hardness=0.3
+ToolRequired=false
+
+[Gefärbtes Glas]
+Hardness=0.3
+ToolRequired=false
+
+[Getöntes Glas]
+Hardness=0.3
+ToolRequired=false
+
+[Netherrack]
+Hardness=0.4
+ToolRequired=true
+
+[Seelensand]
+Hardness=0.5
+ToolRequired=false
+
+[Seelenerde]
+Hardness=0.5
+ToolRequired=false
+
+[Magmablock]
+Hardness=0.5
+ToolRequired=true
+
+[Glowstone]
+Hardness=0.3
+ToolRequired=false
+
+[Karmesin-Nezel]
+Hardness=0.4
+ToolRequired=true
+
+[Wirr-Nezel]
+Hardness=0.4
+ToolRequired=true
+
+[Netherziegel]
+Hardness=2.0
+ToolRequired=true
+
+[Rote Netherziegel]
+Hardness=2.0
+ToolRequired=true
+
+[Chiseled Netherziegel]
+Hardness=2.0
+ToolRequired=true
+
+[Rissige Netherziegel]
+Hardness=2.0
+ToolRequired=true
+
+[Schwarzstein]
+Hardness=1.5
+ToolRequired=true
+
+[Polierter Schwarzstein]
+Hardness=2.0
+ToolRequired=true
+
+[Polierte Schwarzsteinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Rissige polierte Schwarzsteinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Meißel-Schwarzstein]
+Hardness=1.5
+ToolRequired=true
+
+[Basalt]
+Hardness=1.25
+ToolRequired=true
+
+[Polierter Basalt]
+Hardness=1.25
+ToolRequired=true
+
+[Glatter Basalt]
+Hardness=1.25
+ToolRequired=true
+
+[Wolle]
+Hardness=0.8
+ToolRequired=false
+
+[Weißer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Oranger Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Magenta Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Hellblauer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Gelber Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Hellgrüner Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Rosa Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Grauer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Hellgrauer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Türkiser Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Violetter Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Blauer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Brauner Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Grüner Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Roter Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Schwarzer Beton]
+Hardness=1.8
+ToolRequired=true
+
+[Betonpulver]
+Hardness=0.5
+ToolRequired=false
+
+[Ziegelblock]
+Hardness=2.0
+ToolRequired=true
+
+[Prismarin]
+Hardness=1.5
+ToolRequired=true
+
+[Prismarinziegel]
+Hardness=1.5
+ToolRequired=true
+
+[Dunkler Prismarin]
+Hardness=1.5
+ToolRequired=true
+
+[Seelaterne]
+Hardness=0.3
+ToolRequired=false
+
+[Quarzblock]
+Hardness=0.8
+ToolRequired=true
+
+[Meißel-Quarzblock]
+Hardness=0.8
+ToolRequired=true
+
+[Quarzsäule]
+Hardness=0.8
+ToolRequired=true
+
+[Glatter Quarzblock]
+Hardness=2.0
+ToolRequired=true
+
+[Glatte Quarz-Doppelstufe]
+Hardness=2.0
+ToolRequired=true
+
+[Bricks-Quarzblock]
+Hardness=0.8
+ToolRequired=true
+
+[Endstein]
+Hardness=3.0
+ToolRequired=true
+
+[Endsteinziegel]
+Hardness=3.0
+ToolRequired=true
+
+[Purpurbank]
+Hardness=1.5
+ToolRequired=true
+
+[Purpurblock]
+Hardness=1.5
+ToolRequired=true
+
+[Purpursäule]
+Hardness=1.5
+ToolRequired=true
+
+[Knochenblock]
+Hardness=2.0
+ToolRequired=true
+
+[Bücherregal]
+Hardness=1.5
+ToolRequired=false
+
+[Geschnitztes Bücherregal]
+Hardness=1.5
+ToolRequired=false
+
+[Schwamm]
+Hardness=0.6
+ToolRequired=false
+
+[Nasser Schwamm]
+Hardness=0.6
+ToolRequired=false
+
+[Heuballen]
+Hardness=0.5
+ToolRequired=false
+
+[Honigwabe-Block]
+Hardness=0.6
+ToolRequired=false
+
+[Pilzblock]
+Hardness=0.2
+ToolRequired=false
+
+[Pilzstiel]
+Hardness=0.2
+ToolRequired=false
+
+[Ockerfarbener Froschlicht-Block]
+Hardness=0.3
+ToolRequired=false
+
+[Verdant Froschlicht-Block]
+Hardness=0.3
+ToolRequired=false
+
+[Perlmuttfarbener Froschlicht-Block]
+Hardness=0.3
+ToolRequired=false
