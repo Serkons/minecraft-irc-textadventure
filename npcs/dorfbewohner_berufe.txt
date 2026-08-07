@@ -1,0 +1,16 @@
+Arbeitsloser
+Idiot
+Rüstungsschmied
+Waffenschmied
+Werkzeugschmied
+Bibliothekar
+Kartograf
+Kleriker
+Fleischer
+Bauernhof-Arbeiter
+Fischer
+Gerber
+Pfeilmacher
+Schäfer
+Steinmetz
+Fahrender_Händler
