@@ -1,0 +1,115 @@
+[Weapons]
+Schwert=Holzschwert.Steinschwert.Eisenschwert.Goldschwert.Diamantschwert.Netheriteschwert
+Bogen=Ausgeleierter Bogen.Verstärkter Bogen.Langbogen.Prisma Bogen
+Axt=Holzaxt.Steinaxt.Eisenaxt.Goldaxt.Diamantaxt.Netheriteaxt
+Spitzhacke=Holzspitzhacke.Steinspitzhacke.Eisenspitzhacke.Goldspitzhacke.Diamantspitzhacke.Netheritespitzhacke
+
+[Holzschwert]
+Type=Schwert
+Desc=Ein einfaches Schwert aus Eichenholz.
+BaseDamage=4
+
+[Steinschwert]
+Type=Schwert
+Desc=Eine scharfe Klinge aus Bruchstein.
+BaseDamage=5
+
+[Eisenschwert]
+Type=Schwert
+Desc=Ein solides Schwert, geschmiedet aus Eisenerz.
+BaseDamage=6
+
+[Goldschwert]
+Type=Schwert
+Desc=Glänzt prachtvoll, ist aber leider nicht sehr langlebig.
+BaseDamage=4
+
+[Diamantschwert]
+Type=Schwert
+Desc=Eine legendäre, messerscharfe Klinge aus reinem Diamant.
+BaseDamage=7
+
+[Netheriteschwert]
+Type=Schwert
+Desc=Die ultimative Waffe, geschmiedet im Feuer des Nethers.
+BaseDamage=8
+
+[Ausgeleierter Bogen]
+Type=Bogen
+Desc=Ein alter Bogen, dessen Sehne schon etwas schlaff ist.
+BaseDamage=3
+
+[Verstärkter Bogen]
+Type=Bogen
+Desc=Ein stabiler Bogen aus Fichtenholz und reißfestem Faden.
+BaseDamage=5
+
+[Langbogen]
+Type=Bogen
+Desc=Erhöht die Reichweite und die Durchschlagskraft deiner Pfeile.
+BaseDamage=7
+
+[Prisma Bogen]
+Type=Bogen
+Desc=Ein magischer Bogen, der mit Unterwasser-Energie geladen ist.
+BaseDamage=9
+
+[Holzaxt]
+Type=Axt
+Desc=Eigentlich zum Holzhacken gedacht, teilt aber auch gut aus.
+BaseDamage=3
+
+[Steinaxt]
+Type=Axt
+Desc=Schwer und wuchtig. Perfekt für Holz und dicke Rüstungen.
+BaseDamage=4
+
+[Eisenaxt]
+Type=Axt
+Desc=Eine scharfe Eisenklinge, die im Kampf tiefe Wunden reißt.
+BaseDamage=5
+
+[Goldaxt]
+Type=Axt
+Desc=Sehr leicht zu schwingen, verzieht sich aber schnell.
+BaseDamage=3
+
+[Diamantaxt]
+Type=Axt
+Desc=Eine extrem scharfe Axt, die Blöcke und Gegner gleichermaßen zerfetzt.
+BaseDamage=6
+
+[Netheriteaxt]
+Type=Axt
+Desc=Ein zerstörerisches Werkzeug aus dem härtesten Metall der Unterwelt.
+BaseDamage=7
+
+[Holzspitzhacke]
+Type=Spitzhacke
+Desc=Deine erste Spitzhacke, um Stein zu schlagen.
+BaseDamage=2
+
+[Steinspitzhacke]
+Type=Spitzhacke
+Desc=Damit lassen sich bereits Eisen und Kohle abbauen.
+BaseDamage=3
+
+[Eisenspitzhacke]
+Type=Spitzhacke
+Desc=Ein zuverlässiges Werkzeug für Gold, Redstone und Diamanten.
+BaseDamage=4
+
+[Goldspitzhacke]
+Type=Spitzhacke
+Desc=Baut extrem schnell ab, bricht aber auch extrem schnell.
+BaseDamage=2
+
+[Diamantspitzhacke]
+Type=Spitzhacke
+Desc=Ein funkelndes Werkzeug, das sich mühelos durch Obsidian frisst.
+BaseDamage=5
+
+[Netheritespitzhacke]
+Type=Spitzhacke
+Desc=Unzerstörbar im Lavafeuer und das schnellste Werkzeug der Welt.
+BaseDamage=6
