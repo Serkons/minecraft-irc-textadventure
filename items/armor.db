@@ -1,0 +1,138 @@
+[Armor]
+Helm=Lederkappe.Kettenhaube.Eisenhelm.Goldhelm.Diamanthelm.Netherithelm.Schildkrötenpanzer
+Brustplatte=Lederjacke.Kettenhemd.Eisenbrustplatte.Goldbrustplatte.Diamantbrustplatte.Netheritbrustplatte
+Hose=Lederhose.Kettenhose.Eisenbeinschienen.Goldbeinschienen.Diamantbeinschienen.Netheritbeinschienen
+Schuhe=Lederstiefel.Kettenstiefel.Eisenstiefel.Goldstiefel.Diamantstiefel.Netheritstiefel
+
+; --- HELME ---
+[Lederkappe]
+Type=Helm
+Desc=Eine einfache Kappe aus gegerbtem Kuhleder.
+ArmorPoints=1
+
+[Kettenhaube]
+Type=Helm
+Desc=Ein flexibler Schutz aus ineinandergreifenden Metallringen.
+ArmorPoints=2
+
+[Eisenhelm]
+Type=Helm
+Desc=Ein schwerer Helm aus geschmiedetem Eisen. Schützt den Kopf zuverlässig.
+ArmorPoints=2
+
+[Goldhelm]
+Type=Helm
+Desc=Glänzt wunderschön im Sonnenlicht, bietet aber mäßigen Schutz.
+ArmorPoints=2
+
+[Diamanthelm]
+Type=Helm
+Desc=Ein meisterhaft geschmiedeter Helm aus funkelnden Diamanten.
+ArmorPoints=3
+
+[Netherithelm]
+Type=Helm
+Desc=Ein Helm aus der Unterwelt. Schützt extrem gut und ist feuerfest.
+ArmorPoints=3
+Toughness=3
+
+[Schildkrötenpanzer]
+Type=Helm
+Desc=Aus Schildpatt hergestellt. Verleiht dem Träger unter Wasser Atemschutz.
+ArmorPoints=2
+
+; --- BRUSTPLATTEN ---
+[Lederjacke]
+Type=Brustplatte
+Desc=Eine leichte Jacke, die aus Lederstücken zusammengenäht wurde.
+ArmorPoints=3
+
+[Kettenhemd]
+Type=Brustplatte
+Desc=Ein Hemd aus feinen Eisenringen. Leicht und luftig.
+ArmorPoints=5
+
+[Eisenbrustplatte]
+Type=Brustplatte
+Desc=Ein massiver Brustpanzer, der das Herz vor Pfeilen und Schwertern schützt.
+ArmorPoints=6
+
+[Goldbrustplatte]
+Type=Brustplatte
+Desc=Prunkvolle Rüstung für den Oberkörper, die jedoch schnell Dellen bekommt.
+ArmorPoints=5
+
+[Diamantbrustplatte]
+Type=Brustplatte
+Desc=Die ultimative Verteidigung der Oberwelt. Fast unzerbrechlich.
+ArmorPoints=8
+
+[Netheritbrustplatte]
+Type=Brustplatte
+Desc=Ein massiver Brustpanzer aus Netherite. Hält selbst schwersten Hieben stand.
+ArmorPoints=8
+Toughness=3
+
+; --- HOSEN ---
+[Lederhose]
+Type=Hose
+Desc=Eine einfache Hose aus gegerbter Tierhaut.
+ArmorPoints=2
+
+[Kettenhose]
+Type=Hose
+Desc=Schützt die Beine durch ein stabiles Geflecht aus Kettenringen.
+ArmorPoints=4
+
+[Eisenbeinschienen]
+Type=Hose
+Desc=Schwere Beinschienen aus Eisenplatten für optimalen Beinschutz.
+ArmorPoints=5
+
+[Goldbeinschienen]
+Type=Hose
+Desc=Schwere Beinschienen, rein aus Goldbarren gegossen.
+ArmorPoints=3
+
+[Diamantbeinschienen]
+Type=Hose
+Desc=Funkelnde Beinschienen, die jeden Schritt im Kampf absichern.
+ArmorPoints=6
+
+[Netheritbeinschienen]
+Type=Hose
+Desc=Aus Netheritplatten gefertigt. Bietet maximalen Schutz für die Beine.
+ArmorPoints=6
+Toughness=3
+
+; --- SCHUHE ---
+[Lederstiefel]
+Type=Schuche
+Desc=Weiche Stiefel, die die Füße auf langen Reisen warm halten.
+ArmorPoints=1
+
+[Kettenstiefel]
+Type=Schuhe
+Desc=Ringschutz für die Füße, bietet gute Beweglichkeit.
+ArmorPoints=1
+
+[Eisenstiefel]
+Type=Schuhe
+Desc=Schwere Eisenstiefel. Schützen vor Stürzen und Tritten.
+ArmorPoints=2
+
+[Goldstiefel]
+Type=Schuhe
+Desc=Prunkvolles Schuhwerk, das jedoch schnell abnutzt.
+ArmorPoints=1
+
+[Diamantstiefel]
+Type=Schuhe
+Desc=Trittfeste Stiefel aus gehärtetem Diamant.
+ArmorPoints=3
+
+[Netheritstiefel]
+Type=Schuhe
+Desc=Schwere Stiefel, die dich im Kampf wie einen Fels in der Brandung stehen lassen.
+ArmorPoints=3
+Toughness=3
