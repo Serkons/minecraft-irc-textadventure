@@ -8,3 +8,11 @@ passwords.txt
 # Ignoriere Betriebssystem-Dateien
 .DS_Store
 Thumbs.db
+
+# Blockiere ausführbare Dateien und mIRC-Anwendungen
+*.exe
+*.dll
+*.log
+*.chm
+*.chw
+
