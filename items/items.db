@@ -1,0 +1,409 @@
+[Categories]
+Material=Eisenbarren.Goldbarren.Diamant.Smaragd.Netheritbarren.Kohle.Schwarzpulver.Knochen.Pfeil.Verrottetes Fleisch.Enderperle.Pruefungsschluessel.Unheilvoller Pruefungsschluessel.Windladung.Vergifteter Pfeil.Unheilvolle Flasche.Lohenrute.Magmacreme.Schleimball.Kupferbarren.Faden.Spinnenauge.Schiesspulver.Glowstone-Staub.Redstone-Staub.Zucker.Glasflasche.Stickstoff.Leere Flasche.Ghast-Traene.Wither-Skelettschaedel.Phantomhaut.Sattel.Namensschild.Melonensamen.Kuerbissamen.Endperle.Flint_and_Steel.Goldene Pferderuestung.Eisenpferderuestung.Diamantpferderuestung.Netherit-Aufwertung.Antiker Schrott.Goldblock.Schweine-Musikdisc.Shulker-Schale.Rote-Beete-Samen.Echoscherbe.Katalysator.Kompakt-Eis.Kerzen.Diamant-Pferderuestung.Musikdisc-Fragment.Schwamm.Prismarinsplitter.Prismarienkristall.Schatzkarte.Papier.Buch.Herz des Meeres.Nautilus-Schale.Goldschneide.Lederfett.Feuerstein.Kies.Netherquarz.Seelensand.Feuerladung.Goldaxt.Eisenaxt.Ruesstungsschmiede-Vorlage.Schmiedevorlage.Sand.Glow-Beeren
+Essen=Brot.Apfel.Karotte.Kartoffel.Goldener Apfel.Goldene Karotte.Verzauberter Goldener Apfel.Rohes Schweinefleisch.Roher Kabeljau.Roher Lachs.Heiltrank.Feuerwiderstandstrank.Wasseratmungstrank.Schnelligkeitstrank.Weizen
+
+; --- MATERIALIEN ---
+
+[Eisenbarren]
+Type=Material
+Desc=Ein glaenzender Barren aus geschmiedetem Eisen. Unverzichtbar fuer Werkzeuge und Ruestungen.
+
+[Goldbarren]
+Type=Material
+Desc=Ein schwerer Edelmetallbarren. Glaenzt golden und wird fuer feine Elektronik oder Tauschgeschaefte genutzt.
+
+[Diamant]
+Type=Material
+Desc=Ein extrem harter und kostbarer Edelstein. Das ultimative Material fuer langlebige Ausruestung.
+
+[Smaragd]
+Type=Material
+Desc=Ein funkelnder gruener Edelstein. Er dient als Hauptwaehrung im Handel mit Dorfwohnern.
+
+[Netheritbarren]
+Type=Material
+Desc=Das staerkste Metall der Welt. Macht Diamantwerkzeuge feuerfest und noch widerstandsfaehiger.
+
+[Kohle]
+Type=Material
+Desc=Ein dunkler fossiler Brennstoff. Perfekt zum Schmelzen von Erzen oder zum Herstellen von Fackeln.
+
+[Schwarzpulver]
+Type=Material
+Desc=Ein explosives, graues Pulver. Wird fuer die Herstellung von TNT und Raketen verwendet.
+
+[Knochen]
+Type=Material
+Desc=Ein gebleichter Knochen von Skeletten. Kann zu Knochenmehl als Duenger zermahlen werden.
+
+[Pfeil]
+Type=Material
+Desc=Ein einfaches Projektil mit einer Federschand. Wird als Munition fuer Boegen verwendet.
+
+[Verrottetes Fleisch]
+Type=Material
+Desc=Zaehes, modriges Fleisch. Eigentlich ungeniessbar, aber nuetzlich zum Zaehmen von Woelfen.
+
+[Enderperle]
+Type=Material
+Desc=Eine mysteriose, teleportierende Perle. Ermoeglicht das Reisen per Wurf und das Finden von Festungen.
+
+[Pruefungsschluessel]
+Type=Material
+Desc=Ein kupferner Schluessel mit einem Pruefungs-Symbol. Oeffnet normale Tresore in den Pruefungskammern.
+
+[Unheilvoller Pruefungsschluessel]
+Type=Material
+Desc=Ein duesterer, leuchtender Schluessel. Oeffnet unheilvolle Tresore waehrend eines Raubzugs.
+
+[Windladung]
+Type=Material
+Desc=Ein konzentrierter Wirbel aus Luft. Kann geworfen werden, um Gegner wegzustossen oder hochzuspringen.
+
+[Vergifteter Pfeil]
+Type=Material
+Desc=Ein mit Gift bestrichener Pfeil. Fuegt getroffenen Zielen ueber Zeit Schaden zu.
+
+[Unheilvolle Flasche]
+Type=Material
+Desc=Eine unheimlich versiegelte Flasche. Verleiht dem Trinker das unheilvolle Omen fuer schwere Pruefungen.
+
+[Lohenrute]
+Type=Material
+Desc=Eine brennende Rute aus dem Nether. Liefert Hitze fuer Braustaende und wird zu Lohenpulver verarbeitet.
+
+[Magmacreme]
+Type=Material
+Desc=Eine schleimige, kochende Masse. Unverzichtbar fuer das Brauen von Tranken gegen Feuerschaden.
+
+[Schleimball]
+Type=Material
+Desc=Eine klebrige, gruene Kugel. Wird fuer klebrige Kolben, Leinen oder Schleimbloecke gebraucht.
+
+[Kupferbarren]
+Type=Material
+Desc=Ein roetlicher Metallbarren. Ideal fuer dekorative Baubloecke, Blitzebleiter oder Fernrohre.
+
+[Faden]
+Type=Material
+Desc=Ein feiner, reissfester Faden. Wird fuer Boegen, Angeln, Wolle oder Webstuehle genutzt.
+
+[Spinnenauge]
+Type=Material
+Desc=Ein giftiges Auge einer Spinne. Wird haeufig fuer Alchemie und negative Tranke verwendet.
+
+[Schiesspulver]
+Type=Material
+Desc=Ein explosives Pulver. Unverzichtbar fuer die Alchemie und die Produktion von Feuerwerksraketen.
+
+[Glowstone-Staub]
+Type=Material
+Desc=Ein magisch leuchtender Staub. Verstaerkt die Wirkung von Alchemie-Tranken.
+
+[Redstone-Staub]
+Type=Material
+Desc=Ein feines, Energie leitendes Pulver. Die Grundlage fuer alle mechanischen und elektrischen Schaltungen.
+
+[Zucker]
+Type=Material
+Desc=Ein suesses Kristallpulver. Wird in der Alchemie zur Beschleunigung und zum Backen von Kuchen genutzt.
+
+[Glasflasche]
+Type=Material
+Desc=Ein leerer Behaelter aus Glas. Kann mit Wasser gefuellt werden, um Tranke zu brauen.
+
+[Stickstoff]
+Type=Material
+Desc=Ein gasfoermiges Element. Wird in chemischen Prozessen oder speziellen Rezepten verwendet.
+
+[Leere Flasche]
+Type=Material
+Desc=Ein einfacher glaserner Behaelter ohne Inhalt. Bereit fuer Fluessigkeiten aller Art.
+
+[Ghast-Traene]
+Type=Material
+Desc=Eine schwebende, kristalline Traene. Verleiht Tranken eine starke Regenerationswirkung.
+
+[Wither-Skelettschaedel]
+Type=Material
+Desc=Ein duesterer, verkohlter Kopf. Wird als Dekoration oder zum Beschwoeren des Withers genutzt.
+
+[Phantomhaut]
+Type=Material
+Desc=Die ledrige Haut eines Phantoms. Wird zum Reparieren von Elytren oder fuer Tranke des langsamen Falls genutzt.
+
+[Sattel]
+Type=Material
+Desc=Ein lederner Reitsattel. Ermoeglicht das Reiten und Steuern von Pferden, Schweinen und Kamelen.
+
+[Namensschild]
+Type=Material
+Desc=Ein magisches Schild. Verhindert das Despawnen von Kreaturen und gibt ihnen einen festen Namen.
+
+[Melonensamen]
+Type=Material
+Desc=Kleine, flache Samen. Koennen auf Ackerboden gepflanzt werden, um Melonensegmente zu zuechten.
+
+[Kuerbissamen]
+Type=Material
+Desc=Oelige, helle Samen. Wachsen auf Ackerboden zu vollwertigen Kuerbissen heran.
+
+[Endperle]
+Type=Material
+Desc=Ein raeumlich instabiles Artefakt. Nutzt die Energie des Endes fuer Teleportation.
+
+[Flint_and_Steel]
+Type=Material
+Desc=Ein Werkzeug aus Feuerstein und Eisen. Erzeugt Funken, um Feuer zu entfachen oder TNT zu zueden.
+
+[Goldene Pferderuestung]
+Type=Material
+Desc=Eine glanzvolle Schutzruestung aus Gold. Schuetzt das treue Reittier vor Schaden.
+
+[Eisenpferderuestung]
+Type=Material
+Desc=Eine solide Ruestung aus Eisenplatten. Bietet guten Schutz fuer Pferde im Gefecht.
+
+[Diamantpferderuestung]
+Type=Material
+Desc=Die prachtvollste aller Tierruestungen. Macht das Pferd beinahe unbezwingbar.
+
+[Netherit-Aufwertung]
+Type=Material
+Desc=Eine seltene Schmiedevorlage. Zwingend notwendig, um Diamant-Ausrustung im Schmiedetisch aufzuwerten.
+
+[Antiker Schrott]
+Hardness=30.0
+Type=Material
+Desc=Ein uraltes, hitzebestaendiges Material aus den Tiefen des Nethers. Wird zu Netheritschrott geschmolzen.
+
+[Goldblock]
+Type=Material
+Desc=Ein massiver Block aus purem Gold. Extrem schwer und wertvoll.
+
+[Schweine-Musikdisc]
+Type=Material
+Desc=Eine seltene Schallplatte aus den Bastionen. Spielt ein treibendes, rhythmisches Musikstueck ab.
+
+[Shulker-Schale]
+Type=Material
+Desc=Die harte Schale eines Shulkers. Zwei davon ergeben zusammen mit einer Truhe eine tragbare Shulkertruhe.
+
+[Rote-Beete-Samen]
+Type=Material
+Desc=Kleine Samen fuer den Ackerbau. Aus ihnen waechst nahrhafte Rote Bete.
+
+[Echoscherbe]
+Type=Material
+Desc=Eine dunkel leuchtende Scherbe aus der Antiken Stadt. Wird zur Herstellung des Bergungskompasses genutzt.
+
+[Katalysator]
+Type=Material
+Desc=Ein organischer Sculk-Block. Konvertiert die Erfahrungspunkte sterbender Kreaturen in Sculk-Adern.
+
+[Kompakt-Eis]
+Type=Material
+Desc=Sehr dichtes, gefrorenes Wasser. Schmilzt niemals im Licht und rutscht extrem gut.
+
+[Kerzen]
+Type=Material
+Desc=Wachserne Lichtquellen. Koennen angezuendet werden, um eine gemuetliche Atmosphaere zu schaffen.
+
+[Diamant-Pferderuestung]
+Type=Material
+Desc=Ein meisterhaft geschmiedeter Schutz aus funkelnden Diamanten fuer edle Rösser.
+
+[Musikdisc-Fragment]
+Type=Material
+Desc=Ein zerbrochenes Teil einer Schallplatte. Neun Fragmente koennen zu einer ganzen Disc gefuegt werden.
+
+[Schwamm]
+Type=Material
+Desc=Ein extrem saugfaehiger Block. Kann grosse Mengen Wasser im Umkreis blitzschnell aufsaugen.
+
+[Prismarinsplitter]
+Type=Material
+Desc=Ein schimmernder Splitter aus den Tiefen des Ozeans. Wird fuer Unterwasser-Baubloecke genutzt.
+
+[Prismarienkristall]
+Type=Material
+Desc=Ein leuchtendes Kristallfragment. Wird zusammen mit Splittern zur Herstellung von Seelaternen verwendet.
+
+[Schatzkarte]
+Type=Material
+Desc=Eine vergilbte Pergamentkarte. Zeigt den Weg zu einem vergrabenen Schatz an der Kueste.
+
+[Papier]
+Type=Material
+Desc=Gepresstes Zuckerrohr. Wird fuer die Herstellung von Buechern, Karten und Raketen verwendet.
+
+[Buch]
+Type=Material
+Desc=Ein Einband aus Leder voller beschreibbarer Seiten. Die Basis fuer Zauberbuecher und Regale.
+
+[Herz des Meeres]
+Type=Material
+Desc=Ein seltenes, pulsierendes Juwel des Ozeans. Die Kernkomponente fuer den Bau eines Aquadukts.
+
+[Nautilus-Schale]
+Type=Material
+Desc=Eine spiralfoermige, kalkige Muschelschale. Wird zum Bau eines Aquadukts benoetigt.
+
+[Goldschneide]
+Type=Material
+Desc=Ein filigranes Stueck Gold. Wird fuer spezielle Verzierungen oder Schmuckarbeiten verwendet.
+
+[Lederfett]
+Type=Material
+Desc=Eine geschmeidige Substanz. Pflegt Lederteile oder dient als Zutat in alten Rezepten.
+
+[Feuerstein]
+Type=Material
+Desc=Ein scharfer, dunkler Stein. Wird fuer Pfeilspitzen oder zum Bau eines Feuerzeugs verwendet.
+
+[Kies]
+Type=Material
+Desc=Ein loser Haufen kleiner Steine. Beim Abbau besteht eine Chance, wertvollen Feuerstein zu erhalten.
+
+[Netherquarz]
+Type=Material
+Desc=Ein heller Kristall aus dem Nether. Beliebt fuer dekorative Bloecke und Redstone-Komparatoren.
+
+[Seelensand]
+Type=Material
+Desc=Ein unheimlicher Sand aus dem Nether, der Bewegungen verlangsamt und Blasenbecken im Wasser erzeugt.
+
+[Feuerladung]
+Type=Material
+Desc=Ein brennbares Gemisch. Kann wie ein Einweg-Feuerzeug geworfen oder aus Spendern abgefeuert werden.
+
+[Goldaxt]
+Type=Material
+Desc=Eine funkelnde, aber sehr instabile Axt. Hackt Holz extrem schnell, geht aber rasch kaputt.
+
+[Eisenaxt]
+Type=Material
+Desc=Ein robustes Werkzeug zum Faellen von Baeumen. Kann im Notfall auch als Waffe dienen.
+
+[Ruesstungsschmiede-Vorlage]
+Type=Material
+Desc=Eine traditionelle Schmiedevorlage. Erlaubt es, Ruestungen mit einzigartigen Mustern zu verzieren.
+
+[Schmiedevorlage]
+Type=Material
+Desc=Ein Musterplattchen aus Metall. Ermoeglicht optische Anpassungen an Ausruestungsteilen am Schmiedetisch.
+
+[Sand]
+Type=Material
+Desc=Ein feinkoerniges Naturmaterial. Kann im Ofen zu klarem Glas geschmolzen werden.
+
+[Glow-Beeren]
+Type=Material
+Desc=Eine leuchtende Frucht, die an Lianen in Hoehlen waechst. Spendet sanftes Licht.
+
+; --- ESSEN ---
+
+[Brot]
+Type=Essen
+Desc=Ein frisch gebackenes, duftendes Brot aus Weizen. Ein verlaesslicher Sattmacher.
+HealPoints=0
+HungerBars=5
+Saturation=6.0
+
+[Apfel]
+Type=Essen
+Desc=Ein knackig frischer, roter Apfel. Ein gesunder Snack fuer zwischendurch.
+HealPoints=0
+HungerBars=4
+Saturation=2.4
+
+[Karotte]
+Type=Essen
+Desc=Eine knackige, orangefarbene Karotte. Gut fuer die Augen und den kleinen Hunger.
+HealPoints=0
+HungerBars=3
+Saturation=3.6
+
+[Kartoffel]
+Type=Essen
+Desc=Eine rohe Kartoffel direkt aus der Erde. Schmeckt ungekocht eher maessig.
+HealPoints=0
+HungerBars=1
+Saturation=0.6
+
+[Goldener Apfel]
+Type=Essen
+Desc=Ein mit purem Gold umhuellter Apfel. Verleiht beim Essen Absorption und Regeneration.
+HealPoints=4
+HungerBars=4
+Saturation=9.6
+
+[Goldene Karotte]
+Type=Essen
+Desc=Eine edle, goldene Karotte. Bietet den hoechsten Saettigungswert aller normalen Lebensmittel.
+HealPoints=0
+HungerBars=6
+Saturation=14.4
+
+[Verzauberter Goldener Apfel]
+Type=Essen
+Desc=Ein mystischer, schimmernder Apfel aus Legenden. Verleiht gewaltige Schutz- und Heilungseffekte.
+HealPoints=8
+HungerBars=4
+Saturation=9.6
+
+[Rohes Schweinefleisch]
+Type=Essen
+Desc=Ein rohes Stueck Fleisch. Sollte vor dem Verzehr im Ofen gebraten werden.
+HealPoints=0
+HungerBars=3
+Saturation=1.8
+
+[Roher Kabeljau]
+Type=Essen
+Desc=Ein frisch gefangener, roher Fisch aus dem Ozean.
+HealPoints=0
+HungerBars=2
+Saturation=0.4
+
+[Roher Lachs]
+Type=Essen
+Desc=Ein roher Lachs mit roetlichem Fleisch. Gebraten nahrhafter.
+HealPoints=0
+HungerBars=2
+Saturation=0.2
+
+[Heiltrank]
+Type=Essen
+Desc=Ein magisches Elixier in einer Glasflasche. Stellt sofort Lebensenergie wieder her.
+HealPoints=4
+HungerBars=0
+Saturation=0.0
+
+[Feuerwiderstandstrank]
+Type=Essen
+Desc=Ein braun schimmerndes Alchemie-Gebrueu. Macht den Trinker immun gegen Lava und Feuer.
+HealPoints=0
+HungerBars=0
+Saturation=0.0
+
+[Wasseratmungstrank]
+Type=Essen
+Desc=Ein blau schimmerndes Elixier. Erlaubt es, unbegrenzt unter Wasser zu atmen.
+HealPoints=0
+HungerBars=0
+Saturation=0.0
+
+[Schnelligkeitstrank]
+Type=Essen
+Desc=Ein hellblaues Gebrueu. Erhoeht die Laufgeschwindigkeit des Trinkers spuerbar.
+HealPoints=0
+HungerBars=0
+Saturation=0.0
+
+[Weizen]
+Type=Essen
+Desc=Ein goldenes Getreidebuendel. Kann von Menschen nicht direkt gegessen werden, dient aber zum Backen oder zur Tierzucht.
+HealPoints=0
+HungerBars=0
+Saturation=0.0
