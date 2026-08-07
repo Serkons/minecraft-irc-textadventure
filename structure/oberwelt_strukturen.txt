@@ -1,0 +1,17 @@
+Prüfungskammern
+Dschungeltempel
+Wüstentempel
+Hexenhütte
+Ozeanmonument
+Antike_Stadt
+Festung
+Verlassener_Minenschacht
+Dorf
+Plünderer-Außenposten
+Waldanwesen
+Vergrabener_Schatz
+Schiffswrack
+Ruinen_eines_Pfades
+Nether-Festung
+Bastionsruine
+Endfestung
