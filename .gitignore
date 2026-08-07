@@ -1,0 +1,10 @@
+# mIRC-Sicherheitsausschluss
+# Ignoriere mIRC-Konfigurationen und Passwörter
+*.ini
+variables.mrc
+secrets.mrc
+passwords.txt
+
+# Ignoriere Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
