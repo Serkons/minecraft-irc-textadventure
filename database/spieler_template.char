@@ -26,11 +26,14 @@ Killstreak=0
 
 [Equipment]
 Waffe=Hand
+Spitzhacke=Hand
+Spitzhacke_Haltbarkeit=Unendlich
 Helm=Kein
 Brustplatte=Kein
 Beinschienen=Kein
 Stiefel=Kein
 Schild=Kein
+
 
 [ActiveEffects]
 
