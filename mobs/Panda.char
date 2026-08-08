@@ -1,0 +1,17 @@
+[Stats]
+Name=Panda
+Type=Neutrales Tier
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein gemütlicher, tollpatschiger Bambusfresser aus dem dichten Dschungel, der sich im Kampf wuchtig rollt oder lautstark niesen kann.
+
+[Info]
+Size=Big
+Drops=Kein Loot
+
+[Skills]
+Wälzen=1
+Niesen=1

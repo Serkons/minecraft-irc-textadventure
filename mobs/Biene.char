@@ -1,0 +1,17 @@
+[Stats]
+Name=Biene
+Type=Neutrales Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein fleißiges, summendes Insekt, das friedlich Blumen bestäubt, aber im Schwarm angreift und den Spieler vergiftet, wenn man ihr Nest verletzt.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Stich=1
+Giftopfer=1

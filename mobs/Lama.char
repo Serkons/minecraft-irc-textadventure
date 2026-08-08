@@ -1,0 +1,17 @@
+[Stats]
+Name=Lama
+Type=Neutrales Tier
+Dimension=Oberwelt
+BaseHP=22
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein stolzes Herdentier aus den Bergen, das unverschämte Angreifer im Kampf treffsicher anspuckt und niedertrampelt.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Spucken=1
+Trampeln=1

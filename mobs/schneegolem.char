@@ -1,0 +1,17 @@
+[Stats]
+Name=Schneegolem
+Type=Dorfbeschützer
+Dimension=Oberwelt
+BaseHP=4
+Mana=0
+ArmorPoints=0
+ExpDrop=0
+Desc=Eine vom Spieler erschaffene, lebendige Schneefigur, die herannahende Monster unermüdlich mit frostigen Schneebällen bewirft.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Schneeballwurf=1
+Rückzug=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Eisengolem
+Type=Dorfbeschützer
+Dimension=Oberwelt
+BaseHP=100
+Mana=0
+ArmorPoints=0
+ExpDrop=0
+Desc=Ein gigantischer, lebendiger Koloss aus purem Eisen. Er beschützt die Dorfbewohner und schleudert Angreifer mit brutalen Aufwärtshaken in die Luft.
+
+[Info]
+Size=Big
+Drops=Kein Loot
+
+[Skills]
+Aufwärtshaken=1
+Beschützen=1

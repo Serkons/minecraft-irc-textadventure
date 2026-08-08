@@ -1,0 +1,17 @@
+[Stats]
+Name=Delfin
+Type=Neutrales Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein intelligenter, flinker Meeresbewohner, der gerne mit Spielern um die Wette schwimmt, sich bei einem Angriff aber mit gezielten Rammstößen wehrt.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Strömungsstoß=1
+Spieltrieb=1

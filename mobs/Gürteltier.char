@@ -1,0 +1,16 @@
+[Stats]
+Name=Gürteltier
+Type=Neutrales Tier
+Dimension=Oberwelt
+BaseHP=12
+Mana=0
+ArmorPoints=4
+ExpDrop=2
+Desc=Ein scheues Tier aus den trockenen Savannen, das sich bei Gefahr blitzschnell zu einer harten Kugel einrollt und fast unantastbar wird.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Einrollen=1
