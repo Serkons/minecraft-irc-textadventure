@@ -379,9 +379,9 @@ Type=Schaden_Effekt
 Target=Spieler
 BaseDamage=3
 ScalingFactor=0.9
-StatusEffect=Vergiftung
+StatusEffect=Hunger
 EffectChance=50
-DescDer ausgetrocknete %caster% beißt %target% und entzieht wertvolle Ausdauer.
+Desc=Der ausgetrocknete %caster% beißt %target% und entzieht wertvolle Ausdauer.
 
 [Schwerer_Hieb]
 Type=Schaden
@@ -452,7 +452,7 @@ Type=Schaden_Effekt
 Target=Spieler
 BaseDamage=3
 ScalingFactor=0.9
-StatusEffect=Dunkelheit
+StatusEffect=Langsamkeit
 EffectChance=100
 Desc=%caster% verschießt einen eisigen Pfeil, der die Bewegungen von %target% einfriert.
 

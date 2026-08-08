@@ -1,10 +1,33 @@
 [NegativeEffects]
-Liste=Brennen.Wither.Vergiftung.Dunkelheit.Levitation
+Liste=Brennen.Wither.Vergiftung.Dunkelheit.Levitation.Langsamkeit.Hunger
 
 [PositiveEffects]
 Liste=Regeneration.Absorption
 
-; --- DETAILS ZU DEN EFFEKTEN ---
+; --- DETAILS ZU DEN NEGATIVEN EFFEKTEN ---
+[Brennen]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=2
+DefaultDuration=3
+Desc=%target% steht in Flammen und erleidet jede Runde Brandschaden!
+
+[Wither]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=3
+DefaultDuration=4
+Desc=Der finstere Wither-Effekt zersetzt rücksichtslos die Lebenskraft von %target%!
+
+[Vergiftung]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=1
+DefaultDuration=5
+Desc=%target% wurde übel vergiftet! Die Gesundheit sinkt jede Runde kontinuierlich.
+
+[Dunkelheit]
+Type=Attribut_Senkung
+AccuracyReduction=30
+DefaultDuration=3
+Desc=Absolute, pechschwarze Finsternis umhüllt %target%! Die Trefferchance sinkt um 30%.
 
 [Levitation]
 Type=Kampf_Einschraenkung
@@ -12,32 +35,27 @@ DefaultDuration=3
 FallDamage=4
 Desc=%target% verliert den Boden unter den Füßen und schwebt hilflos in der Luft! Nahkampfangriffe sind blockiert!
 
-[Brennen]
-Type=Schaden_Ueber_Zeit
-ValuePerTurn=2
-DefaultDuration=3
-Desc=%target% steht in Flammen und erleidet jede Runde Schaden!
-
-[Wither]
-Type=Schaden_Ueber_Zeit
-ValuePerTurn=3
-DefaultDuration=4
-Desc=Der Wither-Effekt zersetzt die Lebenskraft von %target%!
-
-[Vergiftung]
-Type=Schaden_Ueber_Zeit
-ValuePerTurn=1
-DefaultDuration=5
-Desc=%target% wurde vergiftet! Die HP sinken langsam.
-
-[Dunkelheit]
+[Langsamkeit]
 Type=Attribut_Senkung
-AccuracyReduction=30
+EvasionReduction=25
 DefaultDuration=3
-Desc=Absolute Finsternis umhüllt %target%! Die Trefferchance sinkt um 30%.
+Desc=Eisige Kälte bremst die Glieder von %target%! Die Chance, Angriffen auszuweichen, sinkt um 25%.
 
+[Hunger]
+Type=Ausdauer_Entzug
+ManaDrainPerTurn=10
+DefaultDuration=3
+Desc=Ein zehrender Hunger befällt %target%! Verliert in jeder Runde wertvolle Manapunkte.
+
+; --- DETAILS ZU DEN POSITIVEN EFFEKTEN ---
 [Regeneration]
 Type=Heilung_Ueber_Zeit
 ValuePerTurn=3
 DefaultDuration=3
-Desc=Heilende Energie durchströmt %target% und stellt HP wieder her.
+Desc=Sanfte, heilende Energie durchströmt %target% und stellt jede Runde HP wieder her.
+
+[Absorption]
+Type=Bonus_Leben
+BonusHP=4
+DefaultDuration=5
+Desc=%target% erhält eine goldene Schutzschicht aus Bonus-Lebenspunkten!
