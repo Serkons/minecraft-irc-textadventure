@@ -4,7 +4,7 @@ GlobalMultiplier=1.0
 WorldAgeDays=6
 
 [Environment]
-TimeOfDay=Tag
+TimeOfDay=Nacht
 Weather=Klar
 
 [Spawns]
