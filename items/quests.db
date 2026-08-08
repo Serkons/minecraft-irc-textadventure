@@ -1,0 +1,139 @@
+[Quests]
+Liste=Holzbeschaffung.Eisenschmelze.Proviant_fuer_den_Fischer.Smaragdhunger.Pruefung_der_Kammern.Der_erste_Diamant.Die_Nacht_der_Creeper.Der_Trankmischer.Gefahr_aus_dem_Nether.Der_vergrabene_Schatz.Ausruestung_fuer_den_Schmied.Obsidian_Ernte.Die_Jagd_auf_die_Enderperle.Die_Skelett_Armee.Der_Crafter_Prototyp
+
+; --- QUEST DETAILS ---
+
+[Holzbeschaffung]
+NPC=Bauernhof-Arbeiter
+Desc=Der Dorfbewohner braucht Holz, um den Zaun des Huehnerstalls zu reparieren.
+ReqItem=Eichenstamm
+ReqAmount=10
+RewardXP=50
+RewardItem=Smaragd
+RewardAmount=2
+
+[Eisenschmelze]
+NPC=Werkzeugschmied
+Desc=Fuer die Herstellung neuer Hacken und Schaufeln werden dringend frische Eisenbarren am Amboss benoetigt.
+ReqItem=Eisenbarren
+ReqAmount=5
+RewardXP=120
+RewardItem=Smaragd
+RewardAmount=3
+
+[Proviant_fuer_den_Fischer]
+NPC=Fischer
+Desc=Die Netze blieben tagelang leer. Der Fischer und seine Familie benoetigen dringend nahrhaftes Brot.
+ReqItem=Brot
+ReqAmount=8
+RewardXP=80
+RewardItem=Smaragd
+RewardAmount=2
+
+[Smaragdhunger]
+NPC=Fahrender_Haendler
+Desc=Der Haendler sucht nach seltenen, gruenen Edelsteinen, um sie auf seiner naechsten grossen Reise zu tauschen.
+ReqItem=Smaragd
+ReqAmount=5
+RewardXP=200
+RewardItem=Goldbarren
+RewardAmount=4
+
+[Pruefung_der_Kammern]
+NPC=Waffenschmied
+Desc=Beweise deinen Mut! Bringe einen echten Pruefungsschluessel aus den neuen, tiefen Kammern der Welt.
+ReqItem=Pruefungsschluessel
+ReqAmount=1
+RewardXP=500
+RewardItem=Diamant
+RewardAmount=1
+
+[Der_erste_Diamant]
+NPC=Steinmetz
+Desc=Fuer ein prachtvolles Monument sucht der Steinmetz nach dem haertesten und schoensten aller Edelsteine.
+ReqItem=Diamant
+ReqAmount=1
+RewardXP=300
+RewardItem=Smaragd
+RewardAmount=6
+
+[Die_Nacht_der_Creeper]
+NPC=Pfeilmacher
+Desc=Die Verteidigungsanlagen des Dorfes muessen verstaerkt werden. Bringe Schwarzpulver fuer Sprengfallen.
+ReqItem=Schwarzpulver
+ReqAmount=6
+RewardXP=150
+RewardItem=Pfeil
+RewardAmount=16
+
+[Der_Trankmischer]
+NPC=Kleriker
+Desc=Fuer ein geheimes Heilmittel und alchemistische Experimente fehlt im Braustand noch die passende Zutat.
+ReqItem=Spinnenauge
+ReqAmount=3
+RewardXP=180
+RewardItem=Glowstone-Staub
+RewardAmount=4
+
+[Gefahr_aus_dem_Nether]
+NPC=Idiot
+Desc=Jemand hat behauptet, diese gluehenden Ruten koennen Haeuser waermen. Bringe eine Lohenrute zum Testen mit.
+ReqItem=Lohenrute
+ReqAmount=1
+RewardXP=250
+RewardItem=Smaragd
+RewardAmount=3
+
+[Der_vergrabene_Schatz]
+NPC=Kartograf
+Desc=Die Geruechte waren wahr! Bringe das geheimnisvolle Herz des Meeres aus dem tiefen, begrabenen Schatz.
+ReqItem=Herz des Meeres
+ReqAmount=1
+RewardXP=600
+RewardItem=Diamant
+RewardAmount=2
+
+[Ausruestung_fuer_den_Schmied]
+NPC=Ruestungsschmied
+Desc=Fuer die schweren Arbeiten am Ofen fehlt dem Schmied ein robustes Stueck Leder, um seine Schuene zu fetten.
+ReqItem=Lederfett
+ReqAmount=2
+RewardXP=70
+RewardItem=Eisenbarren
+RewardAmount=3
+
+[Obsidian_Ernte]
+NPC=Bibliothekar
+Desc=Fuer den Bau eines neuen Zaubertisches im Archiv wird extrem harter, magischer Obsidian benoetigt.
+ReqItem=Obsidian
+ReqAmount=4
+RewardXP=400
+RewardItem=Buch
+RewardAmount=2
+
+[Die_Jagd_auf_die_Enderperle]
+NPC=Arbeitsloser
+Desc=Ein seltsames Wesen hat eine schimmernde Perle fallengelassen. Bringe mir eine, ich moechte sie untersuchen.
+ReqItem=Enderperle
+ReqAmount=2
+RewardXP=350
+RewardItem=Smaragd
+RewardAmount=4
+
+[Die_Skelett_Armee]
+NPC=Kleriker
+Desc=Die untoten Bogenschuetzen greifen nachts an. Zermahle ihre Knochen, um die Friedhofserde zu reinigen.
+ReqItem=Knochen
+ReqAmount=12
+RewardXP=140
+RewardItem=Heiltrank
+RewardAmount=1
+
+[Der_Crafter_Prototyp]
+NPC=Werkzeugschmied
+Desc=Fuer eine neue, automatisierte Werkstatt sucht der Schmied nach dem roten Energiestaub der Erden.
+ReqItem=Redstone-Staub
+ReqAmount=16
+RewardXP=220
+RewardItem=Eisenbarren
+RewardAmount=5
