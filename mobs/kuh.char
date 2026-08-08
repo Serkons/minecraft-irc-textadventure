@@ -1,0 +1,17 @@
+[Stats]
+Name=Kuh
+Type=Nutztier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein gutmütiges, gehörntes Weidetier, das friedlich Gras kaut und wertvolle Nahrung liefert.
+
+[Info]
+Size=Medium
+Drops=Leder.Leder.Gebratenes Rindfleisch.Gebratenes Rindfleisch
+
+[Skills]
+Paniklauf=1
+Hufschlag=1

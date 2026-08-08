@@ -1,0 +1,17 @@
+[Stats]
+Name=Husk
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein ausgetrockneter Wüstenzombie, dessen Bisse unvorsichtige Abenteurer schwächen.
+
+[Info]
+Size=Medium
+Drops=Verrottetes Fleisch.Sand.Sand
+
+[Skills]
+Hungerbiss=1
+Schwerer_Hieb=1

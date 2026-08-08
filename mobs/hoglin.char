@@ -1,0 +1,17 @@
+[Stats]
+Name=Hoglin
+Type=Nethermonster
+Dimension=Nether
+BaseHP=40
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Eine aggressive, wildschweinartige Bestie, die Eindringlinge mit ihren Hauern hochschleudert.
+
+[Info]
+Size=Big
+Drops=Leder.Leder.Gebratenes Rindfleisch
+
+[Skills]
+Hauerstoß=1
+Ansturm=1

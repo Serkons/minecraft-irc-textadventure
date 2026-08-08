@@ -1,0 +1,17 @@
+[Stats]
+Name=Skeleton
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein klapperndes Knochengerüst, das mit unheimlicher Präzision Pfeile aus der Finsternis verschießt.
+
+[Info]
+Size=Medium
+Drops=Knochen.Knochen.Pfeil.Pfeil.Ausgeleierter Bogen
+
+[Skills]
+Pfeilschuss=1
+Rückzug=1

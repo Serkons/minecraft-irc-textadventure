@@ -1,0 +1,17 @@
+[Stats]
+Name=Pillager
+Type=Illager
+Dimension=Oberwelt
+BaseHP=24
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein finsterer Gesetzloser, der bewaffnet mit einer schweren Armbrust Jagd auf friedliche Dörfer macht.
+
+[Info]
+Size=Medium
+Drops=Smaragd.Pfeil.Pfeil.Ausgeleierter Bogen
+
+[Skills]
+Armbrustschuss=1
+Nachladen=1

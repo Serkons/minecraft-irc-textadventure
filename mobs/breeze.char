@@ -1,0 +1,17 @@
+[Stats]
+Name=Breeze
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=30
+Mana=40
+ArmorPoints=2
+ExpDrop=10
+Desc=Ein wirbelndes Windwesen, das unvorsichtige Entdecker mit heftigen Böen attackiert.
+
+[Info]
+Size=Medium
+Drops=Windladung.Windladung
+
+[Skills]
+Windstoß=1
+Wirbelsturm=1

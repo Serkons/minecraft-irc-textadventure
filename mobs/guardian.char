@@ -1,0 +1,17 @@
+[Stats]
+Name=Guardian
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=30
+Mana=30
+ArmorPoints=0
+ExpDrop=10
+Desc=Ein einäugiges Unterwasserwesen, das Eindringlinge mit einem heißen Laserstrahl röstet.
+
+[Info]
+Size=Medium
+Drops=Kabeljau.Kabeljau.Diamant
+
+[Skills]
+Laserstrahl=1
+Dornenrüstung=1

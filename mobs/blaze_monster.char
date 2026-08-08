@@ -1,0 +1,17 @@
+[Stats]
+Name=Blaze
+Type=Nethermonster
+Dimension=Nether
+BaseHP=20
+Mana=50
+ArmorPoints=0
+ExpDrop=10
+Desc=Ein schwebendes Elementarwesen aus reinem Feuer, das die Festungen des Nethers mit heißen Flammen verteidigt.
+
+[Info]
+Size=Medium
+Drops=Kohle.Kohle.Goldbarren
+
+[Skills]
+Feuerball=1
+Schrei=1

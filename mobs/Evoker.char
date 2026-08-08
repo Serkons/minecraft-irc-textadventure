@@ -1,0 +1,17 @@
+[Stats]
+Name=Evoker
+Type=Illager
+Dimension=Oberwelt
+BaseHP=24
+Mana=100
+ArmorPoints=0
+ExpDrop=10
+Desc=Ein mächtiger Magier der Illager, der tödliche Fangzähne und Vexe beschwört.
+
+[Info]
+Size=Medium
+Drops=Smaragd.Smaragd.Smaragd.Enderperle
+
+[Skills]
+Vex-Beschwörung=1
+Fangzähne=1

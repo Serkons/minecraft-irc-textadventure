@@ -1,0 +1,17 @@
+[Stats]
+Name=Piglin
+Type=Netherbewohner
+Dimension=Nether
+BaseHP=16
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein goldgieriger Bewohner der Unterwelt. Er greift Fremde sofort an, es sei denn, sie tragen glänzende Goldrüstung.
+
+[Info]
+Size=Medium
+Drops=Goldbarren.Goldbarren.Pfeil
+
+[Skills]
+Goldschuss=1
+Handelstrick=1

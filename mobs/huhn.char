@@ -1,0 +1,17 @@
+[Stats]
+Name=Huhn
+Type=Nutztier
+Dimension=Oberwelt
+BaseHP=4
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein kleines, gefiedertes Federvieh, das bei Gefahr wild gackernd die Flucht ergreift.
+
+[Info]
+Size=Small
+Drops=Feder.Feder.Apfel
+
+[Skills]
+Flatterflucht=1
+Pickhieb=1

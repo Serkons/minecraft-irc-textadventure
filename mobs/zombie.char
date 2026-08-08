@@ -1,0 +1,17 @@
+[Stats]
+Name=Zombie
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein modriger, langsam schlurfender Untoter, der unvorsichtige Reisende im Schutz der Dunkelheit unerbittlich jagt.
+
+[Info]
+Size=Medium
+Drops=Verrottetes Fleisch.Verrottetes Fleisch.Verrottetes Fleisch.Karotte.Eisenbarren
+
+[Skills]
+Biss=1
+Kratzen=1

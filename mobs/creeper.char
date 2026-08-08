@@ -1,0 +1,17 @@
+[Stats]
+Name=Creeper
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein lautloses, grünes Grauen. Wer sein unheilvolles Zischen zu spät hört, wird in Stücke gerissen.
+
+[Info]
+Size=Medium
+Drops=Schwarzpulver.Schwarzpulver.Schwarzpulver
+
+[Skills]
+Zünden=1
+Explosion=1
