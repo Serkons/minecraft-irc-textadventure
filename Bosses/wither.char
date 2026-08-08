@@ -1,0 +1,18 @@
+[Stats]
+Name=Wither
+Type=Beschwörungsboss
+Dimension=Nether
+BaseHP=300
+Mana=150
+ArmorPoints=4
+ExpDrop=50
+Desc=Eine schreckliche, dreiköpfige Ausgeburt der Unterwelt, die aus Seelensand und Knochen zum Leben erweckt wurde und alles Lebendige vernichten will.
+
+[Info]
+Size=Big
+Drops=Kohle.Kohle.Kohle.Netheritbarren.Netherstern
+
+[Skills]
+Wither-Schuss=4
+Wither-Explosion=2
+Seelen-Absorption=2

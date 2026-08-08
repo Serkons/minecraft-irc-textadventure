@@ -1,0 +1,18 @@
+[Stats]
+Name=Enderdrache
+Type=Hauptboss
+Dimension=Das Ende
+BaseHP=200
+Mana=100
+ArmorPoints=0
+ExpDrop=12000
+Desc=Ein uraltes, majestätisches Wesen von unvorstellbarer Macht, das über die ewige Dunkelheit des Endes herrscht.
+
+[Info]
+Size=Big
+Drops=Enderperle.Enderperle.Enderperle.Diamant.Diamant.Drachenei
+
+[Skills]
+Drachenatem=3
+Flügelstoß=2
+Kristallheilung=1

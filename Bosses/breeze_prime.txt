@@ -1,0 +1,19 @@
+[Stats]
+Name=Breeze Prime
+Type=Prüfungsboss
+Dimension=Oberwelt
+Structure=Prüfungskammern
+BaseHP=60
+Mana=120
+ArmorPoints=2
+ExpDrop=150
+Desc=Ein wirbelndes, hocheffizientes Elementarwesen der Winde, das die alten Prüfungskammern mit rasanten Stürmen verteidigt.
+
+[Info]
+Size=Medium
+Drops=Windladung.Windladung.Windladung.Prüfungsschlüssel.Prüfungsschlüssel.Diamant
+
+[Skills]
+Windladung=2
+Wirbelsturm=2
+Fallen-Aktivierung=1
