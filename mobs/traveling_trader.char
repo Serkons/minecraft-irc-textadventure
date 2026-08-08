@@ -1,0 +1,17 @@
+[Stats]
+Name=Fahrender Händler
+Type=Zivilist
+Dimension=Oberwelt
+BaseHP=20
+Mana=50
+ArmorPoints=0
+ExpDrop=0
+Desc=Ein reisender Händler, der bei Angriffen sofort einen Unsichtbarkeitstrank trinkt und flieht.
+
+[Info]
+Size=Medium
+Drops=Smaragd.Smaragd.Leder
+
+[Skills]
+Unsichtbarkeitstrank=1
+Lama_Schutz=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Kamel
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=32
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein hohes Wüsten-Reittier, das so groß ist, dass kleine Monster seine Reiter nicht verletzen können.
+
+[Info]
+Size=Big
+Drops=Leder.Leder.Weizen
+
+[Skills]
+Sitzblock=1
+Niedertrampeln=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Glow Squid
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein mysteriös leuchtender Tintenfisch, der in den tiefen Wasserbecken unter der Erde schwimmt.
+
+[Info]
+Size=Medium
+Drops=Leuchtmarsh.Leuchtmarsh.Leuchtmarsh
+
+[Skills]
+Tintenwolke=1
+Leuchten=1

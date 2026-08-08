@@ -1,0 +1,17 @@
+[Stats]
+Name=Dorfbewohner
+Type=Zivilist
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=0
+Desc=Ein friedlicher Bewohner der Dörfer, der panisch im Kreis rennt, sobald Gefahr im Verzug ist.
+
+[Info]
+Size=Medium
+Drops=Smaragd.Brot
+
+[Skills]
+Handelsangebot=1
+Panik=1

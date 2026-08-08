@@ -1,0 +1,16 @@
+[Stats]
+Name=Fledermaus
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=6
+Mana=0
+ArmorPoints=0
+ExpDrop=0
+Desc=Ein harmloser, kleiner Flatterer, der unvorhersehbar durch das Dunkel der Höhlensysteme saust.
+
+[Info]
+Size=Small
+Drops=Kies
+
+[Skills]
+flatterflug=1

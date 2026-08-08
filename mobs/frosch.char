@@ -1,0 +1,17 @@
+[Stats]
+Name=Frosch
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein farbenfroher Sumpfbewohner, der mit seiner langen Zunge Schleime im Ganzen verschlingt.
+
+[Info]
+Size=Small
+Drops=Schlamm.Schlamm
+
+[Skills]
+Zungenwurf=1
+Sprung=1

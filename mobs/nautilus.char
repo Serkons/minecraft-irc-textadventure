@@ -1,0 +1,17 @@
+[Stats]
+Name=Nautilus
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein seltenes Tiefseewesen, das sich bei drohender Gefahr panzerartig in sein hartes Gehäuse zurückzieht.
+
+[Info]
+Size=Small
+Drops=Prüfungsschlüssel
+
+[Skills]
+Panzer_Rückzug=1
+Strömungsflucht=1

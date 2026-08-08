@@ -1,0 +1,17 @@
+[Stats]
+Name=Enderman
+Type=Neutrales Monster
+Dimension=Oberwelt
+BaseHP=40
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein schlaksiges, pechschwarzes Wesen aus dem Ende, das teleportiert und aggressiv wird, wenn man es ansieht.
+
+[Info]
+Size=Big
+Drops=Enderperle.Enderperle.Enderperle
+
+[Skills]
+Teleport_Schlag=1
+Starren=1

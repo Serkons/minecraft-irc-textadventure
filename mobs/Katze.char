@@ -1,0 +1,16 @@
+[Stats]
+Name=Katze
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein flinker, schnurrender Vierbeiner aus den Dörfern, dessen Fauchen Creeper abschreckt.
+
+[Info]
+Size=Small
+Drops=Kabeljau
+
+[Skills]
+Fauchschreck=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Schaf
+Type=Nutztier
+Dimension=Oberwelt
+BaseHP=8
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein friedliches, wolliges Nutztier. Seine dicke Wolle dämpft im Kampf gegnerische Hiebe ab.
+
+[Info]
+Size=Medium
+Drops=Wollschild.Weizen
+
+[Skills]
+Wollschild=1
+Flucht=1
