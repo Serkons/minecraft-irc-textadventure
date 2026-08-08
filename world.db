@@ -19,114 +19,134 @@ Allowed_Y=64.120
 Surface_Blocks=Sand.Sand.Sand.Sand.Sandstein.Kies
 Surface_Monsters=Husk.Husk.Creeper.Zombie
 Surface_Animals=Kamel.Kaninchen
+Cave_Monsters=Zombie.Skeleton.Spinne
 
 [Ebene]
 Allowed_Y=64.95
 Surface_Blocks=Grasblock.Grasblock.Grasblock.Erde.Erde.Kies
 Surface_Monsters=Zombie.Skelett.Creeper.Enderman
 Surface_Animals=Kuh.Kuh.Schaf.Schaf.Schwein.Huhn.Pferd
+Cave_Monsters=Zombie.Skelett.Spinne.Hoehlenspinne
 
 [Sonnenblumen_Ebene]
 Allowed_Y=64.95
 Surface_Blocks=Grasblock.Grasblock.Erde.Erde.Lehm
 Surface_Monsters=Zombie.Skelett.Creeper.Spinne
 Surface_Animals=Kuh.Schaf.Schwein.Huhn.Pferd
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Schneeberge]
 Allowed_Y=80.160
 Surface_Blocks=Schneeblock.Schneeblock.Pulverschnee.Eis.Erde.Stein
 Surface_Monsters=Stray.Stray.Skelett.Creeper
 Surface_Animals=Eisbaer.Kaninchen
+Cave_Monsters=Stray.Skelett.Zombie.Creeper
 
 [Eisspitzen]
 Allowed_Y=64.140
 Surface_Blocks=Packeis.Packeis.Packeis.Schneeblock.Glatteis
 Surface_Monsters=Stray.Stray.Skelett.Zombie
 Surface_Animals=Eisbaer
+Cave_Monsters=Stray.Skelett.Creeper.Spinne
 
 [Wald]
 Allowed_Y=64.100
 Surface_Blocks=Grasblock.Grasblock.Grasblock.Erde.Erde.Kies
 Surface_Monsters=Zombie.Skelett.Creeper.Spinne.Hexen
 Surface_Animals=Schaf.Huhn.Kuh.Wolf
+Cave_Monsters=Zombie.Zombie.Skelett.Creeper.Hoehlenspinne
 
 [Blumenwald]
 Allowed_Y=64.100
 Surface_Blocks=Grasblock.Grasblock.Erde.Erde.Lehm
 Surface_Monsters=Zombie.Skelett.Creeper.Enderman
 Surface_Animals=Schaf.Huhn.Kuh.Kaninchen
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Dunkelwald]
 Allowed_Y=64.90
 Surface_Blocks=Grasblock.Grasblock.Podsol.Erde.Erde.Kies
 Surface_Monsters=Zombie.Skelett.Creeper.Spinne.Hexen
 Surface_Animals=Schaf.Huhn.Kuh
+Cave_Monsters=Zombie.Skelett.Creeper.Hoehlenspinne.Hoehlenspinne
 
 [Blassgarten]
 Allowed_Y=60.90
 Surface_Blocks=Grasblock.Grasblock.Blasse_Erde.Blasse_Erde.Moosblock
 Surface_Monsters=Creaking.Creaking.Zombie.Skelett
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Birkenwald]
 Allowed_Y=64.95
 Surface_Blocks=Grasblock.Grasblock.Grasblock.Erde.Erde
 Surface_Monsters=Zombie.Skelett.Creeper.Spinne
 Surface_Animals=Schaf.Huhn.Kuh
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Kirschhain]
 Allowed_Y=80.140
 Surface_Blocks=Grasblock.Grasblock.Erde.Erde.Lehm
 Surface_Monsters=Zombie.Skelett.Creeper.Enderman
 Surface_Animals=Schaf.Schaf.Schwein.Kaninchen
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne.Fledermaus
 
 [Dschungel]
 Allowed_Y=64.110
 Surface_Blocks=Grasblock.Grasblock.Grasblock.Erde.Erde.Kies
 Surface_Monsters=Zombie.Skelett.Creeper.Ozelot
 Surface_Animals=Papagei.Papagei.Affe.Huhn
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne.Hoehlenspinne
 
 [Bambusdschungel]
 Allowed_Y=64.100
 Surface_Blocks=Grasblock.Grasblock.Podsol.Erde.Erde
 Surface_Monsters=Zombie.Skelett.Creeper.Spinne
 Surface_Animals=Panda.Panda.Huhn
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Savanne]
 Allowed_Y=64.110
 Surface_Blocks=Grasblock.Grasblock.Grobe_Erde.Grobe_Erde.Erde.Kies
 Surface_Monsters=Zombie.Skelett.Creeper.Enderman
 Surface_Animals=Llama.Llama.Pferd.Kuh
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Sumpf]
 Allowed_Y=60.70
 Surface_Blocks=Grasblock.Schlamm.Schlamm.Erde.Ton.Kies
 Surface_Monsters=Schleim.Schleim.Hexe.Zombie.Skelett
 Surface_Animals=Frosch.Frosch
+Cave_Monsters=Schleim.Schleim.Schleim.Zombie.Skelett
+Cave_Monsters=Schleim.Schleim.Zombie.Creeper
 
 [Mangrovensumpf]
 Allowed_Y=60.70
 Surface_Blocks=Schlamm.Schlamm.Schlamm.Grasblock.Erde.Ton
 Surface_Monsters=Schleim.Schleim.Froschmutter.Zombie
 Surface_Animals=Frosch.Frosch
+Cave_Monsters=Schleim.Schleim.Zombie.Creeper
 
 [Pilzland]
 Allowed_Y=64.85
 Surface_Blocks=Myzel.Myzel.Myzel.Erde.Erde.Kies
 Surface_Monsters=Kein_Spawn
 Surface_Animals=Pilzkuh.Pilzkuh
+Cave_Monsters=Kein_Spawn
 
 [Ozean]
 Allowed_Y=30.63
 Surface_Blocks=Sand.Sand.Kies.Kies.Ton.Erde
 Surface_Monsters=Erthroat.Erthroat.Erthroat
 Surface_Animals=Tintenfisch.Kabeljau.Lachs.Delphin
+Cave_Monsters=Zombie.Skelett.Creeper.Spinne
 
 [Warmer_Ozean]
 Allowed_Y=40.63
 Surface_Blocks=Sand.Sand.Sand.Korallenblock.Ton
 Surface_Monsters=Erthroat.Zombie
 Surface_Animals=Tropenfisch.Tropenfisch.Kugelfisch.Tintenfisch
+Cave_Monsters=Zombie.Skelett.Creeper
 
 ; ========================================================
 ;      UNTERIRDISCHE BIOME (Höhenbereich Y = -64 bis 63)
@@ -137,12 +157,14 @@ Allowed_Y=-64.0
 Surface_Blocks=Sculk.Sculk.Sculk.Sculk_Ader.Tiefenschiefer.Stein
 Surface_Monsters=Warden
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Warden
 
 [Tropfsteinhoehlen]
 Allowed_Y=-64.63
 Surface_Blocks=Stein.Stein.Tiefenschiefer.Tropfsteinblock.Erde
 Surface_Monsters=Zombie.Skelett.Creeper.Hoehlenspinne
 Surface_Animals=Fledermaus.Fledermaus
+Cave_Monsters=Zombie.Skelett.Spinne.Hoehlenspinne
 
 [Ueppige_Hoehlen]
 Allowed_Y=-64.63
@@ -159,30 +181,35 @@ Allowed_Y=0.128
 Surface_Blocks=Netherrack.Netherrack.Netherrack.Nethergolderz.Netherquarzerz.Magmablock
 Surface_Monsters=Zombifizierter_Piglin.Zombifizierter_Piglin.Piglin.Ghast.Magmawuerfel
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Wither_Skelett.Lohe.Zombifizierter_Piglin.Magmawuerfel
 
 [Seelensand_Tal]
 Allowed_Y=0.128
 Surface_Blocks=Seelensand.Seelensand.Seelenerde.Seelenerde.Basalt.Knochenblock
 Surface_Monsters=Skelett.Skelett.Ghast.Enderman
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Skelett.Skelett.Ghast
 
 [Karmesinwald]
 Allowed_Y=0.128
 Surface_Blocks=Karmesin_Nezel.Karmesin_Nezel.Netherrack.Nethergolderz.Pilzblock
 Surface_Monsters=Piglin.Piglin.Piglin_Brute.Hoglin.Hoglin
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Piglin.Piglin_Brute.Hoglin
 
 [Wirrwald]
 Allowed_Y=0.128
 Surface_Blocks=Wirr_Nezel.Wirr_Nezel.Netherrack.Netherquarzerz.Pilzblock
 Surface_Monsters=Enderman.Enderman.Enderman.Enderman
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Enderman.Enderman
 
 [Basaltdelta]
 Allowed_Y=0.128
 Surface_Blocks=Basalt.Basalt.Polierter_Basalt.Schwarzstein.Schwarzstein.Magmablock
 Surface_Monsters=Magmawuerfel.Magmawuerfel.Magmawuerfel.Ghast
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Magmawuerfel.Magmawuerfel.Ghast
 
 ; ========================================================
 ;      ENDE-BIOME (Höhenbereich Y = 0 bis 256)
@@ -193,12 +220,14 @@ Allowed_Y=50.80
 Surface_Blocks=Endstein.Endstein.Endstein.Obsidian.Bedrock
 Surface_Monsters=Enderman.Enderman.Enderdrache
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Enderman
 
 [Aeusseres_Ende]
 Allowed_Y=50.100
 Surface_Blocks=Endstein.Endstein.Endstein.Endsteinziegel.Purpurblock
 Surface_Monsters=Enderman.Enderman.Shulker
 Surface_Animals=Kein_Spawn
+Cave_Monsters=Shulker.Endermite
 
 ; ========================================================
 ;          GEHEIME & FIXIERTE STRUKTUREN (Feste Posten)
@@ -215,6 +244,7 @@ Desc=Du bist in eine gewaltige, verlassene Stadt tief unter der Erde gestolpert.
 Mine_Blocks=Tiefenschiefer.Tiefenschiefer.Skulk-Katalysator
 Surface_Monsters=Warden
 Surface_Animals=Kein_Tier
+Cave_Monsters=Warden.Warden.Warden.Warden
 
 [Ozeanmonument]
 Min_X=800
@@ -225,8 +255,9 @@ Fix_Y=64
 Dimension=Oberwelt
 Desc=Aus den tiefen Wellen ragt ein monumentaler Prismin-Palast auf. Die Wächter haben dich im Visier!
 Mine_Blocks=Prismarin.Prismarin.Prismarinblock.Schwamm
-Surface_Monsters=Waechter.Grosser_Waechter.Ertrunkener
+Surface_Monsters=Waechter.Grosser_Waechter.Ertrunkener.Waechter.Grosser_Waechter.Ertrunkener
 Surface_Animals=Delfin.Tintenfisch
+Cave_Monsters=Waechter.Grosser_Waechter.Ertrunkener.Waechter.Grosser_Waechter.Ertrunkener
 
 [Waldanwesen]
 Min_X=-1500
@@ -239,3 +270,4 @@ Desc=Mitten im dichten, dunklen Wald ragt ein gigantisches, unheimliches Holzgeb
 Mine_Blocks=Dunkeleichenholzstamm.Dunkeleichenholzstamm.Bruchstein
 Surface_Monsters=Pillager.Vindicator.Evoker.Vex
 Surface_Animals=Katze
+Cave_Monsters=Vindicator.Vindicator.Evoker.Vex.Hexen.Spinne

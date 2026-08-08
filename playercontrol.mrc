@@ -20,7 +20,7 @@ on *:TEXT:!eat *:#: {
   if (%has_amt == $null) { var %has_amt = 0 }
 
   if (%has_amt < 1) {
-    msg $chan 🎒 ❌ %player $+ , du hast 4 $+ %food_name  nicht in deinem Rucksack!
+    msg $chan 🎒 ❌ %player $+ , du hast die Nahrung 4 %food_name  nicht in deinem Rucksack!
     halt
   }
 
@@ -64,7 +64,7 @@ on *:TEXT:!eat *:#: {
 
   ; 7. Schöne, atmosphärische Ausgabe ( 04=Rot für HP,  05=Braun für Hunger)
   msg $chan 🍎 😋 ** %player ** verputzt genüsslich ** $+ %food_name $+ **! *Mampf, schmatz...*
-  msg $chan ❤️ [ %player ] Sättigung:  5 $+ %new_food $+ / $+ %max_food 🍖  $chr(124) Gesundheit:  4 $+ %new_hp $+ / $+ %max_hp ❤️
+  msg $chan ❤️ [ %player ] Sättigung:  5 %new_food $+ / $+ %max_food  ♦ Gesundheit:  4 %new_hp $+ / $+ %max_hp ❤️
 }
 
 

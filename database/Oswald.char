@@ -20,7 +20,7 @@ CurrentHP=20
 MaxHP=20
 CurrentMana=20
 MaxMana=20
-CurrentFood=0
+CurrentFood=15
 MaxFood=20
 Killstreak=0
 
@@ -44,4 +44,4 @@ Total_Deaths=0
 [Inventar]
 Werkbank=0
 Eichenstamm=0
-Brot=3
+Brot=0
