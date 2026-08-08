@@ -1,0 +1,17 @@
+[Stats]
+Name=Shulker
+Type=Endmonster
+Dimension=Das Ende
+BaseHP=30
+Mana=40
+ArmorPoints=4
+ExpDrop=5
+Desc=Ein in einer harten Kiste getarntes Wesen. Seine magischen Projektile lassen Spieler schweben.
+
+[Info]
+Size=Small
+Drops=Enderperle.Diamant
+
+[Skills]
+Levitationsgeschoss=1
+Panzerung=1

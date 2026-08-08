@@ -1,0 +1,17 @@
+[Stats]
+Name=Phantom
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein geflügeltes Nachtmonster, das schlaflose Spieler im Sturzflug aus dem pechschwarzen Himmel attackiert.
+
+[Info]
+Size=Medium
+Drops=Phantom-Haut.Knochen.Knochen
+
+[Skills]
+Sturzkampf=1
+Kreischen=1

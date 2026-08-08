@@ -1,0 +1,17 @@
+[Stats]
+Name=Piglin Brute
+Type=Nethermonster
+Dimension=Nether
+BaseHP=50
+Mana=0
+ArmorPoints=0
+ExpDrop=20
+Desc=Ein furchtloser, schwer bewaffneter Piglin-Wächter, der die Bastionsruinen bis aufs Blut verteidigt.
+
+[Info]
+Size=Medium
+Drops=Goldbarren.Goldbarren.Eisenbarren
+
+[Skills]
+Axtschlag=1
+Wutanfall=1

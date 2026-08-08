@@ -1,0 +1,17 @@
+[Stats]
+Name=Ravager
+Type=Illager
+Dimension=Oberwelt
+BaseHP=100
+Mana=0
+ArmorPoints=4
+ExpDrop=20
+Desc=Eine gewaltige, gepanzerte Bestie der Illager, die bei Raubzügen alles in ihrem Weg niedertrampelt.
+
+[Info]
+Size=Big
+Drops=Smaragd.Smaragd.Leder.Leder
+
+[Skills]
+Ramme=1
+Brüllen=1

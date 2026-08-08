@@ -202,7 +202,7 @@ Target=Spieler
 BaseDamage=10
 ScalingFactor=2.5
 ManaCost=0
-DescDas gewaltige %caster% stürmt los und rammt %target% mit dem gepanzerten Kopf weg.
+Desc= gewaltige %caster% stürmt los und rammt %target% mit dem gepanzerten Kopf weg.
 
 [Brüllen]
 Type=AoE_Effekt
@@ -414,7 +414,7 @@ Desc=%caster% es stößt kreischend aus dem Nachthimmel herab und reißt an %tar
 [Kreischen]
 Type=Effekt
 Target=Spieler
-DescDas hohe Kreischen von %caster% stört die Konzentration von %target%.
+Desc=Das hohe Kreischen von %caster% stört die Konzentration von %target%.
 
 [Axtschlag]
 Type=Schaden_Massiv
@@ -461,7 +461,7 @@ Type=Schaden_Magie
 Target=Spieler
 BaseDamage=3
 ScalingFactor=1.1
-DescDas schwebende %caster% gleitet durch Wände und attackiert %target% mit dem Schwert.
+Desc=Das schwebende %caster% gleitet durch Wände und attackiert %target% mit dem Schwert.
 
 [Flugangriff]
 Type=Geschwindigkeit
@@ -515,7 +515,7 @@ Desc=%caster% teleportiert sich hinter %target% und schlägt unerwartet zu.
 [Starren]
 Type=Effekt
 Target=Spieler
-DescDer unheimliche Blick von %caster% lässt %target% vor Schreck erstarren.
+Desc=Der unheimliche Blick von %caster% lässt %target% vor Schreck erstarren.
 
 [Zornhieb]
 Type=Schaden
@@ -624,7 +624,7 @@ Type=Schaden
 Target=Spieler
 BaseDamage=4
 ScalingFactor=0.8
-DescDas riesige %caster% macht einen Satz nach vorn und trampelt über %target%.
+Desc=Das riesige %caster% macht einen Satz nach vorn und trampelt über %target%.
 
 [Fauchschreck]
 Type=Ablenkung
@@ -818,7 +818,7 @@ Target=Spieler
 BaseDamage=4
 ScalingFactor=1.4
 ManaCost=25
-DescEin rasanter Windwirbel von %caster% umgeht die Verteidigung von %target%.
+Desc=Ein rasanter Windwirbel von %caster% umgeht die Verteidigung von %target%.
 
 [Fallen-Aktivierung]
 Type=Schaden_Falle

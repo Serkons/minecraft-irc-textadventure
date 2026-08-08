@@ -1,0 +1,17 @@
+[Stats]
+Name=Magma Cube
+Type=Nethermonster
+Dimension=Nether
+BaseHP=16
+Mana=0
+ArmorPoints=3
+ExpDrop=4
+Desc=Ein hüpfender Block aus glühender Lava, der sich bei einer Niederlage in kleinere Klumpen aufteilt.
+
+[Info]
+Size=Medium
+Drops=Schwarzpulver.Kohle.Kohle
+
+[Skills]
+Schwerer_Sprung=1
+Teilung=1
