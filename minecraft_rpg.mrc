@@ -174,7 +174,7 @@ on *:TEXT:!move:#: {
   writeini $charfile(%player) Stats CurrentFood %new_food
 
   ; 6. Ausgabe im Channel ( 05=Braun für Hunger)
-  msg $chan 🧭 🏃 ** %player ** wandert %dist Blöcke nach  12 $+ %richtung $+  ... ( 5- $+ %food_loss 🍖 )
+  msg $chan 🧭 🏃 ** %player ** wandert %dist Blöcke nach  12 $+ %richtung $+  ... ( 5- $+ %food_loss 12 )
   msg $chan 🗺️ [ %player ] %entdeckung_text $chr(124) Position:  7X:  %new_x  7Y:  %new_y  7Z:  %new_z
 }
 
@@ -229,8 +229,6 @@ alias mcrpg_show_status {
   msg %chan 📊 ⚔️ **[ STATUS - %player ]**  $chr(124) Level:  7 %level  $chr(124) HP:  4 %hp $+ / $+ %max_hp  4  $chr(124) Ausdauer:  11 $+ %mana $+ / $+ %max_mana  11⚡ $chr(124) 11 Hunger:  5 %food / %max_food 
   msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 %streak   $chr(124) Waffe: %waffe . Picke: %pick ( $+ %dur $+ )
 }
-
-
 
 ; Befehl per PN (Private Nachricht): !login [Passwort]
 on *:TEXT:!login*:?: {
@@ -390,4 +388,129 @@ on !*:QUIT: {
     writeini $charfile($nick) Info IsLoggedIn 0
     echo -a 🤖 [$nick] Automatisch ausgeloggt (Server verlassen).
   }
+}
+
+; Befehl im Channel: !mine
+on *:TEXT:!mine:#: {
+  var %player = $nick
+  var %file = $charfile(%player)
+
+  ; 1. Registrierungs- und Login-Check
+  if (!$exists(%file)) {
+    msg $chan ❌ %player $+ , du musst dich zuerst mit !register registrieren!
+    halt
+  }
+  var %online = $readini(%file, Info, IsLoggedIn)
+  if (%online != 1) {
+    msg $chan ❌ %player $+ , du musst eingeloggt sein, um zu minen! Nutze !login in einer PN.
+    halt
+  }
+
+  ; 2. Hunger-Check (Arbeit verbraucht 2 Hungerpunkte)
+  var %current_food = $readini(%file, Stats, CurrentFood)
+  if (%current_food < 2) {
+    msg $chan 🍖 ❌ ** %player ** du bist zu erschöpft zum Arbeiten und brauchst dringend etwas zu essen! Nutze 7!eat [Essen].
+    halt
+  }
+
+  ; 3. Werkzeug-Check (Spitzhacke auslesen)
+  var %pick = $readini(%file, Equipment, Spitzhacke)
+  var %dur = $readini(%file, Equipment, Spitzhacke_Haltbarkeit)
+
+  ; 4. Höhen- und Biomdaten auslesen
+  var %biom = $readini(%file, Location, Biom)
+  var %cur_y = $readini(%file, Location, Y)
+  var %world_db = $mircdirworld.db
+
+  ; Y-Achse um 1 Block senken (Wir graben uns nach unten!)
+  var %new_y = %cur_y - 1
+
+  ; Bedrock-Grenze abfangen (Tiefer als Y: -64 geht es in Minecraft nicht)
+  if (%new_y < -64) {
+    msg $chan 🪨 ❌ %player $+ , du hast den unzerstörbaren Grundstein (Bedrock) bei Y: -64 erreicht! Tiefer geht es nicht mehr.
+    halt
+  }
+
+  ; --- 5. BLOCK-AUSWURF BERECHNEN ---
+  var %dropped_block = $null
+
+  ; Fall A: Graben an der Oberfläche (Y >= 60)
+  if (%cur_y >= 60) {
+    var %block_liste = $readini(%world_db, %biom, Surface_Blocks)
+    var %total_blocks = $numtok(%block_liste, 46)
+    %dropped_block = $gettok(%block_liste, $rand(1, %total_blocks), 46)
+  }
+  ; Fall B: Tiefen-Mining (Y < 60)
+  else {
+    ; Sicherstellen, dass wir weiche Erden verlassen und Fels nutzen
+    var %block_liste = $readini(%world_db, %biom, Mine_Blocks)
+
+    ; Falls ein Oberflächenbiom keine Mine_Blocks hat, nutzen wir zur Sicherheit die Tropfsteinhöhlen-Standardblöcke
+    if (%block_liste == $null) { var %block_liste = Stein.Stein.Bruchstein.Eisenerz.Steinkohleerz }
+
+    var %total_blocks = $numtok(%block_liste, 46)
+    %dropped_block = $gettok(%block_liste, $rand(1, %total_blocks), 46)
+  }
+
+  ; --- HARDNESS-BARRIERE (Hand vs. Stein) ---
+  if (%pick == Hand) && (%dropped_block != Sand) && (%dropped_block != Kies) && (%dropped_block != Erde) && (%dropped_block != Grasblock) {
+    msg $chan ✋ ❌ *Au!* ** %player ** schlägt blind mit den nackten Fäusten gegen harten ** $+ %dropped_block $+ ** und verletzt sich! Du brauchst eine Spitzhacke!
+    halt
+  }
+
+  ; --- 6. GEFAHR UNTER TAGE (15% Chance auf Zufallsbegegnung) ---
+  var %hazard_roll = $rand(1, 100)
+  if (%hazard_roll <= 15) {
+    var %event_roll = $rand(1, 2)
+
+    ; Event 1: Deckeneinsturz (Fallschaden)
+    if (%event_roll == 1) {
+      var %cur_hp = $readini(%file, Stats, CurrentHP)
+      var %new_hp = %cur_hp - 3
+      if (%new_hp < 0) { var %new_hp = 0 }
+
+      writeini %file Stats CurrentHP %new_hp
+      msg $chan 🪨 ⚠️ **EINSTURZ!** Bei %player bricht plötzlich loses Gestein von der Decke! Du erleidest  4 $+ -3 HP  Fallschaden!
+
+      if (%new_hp <= 0) {
+        msg $chan 💀 ** %player ** wurde von herabstürzenden Blöcken lebendig begraben und ist gestorben!
+        ; Hier könnte später euer Respawn-Code greifen
+      }
+      halt
+    }
+    ; Event 2: Monster-Überfall aus der Höhle!
+    else {
+      var %cave_mobs = $readini(%world_db, %biom, Cave_Monsters)
+      if (%cave_mobs == $null) { var %cave_mobs = Zombie.Skelett.Spinne }
+      var %total_mobs = $numtok(%cave_mobs, 46)
+      var %spawned_monster = $gettok(%cave_mobs, $rand(1, %total_mobs), 46)
+
+      msg $chan 🕷️ ⚠️ **HÖHLENDURCHBRUCH!** ** %player ** bricht in einen finsteren Hohlraum durch! Ein wildes ** $+ %spawned_monster $+ ** springt dich schreiend aus der Dunkelheit an!
+      msg $chan ⚔️ *Bereite dich auf den Kampf vor! (Hier startet bald die Kampf-Schleife)*
+      halt
+    }
+  }
+
+  ; --- 7. ERFOLGREICHER ABBAU & DATEN SPEICHERN ---
+  ; Hunger abziehen
+  var %new_food = %current_food - 2
+  writeini %file Stats CurrentFood %new_food
+  ; Neue Tiefe speichern
+  writeini %file Location Y %new_y
+
+  ; Statistik erhöhen
+  var %total_mined = $readini(%file, Stats_Total, Blocks_Mined)
+  inc %total_mined
+  writeini %file Stats_Total Blocks_Mined %total_mined
+
+  ; Gegenstand ins Inventar packen
+  var %player_has = $readini(%file, Inventar, %dropped_block)
+  if (%player_has == $null) { var %player_has = 0 }
+  var %new_inv_amt = %player_has + 1
+  writeini %file Inventar %dropped_block %new_inv_amt
+
+  ; --- 8. AUSGABE IM CHANNEL ---
+  msg $chan ⛏️ **[MINE - %player]** Du holst kräftig aus und gräbst dich tiefer in den Untergrund... ( 5 $+ -2 🍖 )
+  msg $chan 🧱 *Klong!* Du hast **1x %dropped_block ** aus der Wand geschlagen und eingepackt!
+  msg $chan 📍 *Aktuelle Position:*  3 $+ %biom  ╫ 7Y: Höhe:  %new_y
 }

@@ -414,6 +414,10 @@ Saturation=0.0
 
 ; --- DETAILS: BLOCKS ---
 
+[Grasblock]
+Type=Block
+Desc=Ein ganz normaler, mit grünem Gras bewachsener Erdblock der Oberwelt.
+
 [Verstaerkter Tiefenschiefer]
 Type=Blocks
 Desc=Ein extrem widerstandsfaehiger Tiefenschiefer-Block. Kann im Survival-Modus nicht von Kolben bewegt oder als Item erhalten werden.
