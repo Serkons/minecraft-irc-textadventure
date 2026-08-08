@@ -1,0 +1,17 @@
+[Stats]
+Name=Zombifiziertes Piglin
+Type=Neutrales Monster
+Dimension=Nether
+BaseHP=20
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein untoter, halb verrotteter Bewohner des Nethers, der friedlich mit seinem Goldschwert umherwandert, bis sein Rudel angegriffen wird.
+
+[Info]
+Size=Medium
+Drops=Goldbarren.Goldbarren.Verrottetes Fleisch.Verrottetes Fleisch
+
+[Skills]
+Zornhieb=1
+Rudelruf=1
