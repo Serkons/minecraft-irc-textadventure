@@ -1,0 +1,180 @@
+[PlayerSkills]
+Liste=Rundumschlag.Gezielter Schuss.Schildblock.Heilung
+
+[MonsterSkills]
+Zombie=Biss.Kratzen
+Skeleton=Pfeilschuss.Rückzug
+Enderdrache=Drachenatem.Flügelstoß.Kristallheilung
+Wither=Wither-Schuss.Wither-Explosion.Seelen-Absorption
+Warden=Schallschrei.Blattschuss.Dunkelheit
+Breeze_Prime=Windladung.Wirbelsturm.Fallen-Aktivierung
+
+; ========================================================
+;               DETAILS ZU DEN EINZELNEN SKILLS
+; ========================================================
+
+; --- SPIELER SKILLS ---
+[Rundumschlag]
+Type=Schaden
+Target=Gegner
+BaseDamage=3
+ScalingFactor=1.5
+ManaCost=10
+Desc=%caster% führt einen weiten Schwertstreich gegen %target% aus.
+
+[Gezielter Schuss]
+Type=Schaden_Fernkampf
+Target=Gegner
+BaseDamage=4
+ScalingFactor=1.8
+ManaCost=12
+Desc=%caster% spannt den Bogen und trifft eine Schwachstelle von %target%.
+
+[Schildblock]
+Type=Verteidigung
+Target=Selbst
+BlockChance=40
+Duration=1
+ManaCost=5
+Desc=%caster% hebt den Schild, um den nächsten Angriff von %target% abzuwehren.
+
+[Heilung]
+Type=Heilung
+Target=Selbst
+BaseHeal=6
+ScalingFactor=1.2
+ManaCost=15
+Desc=%caster% nutzt heilende Energie, um die eigenen HP zu regenerieren.
+
+; --- MONSTER SKILLS (ZOMBIE & SKELETON) ---
+[Biss]
+Type=Schaden
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.8
+ManaCost=0
+Desc=%caster% stürzt sich nach vorn und versucht, %target% zu beißen.
+
+[Kratzen]
+Type=Schaden
+Target=Spieler
+BaseDamage=3
+ScalingFactor=0.7
+ManaCost=0
+Desc=%caster% fährt mit verrotteten Klauen aus, um %target% tief zu verkratzen.
+
+[Pfeilschuss]
+Type=Schaden_Fernkampf
+Target=Spieler
+BaseDamage=3
+ScalingFactor=0.9
+ManaCost=0
+Desc=%caster% spannt den Bogen und feuert einen klappernden Pfeil auf %target% ab.
+
+[Rückzug]
+Type=Verteidigung
+Target=Selbst
+BlockChance=25
+Duration=1
+ManaCost=0
+Desc=%caster% weicht geschickt zurück, um dem Gegenangriff von %target% zu entgehen.
+
+; --- BOSS SKILLS (ENDERDRACHE) ---
+[Drachenatem]
+Type=Schaden_Dauereffekt
+Target=Spieler
+BaseDamage=5
+ScalingFactor=2.0
+ManaCost=20
+Desc=%caster% speit violettes Drachenfeuer und verhüllt den Boden unter %target%.
+
+[Flügelstoß]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.5
+ManaCost=15
+Desc=Ein wuchtiger Schlag mit dem Flügel von %caster% wirft %target% zurück.
+
+[Kristallheilung]
+Type=Heilung
+Target=Selbst
+BaseHeal=20
+ScalingFactor=0.0
+ManaCost=30
+Desc=%caster% zieht magische Energie aus den Endkristallen, um eigene HP zu heilen.
+
+; --- BOSS SKILLS (WITHER) ---
+[Wither-Schuss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.8
+ManaCost=10
+Desc=%caster% feuert einen düsteren Schädel, der %target% mit dem Wither-Effekt infiziert.
+
+[Wither-Explosion]
+Type=Schaden_AoE
+Target=Spieler
+BaseDamage=10
+ScalingFactor=3.0
+ManaCost=50
+Desc=%caster% löst eine gewaltige Detonation aus, die %target% von den Beinen reißt.
+
+[Seelen-Absorption]
+Type=Heilung_Schaden
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.2
+ManaCost=25
+Desc=%caster% entzieht %target% die Lebensenergie, um sich selbst zu heilen.
+
+; --- BOSS SKILLS (WARDEN) ---
+[Schallschrei]
+Type=Schaden_Unblockbar
+Target=Spieler
+BaseDamage=8
+ScalingFactor=2.5
+ManaCost=30
+Desc=%caster% feuert einen unblockbaren Strahl aus reiner Schallenergie auf %target%.
+
+[Blattschuss]
+Type=Schaden
+Target=Spieler
+BaseDamage=12
+ScalingFactor=3.5
+ManaCost=0
+Desc=%caster% holt mit roher Gewalt aus und verpasst %target% einen vernichtenden Hieb.
+
+[Dunkelheit]
+Type=Effekt
+Target=Spieler
+BaseDamage=0
+ScalingFactor=0.0
+ManaCost=20
+Desc=%caster% hüllt %target% in absolute Finsternis und senkt dessen Trefferchance.
+
+; --- BOSS SKILLS (BREEZE PRIME) ---
+[Windladung]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=2
+ScalingFactor=1.0
+ManaCost=15
+Desc=%caster% schießt eine Windladung, die %target% zurückstößt und verwirrt.
+
+[Wirbelsturm]
+Type=Schaden_Schnell
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.4
+ManaCost=25
+DescEin rasanter Windwirbel von %caster% umgeht die Verteidigung von %target%.
+
+[Fallen-Aktivierung]
+Type=Schaden_Falle
+Target=Spieler
+BaseDamage=6
+ScalingFactor=1.5
+ManaCost=40
+Desc=%caster% löst versteckte Pfeilfallen aus den Kammerwänden gegen %target% aus.
