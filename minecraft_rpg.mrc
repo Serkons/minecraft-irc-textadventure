@@ -72,7 +72,7 @@ on *:TEXT:!register:#: {
 }
 
 ; Befehl per PN (Private Nachricht): !login [Passwort]
-on *:TEXT:!login *?: {
+on *:TEXT:!login*:?: {
   var %player = $nick
   var %input_pass = $2
   var %main_chan = #RPG-Mc
@@ -84,18 +84,27 @@ on *:TEXT:!login *?: {
   }
 
   ; Gespeichertes Passwort via $charfile auslesen und entschlüsseln
-  var %saved_crypt = $readini($charfile(%player), Info, Password)
-  var %decrypted_pass = $decode(%saved_crypt, m)
+  var -s %saved_crypt = $readini($charfile(%player), Info, Password)
+  var -s %decrypted_pass = $decode(%saved_crypt, m)
 
   if (%input_pass == %decrypted_pass) {
     .msg %player ✨ Erfolgreich angemeldet! Du hast nun Voice-Rechte im Channel erhalten. Viel Spaß beim Überleben!
 
-    if ($me on %main_chan) {
+    ; --- STANDORT-DATEN AUS DER CHARAKTERDATEI LESEN ---
+    var %dimension = $readini($charfile(%player), Location, Dimension)
+    var %biom = $readini($charfile(%player), Location, Biom)
+    var %x = $readini($charfile(%player), Location, X)
+    var %y = $readini($charfile(%player), Location, Y)
+    var %z = $readini($charfile(%player), Location, Z)
+
+    if ($me ison %main_chan) {
       mode %main_chan +v %player
+
+      ; Erste Nachricht: Der Spieler betritt den Server
       msg %main_chan 👋 ☀️ ** %player ** hat die Welt betreten und schärft seine Fäuste! Willkommen zurück!
+
+      ; Zweite Nachricht: Die farbliche Standortmeldung ( 03 = Grün,  07 = Orange/Gold,   = Reset)
+      msg %main_chan 📍 [%player] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  07Y:  %y  07Z:  %z
     }
-  }
-  else {
-    .msg %player ❌ Falsches Passwort! Zugriff verweigert.
   }
 }
