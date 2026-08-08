@@ -199,3 +199,34 @@ Allowed_Y=50.100
 Surface_Blocks=Endstein.Endstein.Endstein.Endsteinziegel.Purpurblock
 Surface_Monsters=Enderman.Enderman.Shulker
 Surface_Animals=Kein_Spawn
+
+; ========================================================
+;          GEHEIME & FIXIERTE STRUKTUREN (Feste Posten)
+; ========================================================
+
+[Antike_Stadt]
+Min_X=-50
+Max_X=50
+Min_Z=-50
+Max_Z=50
+Fix_Y=-52
+Dimension=Oberwelt
+Desc=Du bist in eine gewaltige, verlassene Stadt tief unter der Erde gestolpert... Stille umgibt dich, der Warden wacht!
+
+[Ozeanmonument]
+Min_X=800
+Max_X=1000
+Min_Z=400
+Max_Z=600
+Fix_Y=64
+Dimension=Oberwelt
+Desc=Aus den tiefen Wellen ragt ein monumentaler Prismin-Palast auf. Die Wächter haben dich im Visier!
+
+[Waldanwesen]
+Min_X=-1500
+Max_X=-1200
+Min_Z=-1500
+Max_Z=-1200
+Fix_Y=64
+Dimension=Oberwelt
+Desc=Mitten im dichten, dunklen Wald ragt ein gigantisches, unheimliches Holzgebäude auf. Hier hausen die Illager!

@@ -73,6 +73,22 @@ on *:TEXT:!register:#: {
   ; Template kopieren direkt an den Pfad von $charfile
   .copy -o %template $charfile(%player)
 
+  ; --- NEU: ZUFÄLLIGES START-BIOM WÜRFELN ---
+  var %world_db = $mircdirworld.db
+  var %biom_liste = $readini(%world_db, Oberwelt_Biome, Liste)
+  var %total_biomes = $numtok(%biom_liste, 46)
+  var %random_index = $rand(1, %total_biomes)
+  var %start_biom = $gettok(%biom_liste, %random_index, 46)
+
+  ; Daten in die neue Charakterdatei schreiben
+  writeini $charfile(%player) Info Name %player
+  writeini $charfile(%player) Info Password %crypt_pass
+  writeini $charfile(%player) Location Biom %start_biom
+  writeini $charfile(%player) Location X $rand(-1000, 1000)
+  writeini $charfile(%player) Location Z $rand(-1000, 1000)
+
+  msg $chan 📝 %player wurde erfolgreich registriert und ist in einem fernen Biom ( $+ %start_biom $+ ) erwacht! Dein Passwort wurde dir per PN zugeschickt.
+
   ; Daten schreiben mit dem neuen Identifier
   writeini $charfile(%player) Info Name %player
   writeini $charfile(%player) Info Password %crypt_pass
@@ -80,6 +96,74 @@ on *:TEXT:!register:#: {
   msg $chan 📝 %player wurde erfolgreich in der Welt registriert! Dein Passwort wurde dir per PN zugeschickt.
   .msg %player 🗝️ Hallo %player $+ ! Dein generiertes Passwort lautet: ** %pass ** -> Melde dich im Channel an mit: /msg $me !login  %pass  an
 }
+
+; Befehl im Channel: !move
+on *:TEXT:!move:#: {
+  var %player = $nick
+
+  if (!$exists($charfile(%player))) {
+    msg $chan ❌ %player $+ , du musst dich zuerst mit !register registrieren!
+    halt
+  }
+  var %online = $readini($charfile(%player), Info, IsLoggedIn)
+  if (%online != 1) {
+    msg $chan ❌ %player $+ , du musst eingeloggt sein, um dich zu bewegen!
+    halt
+  }
+
+  ; 1. Aktuelle Koordinaten auslesen
+  var %old_x = $readini($charfile(%player), Location, X)
+  var %old_z = $readini($charfile(%player), Location, Z)
+  var %new_y = 64
+
+  ; 2. HIMMELSRICHTUNG & DISTANZ WÜRFELN (30 bis 500 Blöcke)
+  var %dist = $rand(30, 500)
+  var %dir_roll = $rand(1, 4)
+  var %richtung = Norden
+
+  if (%dir_roll == 1) { var %richtung = Norden | var %new_x = %old_x | var %new_z = %old_z + %dist }
+  if (%dir_roll == 2) { var %richtung = Süden | var %new_x = %old_x | var %new_z = %old_z - %dist }
+  if (%dir_roll == 3) { var %richtung = Osten | var %new_x = %old_x + %dist | var %new_z = %old_z }
+  if (%dir_roll == 4) { var %richtung = Westen | var %new_x = %old_x - %dist | var %new_z = %old_z }
+
+  ; 3. STANDARD-BIOM WÜRFELN (Falls kein geheimer Posten getroffen wird)
+  var %world_db = $mircdirworld.db
+  var %biom_liste = $readini(%world_db, Oberwelt_Biome, Liste)
+  var %total_biomes = $numtok(%biom_liste, 46)
+  var %new_biom = $gettok(%biom_liste, $rand(1, %total_biomes), 46)
+  var %entdeckung_text = Du hast ein neues Biom entdeckt:  3 $+ %new_biom
+
+  ; 4. CHECK AUF FIXIERTE POSTEN (Wir prüfen, ob die neuen Koordinaten in eine Struktur fallen)
+
+  ; Check: Antike Stadt
+  if (%new_x >= -50) && (%new_x <= 50) && (%new_z >= -50) && (%new_z <= 50) {
+    var %new_biom = Antike_Stadt
+    var %new_y = -52
+    var %entdeckung_text = 💀 ⚠️ **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Antike_Stadt, Desc)
+  }
+  ; Check: Ozeanmonument
+  elseif (%new_x >= 800) && (%new_x <= 1000) && (%new_z >= 400) && (%new_z <= 600) {
+    var %new_biom = Ozeanmonument
+    var %entdeckung_text = 🔱 🌊 **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Ozeanmonument, Desc)
+  }
+  ; Check: Waldanwesen
+  elseif (%new_x >= -1500) && (%new_x <= -1200) && (%new_z >= -1500) && (%new_z <= -1200) {
+    var %new_biom = Waldanwesen
+    var %entdeckung_text = 🏰 🌲 **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Waldanwesen, Desc)
+  }
+
+  ; 5. Neue Daten abspeichern
+  writeini $charfile(%player) Location Biom %new_biom
+  writeini $charfile(%player) Location X %new_x
+  writeini $charfile(%player) Location Y %new_y
+  writeini $charfile(%player) Location Z %new_z
+
+  ; 6. Ausgabe im Channel ( 12 = Blau,  07 = Gold,   = Reset)
+  msg $chan 🧭 🏃 ** %player ** wandert %dist Blöcke nach  12 $+ %richtung $+  ...
+  msg $chan 🗺️ [ %player ] %entdeckung_text  - Position:  7X:  %new_x  7Y:  %new_y  7Z:  %new_z
+}
+
+
 
 ; Befehl per PN (Private Nachricht): !login [Passwort]
 on *:TEXT:!login*:?: {
