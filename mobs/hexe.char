@@ -1,0 +1,17 @@
+[Stats]
+Name=Hexe
+Type=Spezialmonster
+Dimension=Oberwelt
+BaseHP=26
+Mana=50
+ArmorPoints=0
+ExpDrop=5
+Desc=Eine bösartige, einsiedlerische Magierin aus den Sümpfen, die arglose Reisende mit gefährlichen Gifttränken bewirft und sich selbst im Kampf blitzschnell heilen kann.
+
+[Info]
+Size=Medium
+Drops=Spinnenauge.Schiesspulver.Glowstone-Staub.Redstone-Staub.Zucker.Glasflasche.Stickstoff.Heiltrank.Feuerwiderstandstrank.Wasseratmungstrank.Schnelligkeitstrank.Leere Flasche
+
+[Skills]
+Gifttrank=1
+Heiltrank=1

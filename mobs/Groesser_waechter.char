@@ -1,0 +1,17 @@
+[Stats]
+Name=Grosser Waechter
+Type=Bossmonster
+Dimension=Oberwelt
+BaseHP=80
+Mana=50
+ArmorPoints=4
+ExpDrop=20
+Desc=Der uralte, gigantische Herrscher des Ozeanmonuments. Er verflucht Spieler mit mühsamem Abbauen.
+
+[Info]
+Size=Big
+Drops=Prismarinsplitter.Prismarienkristall.Schwamm.Roher_Kabeljau
+
+[Skills]
+Laserstrahl=3
+Dornenrüstung=2

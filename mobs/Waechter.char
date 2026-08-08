@@ -1,0 +1,17 @@
+[Stats]
+Name=Waechter
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=30
+Mana=30
+ArmorPoints=0
+ExpDrop=10
+Desc=Ein einäugiges, dorniges Unterwasserwesen, das die versunkenen Ozeanmonumente bewacht und Eindringlinge mit einem heißen Laserstrahl röstet.
+
+[Info]
+Size=Medium
+Drops=Prismarinsplitter.Prismarienkristall.Roher Kabeljau
+
+[Skills]
+Laserstrahl=1
+Dornenrüstung=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Boe
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=30
+Mana=40
+ArmorPoints=2
+ExpDrop=10
+Desc=Ein wirbelndes Windwesen aus den Prüfungskammern, das Spieler mit heftigen Windstößen attackiert.
+
+[Info]
+Size=Medium
+Drops=Windladung
+
+[Skills]
+Windstoß=1
+Wirbelsturm=1

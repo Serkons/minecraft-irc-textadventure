@@ -1,0 +1,17 @@
+[Stats]
+Name=Kamel Husk
+Type=Spezialmonster
+Dimension=Oberwelt
+BaseHP=26
+Mana=0
+ArmorPoints=2
+ExpDrop=8
+Desc=Ein ausgetrockneter Wüstenzombie, der gelernt hat, auf einem untoten Kamel zu reiten.
+
+[Info]
+Size=Big
+Drops=Verrottetes_Fleisch.Leder
+
+[Skills]
+Hungerbiss=1
+Niedertrampeln=1

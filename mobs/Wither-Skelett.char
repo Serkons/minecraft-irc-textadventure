@@ -1,0 +1,17 @@
+[Stats]
+Name=Wither-Skelett
+Type=Nethermonster
+Dimension=Nether
+BaseHP=20
+Mana=10
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein verkohltes, hochgewachsenes Knochengerüst aus den tiefen Festungen des Nethers, das Spieler mit einem verfluchten Steinschwert attackiert.
+
+[Info]
+Size=Big
+Drops=Knochen.Kohle.Wither-Skelettschaedel.Steinschwert
+
+[Skills]
+Wither_Schuss=1
+Rückzug=1

@@ -1,4 +1,17 @@
 [MonsterLoot]
+Huhn=Feder.Huhn.Ei
+Kuh=Leder.Rohes_Rindfleisch.Gebratenes_Rindfleisch
+Schaf=Wolle.Rohes_Hammelfleisch
+Schwein=Rohes_Schweinefleisch.Leder
+Kamel=Leder.Weizen
+Allay=Apfel
+Axolotl=Tropenfisch
+Fledermaus=Kein Loot
+Frosch=Schlamm
+Glow_Squid=Leuchtmarsh
+Nautilus=Prüfungsschlüssel
+Dorfbewohner=Smaragd.Brot
+Fahrender_Händler=Smaragd.Leder
 Zombie=Verrottetes Fleisch.Eisenbarren.Karotte.Kartoffel
 Skelett=Knochen.Pfeil.Bogen
 Creeper=Schwarzpulver

@@ -1,0 +1,17 @@
+[Stats]
+Name=Zerstoererischer Husk
+Type=Spezialmonster
+Dimension=Oberwelt
+BaseHP=35
+Mana=0
+ArmorPoints=4
+ExpDrop=12
+Desc=Eine mutierte, riesige Form des Husks. Hinterlässt beim Ableben nur verrottetes Fleisch und Knochen.
+
+[Info]
+Size=Big
+Drops=Verrottetes_Fleisch.Knochen
+
+[Skills]
+Sandsturm_Hieb=1
+Erdrutsch=1

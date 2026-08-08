@@ -1,0 +1,17 @@
+[Stats]
+Name=Spinne
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=16
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein flinkes, achtbeiniges Insekt mit leuchtend roten Augen, das im Dunkeln weite Sprünge macht und Spieler mit klebrigen Netzen behindert.
+
+[Info]
+Size=Medium
+Drops=Faden.Faden.Spinnenauge
+
+[Skills]
+Sprungangriff=1
+Netzwurf=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Zoglin
+Type=Nethermonster
+Dimension=Oberwelt
+BaseHP=40
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein zombifizierter, völlig wild gewordener Hoglin, der in der Oberwelt gelandet ist und blind vor Wut alles attackiert, was sich ihm in den Weg stellt.
+
+[Info]
+Size=Big
+Drops=Verrottetes Fleisch.Schlamm.Schlamm
+
+[Skills]
+Hauerstoß=1
+Ansturm=1

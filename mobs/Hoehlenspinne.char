@@ -1,0 +1,17 @@
+[Stats]
+Name=Hoehlenspinne
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=12
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Eine kleinere, bläuliche Spinnenart, die in den verlassenen Minenschächten nistet und ihre Opfer mit einem extrem giftigen Biss schwächt.
+
+[Info]
+Size=Small
+Drops=Faden.Spinnenauge.Spinnenauge
+
+[Skills]
+Giftbiss=1
+Netzwurf=1

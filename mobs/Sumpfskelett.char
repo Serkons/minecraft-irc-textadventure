@@ -1,0 +1,17 @@
+[Stats]
+Name=Sumpfskelett
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=16
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein von Moos und Pilzen überwuchertes Skelett, das im Sumpf lauert und giftige Pfeile verschießt.
+
+[Info]
+Size=Medium
+Drops=Knochen.Pfeil.Vergifteter_Pfeil
+
+[Skills]
+Giftschuss=1
+Rückzug=1

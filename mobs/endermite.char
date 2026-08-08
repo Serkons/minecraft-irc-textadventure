@@ -1,0 +1,16 @@
+[Stats]
+Name=Endermite
+Type=Standardmonster
+Dimension=Das Ende
+BaseHP=8
+Mana=0
+ArmorPoints=0
+ExpDrop=3
+Desc=Ein winziges, violettes Insekt aus dem Ende, das eine extreme Abneigung gegen Endermen hat.
+
+[Info]
+Size=Small
+Drops=Kein_Loot
+
+[Skills]
+Biss=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Creaking
+Type=Spezialmonster
+Dimension=Oberwelt
+BaseHP=1
+Mana=50
+ArmorPoints=0
+ExpDrop=10
+Desc=Ein hölzerner Albtraum aus dem Fahlwald, der sich nur bewegt, wenn man ihm den Rücken zukehrt. Solange sein Herz im Baum schlägt, ist er nahezu unbesiegbar.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Holzfluch=1
+Herzschutz=1

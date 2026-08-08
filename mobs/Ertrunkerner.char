@@ -1,0 +1,17 @@
+[Stats]
+Name=Ertrunkener
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein im tiefen Wasser lauernder Untoter, der unvorsichtige Schwimmer mit einem gezielten Dreizackwurf attackiert oder versucht, sie unter Wasser zu ertränken.
+
+[Info]
+Size=Medium
+Drops=Verrottetes Fleisch.Verrottetes Fleisch.Kupferbarren.Dreizack.Nautilus-Schale
+
+[Skills]
+Dreizackwurf=1
+Ertränken=1

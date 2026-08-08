@@ -1,0 +1,17 @@
+[Stats]
+Name=Schleim
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=16
+Mana=0
+ArmorPoints=0
+ExpDrop=4
+Desc=Ein hüpfender, giftgrüner Glibberblock aus den feuchten mIRC-Sümpfen, der sich bei einer Niederlage in kleinere, flinke Schleime aufteilt.
+
+[Info]
+Size=Medium
+Drops=Schleimball.Schleimball.Schleimball
+
+[Skills]
+Sprungangriff=1
+Teilung=1

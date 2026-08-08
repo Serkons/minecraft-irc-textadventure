@@ -1,0 +1,17 @@
+[Stats]
+Name=Zombie Nautilus
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=4
+ExpDrop=5
+Desc=Ein Ertrunkener, der eine extrem harte Nautilus-Schale als Schutz und Waffe benutzt.
+
+[Info]
+Size=Medium
+Drops=Verrottetes_Fleisch.Nautilus-Schale
+
+[Skills]
+Wasserbiss=1
+Dreizack_Konter=1
