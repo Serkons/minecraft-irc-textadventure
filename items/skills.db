@@ -2,18 +2,117 @@
 Liste=Rundumschlag.Gezielter Schuss.Schildblock.Heilung.Bergbau_Experte.Holzfaeller_Glueck.Meisterkoch.Eisenhaut.Pfeilregen.Ausdauernd
 
 [MonsterSkills]
+; --- FEINDSELIGE MOBS (Aus deiner Liste mobs_feindselig.txt) ---
 Zombie=Biss.Kratzen
 Skeleton=Pfeilschuss.Rückzug
-Enderdrache=Drachenatem.Flügelstoß.Kristallheilung
-Wither=Wither-Schuss.Wither-Explosion.Seelen-Absorption
-Warden=Schallschrei.Blattschuss.Dunkelheit
-Breeze_Prime=Windladung.Wirbelsturm.Fallen-Aktivierung
+Creeper=Zünden.Explosion
+Spinne=Sprungangriff.Netzwurf
+Höhlenspinne=Giftbiss.Netzwurf
+Drowned=Dreizackwurf.Ertränken
+Witch=Gifttrank.Heiltrank
+Bogged=Giftschuss.Rückzug
+Breeze=Windstoß.Wirbelsturm
+Evoker=Vex-Beschwörung.Fangzähne
+Ghast=Feuerball.Schrei
+Guardian=Laserstrahl.Dornenrüstung
+Hoglin=Hauerstoß.Ansturm
+Husk=Hungerbiss.Schwerer Hieb
+Magma_Cube=Schwerer Sprung.Teilung
+Phantom=Sturzkampf.Kreischen
+Piglin_Brute=Axtschlag.Wutanfall
+Pillager=Armbrustschuss.Nachladen
+Ravager=Ramme.Brüllen
+Shulker=Levitationsgeschoss.Panzerung
+Silverfish=Biss.Verstärkung
+Stray=Verlangsamungsschuss.Rückzug
+Vex=Geisterhieb.Flugangriff
+Vindicator=Axtstreich.Sprint
+Zombie_Villager=Infizierter Biss.Kratzen
+
+; --- NEUTRALE MOBS (Aus deiner Liste mobs_neutral.txt) ---
+Biene=Stich.Giftopfer
+Delfin=Strömungsstoß.Spieltrieb
+Enderman=Teleport-Schlag.Starren
+Zombifiziertes_Piglin=Zornhieb.Rudelruf
+Ziege=Ramme.Sprung
+Eisbär=Prankenhieb.Brüllen
+Gürteltier=Einrollen.Panzerung
+Eisengolem=Aufwärtshaken.Beschützen
+Lama=Spucken.Trampeln
+Panda=Wälzen.Niesen
+Piglin=Goldschuss.Handelstrick
+Schneegolem=Schneeballwurf.Rückzug
+Wolf=Beißen.Rudelangriff
+
+; --- FRIEDLICHE MOBS (Aus deiner Liste mobs_friedlich.txt) ---
+Allay=Gegenstandsheilung.Tanz
+Axolotl=Totstellen.Regenerationshilfe
+Fledermaus=Flatterflug.Echolot
+Kamel=Sitzblock.Niedertrampeln
+Katze=Fauchschreck.Katzenpfote
+Huhn=Flatterflucht.Pickhieb
+Kabeljau=Flucht
+Kuh=Paniklauf.Hufschlag
+Esel=Lastentrag.Flucht
+Fuchs=Hechtsprung.Beutediebstahl
+Leuchtmarsh=Leuchtspur.Flucht
+Frosch=Zungenwurf.Sprung
+Glow_Squid=Tintenwolke.Leuchten
+Pferd=Wiehern.Tritt
+Maultier=Lastentrag.Flucht
+Pilzkuh=Suppenspende.Flucht
+Ozelot=Tarnung.Sprintflucht
+Papagei=Nachahmung.Ablenkung
+Schwein=Schlammwälzen.Flucht
+Kugelfisch=Aufblasen.Stachelberührung
+Kaninchen=Haken schlagen.Flucht
+Lachs=Flucht
+Schaf=Wollschild.Flucht
+Sniffer=Eiersuche.Bodenwühlen
+Tintenfisch=Tintenwolke.Flucht
+Schildkröte=Panzer-Rückzug.Strömungsflucht
+Tropenfisch=Flucht
+Dorfbewohner=Handelsangebot.Panik
+Fahrender_Händler=Unsichtbarkeitstrank.Lama-Schutz
+
 
 ; ========================================================
 ;               DETAILS ZU DEN EINZELNEN SKILLS
 ; ========================================================
 
-; --- NEUE SPEZIAL- & SAMMELSKILLS (SPIELER) ---
+; --- SPIELER SKILLS ---
+[Rundumschlag]
+Type=Schaden
+Target=Gegner
+BaseDamage=3
+ScalingFactor=1.5
+ManaCost=10
+Desc=%caster% führt einen weiten Schwertstreich gegen %target% aus.
+
+[Gezielter Schuss]
+Type=Schaden_Fernkampf
+Target=Gegner
+BaseDamage=4
+ScalingFactor=1.8
+ManaCost=12
+Desc=%caster% spannt den Bogen und trifft eine Schwachstelle von %target%.
+
+[Schildblock]
+Type=Verteidigung
+Target=Selbst
+BlockChance=40
+Duration=1
+ManaCost=5
+Desc=%caster% hebt den Schild, um den nächsten Angriff von %target% abzuwehren.
+
+[Heilung]
+Type=Heilung
+Target=Selbst
+BaseHeal=6
+ScalingFactor=1.2
+ManaCost=15
+Desc=%caster% nutzt heilende Energie, um die eigenen HP zu regenerieren.
+
 [Bergbau_Experte]
 Type=Passiv_Sammeln
 Target=Selbst
@@ -53,40 +152,66 @@ Target=Selbst
 ManaRegenBonus=2
 Desc=Erhöht die passive Manaregeneration von %caster% in jeder Kampfrunde um +2.
 
-; --- SPIELER SKILLS ---
-[Rundumschlag]
-Type=Schaden
-Target=Gegner
-BaseDamage=3
-ScalingFactor=1.5
-ManaCost=10
-Desc=%caster% führt einen weiten Schwertstreich gegen %target% aus.
-
-[Gezielter Schuss]
+; --- ILLAGER & SAQUEADOR (PILLAGER, VINDICATOR, EVOKER, RAVAGER) ---
+[Armbrustschuss]
 Type=Schaden_Fernkampf
-Target=Gegner
+Target=Spieler
 BaseDamage=4
-ScalingFactor=1.8
-ManaCost=12
-Desc=%caster% spannt den Bogen und trifft eine Schwachstelle von %target%.
-
-[Schildblock]
-Type=Verteidigung
-Target=Selbst
-BlockChance=40
-Duration=1
-ManaCost=5
-Desc=%caster% hebt den Schild, um den nächsten Angriff von %target% abzuwehren.
-
-[Heilung]
-Type=Heilung
-Target=Selbst
-BaseHeal=6
 ScalingFactor=1.2
-ManaCost=15
-Desc=%caster% nutzt heilende Energie, um die eigenen HP zu regenerieren.
+ManaCost=0
+Desc=%caster% zielt sorgfältig mit der Armbrust und feuert einen Bolzen auf %target% ab.
 
-; --- MONSTER SKILLS (ZOMBIE & SKELETON) ---
+[Nachladen]
+Type=Vorbereitung
+Target=Selbst
+ManaCost=0
+Desc=%caster% weicht ein Stück zurück, um die schwere Armbrust für den nächsten Schuss zu spannen.
+
+[Axtstreich]
+Type=Schaden_Schwer
+Target=Spieler
+BaseDamage=7
+ScalingFactor=2.0
+ManaCost=0
+Desc=%caster% rennt wütend nach vorn und verpasst %target% einen schweren Hieb mit der Eisenaxt.
+
+[Sprint]
+Type=Geschwindigkeit
+Target=Selbst
+BlockChance=30
+Duration=1
+Desc=%caster% erhöht das Tempo dramatisch, um dem Gegenangriff von %target% auszuweichen.
+
+[Vex-Beschwörung]
+Type=Beschwörung
+Target=Spieler
+ManaCost=30
+Desc=%caster% stößt einen dunklen Gesang aus und beschwört boshafte Vexe, um %target% zu attackieren!
+
+[Fangzähne]
+Type=Schaden_Magie
+Target=Spieler
+BaseDamage=6
+ScalingFactor=1.8
+ManaCost=20
+Desc=%caster% beschwört eine Reihe scharfkantiger magischer Fangzähne aus dem Boden unter %target%.
+
+[Ramme]
+Type=Schaden_Wuchtig
+Target=Spieler
+BaseDamage=10
+ScalingFactor=2.5
+ManaCost=0
+Desc=Das gewaltige %caster% stürmt los und rammt %target% mit dem gepanzerten Kopf weg.
+
+[Brüllen]
+Type=AoE_Effekt
+Target=Spieler
+StatusEffect=Dunkelheit
+EffectChance=60
+Desc=Das ohrenbetäubende Brüllen von %caster% schüttelt %target% durch und senkt dessen Sicht.
+
+; --- FEINDSELIGE STANDARD MOBS & NETHER/END VARIANTEN ---
 [Biss]
 Type=Schaden
 Target=Spieler
@@ -119,102 +244,509 @@ Duration=1
 ManaCost=0
 Desc=%caster% weicht geschickt zurück, um dem Gegenangriff von %target% zu entgehen.
 
-; --- BOSS SKILLS (ENDERDRACHE) ---
-[Drachenatem]
-Type=Schaden_Dauereffekt
-Target=Spieler
-BaseDamage=5
-ScalingFactor=2.0
-ManaCost=20
-Desc=%caster% speit violettes Drachenfeuer und verhüllt den Boden unter %target%.
-
-[Flügelstoß]
-Type=Schaden_Effekt
-Target=Spieler
-BaseDamage=4
-ScalingFactor=1.5
-ManaCost=15
-Desc=Ein wuchtiger Schlag mit dem Flügel von %caster% wirft %target% zurück.
-
-[Kristallheilung]
-Type=Heilung
+[Zünden]
+Type=Vorbereitung
 Target=Selbst
-BaseHeal=20
-ScalingFactor=0.0
-ManaCost=30
-Desc=%caster% zieht magische Energie aus den Endkristallen, um eigene HP zu heilen.
+ManaCost=0
+Desc=%caster% fängt gefährlich an zu zischen und bereitet eine Explosion vor!
 
-; --- BOSS SKILLS (WITHER) ---
-[Wither-Schuss]
-Type=Schaden_Effekt
+[Explosion]
+Type=Schaden_Massiv
 Target=Spieler
-BaseDamage=4
-ScalingFactor=1.8
-ManaCost=10
-Desc=%caster% feuert einen düsteren Schädel, der %target% mit dem Wither-Effekt infiziert.
+BaseDamage=18
+ScalingFactor=4.0
+ManaCost=0
+Desc=%caster% explodiert mit einer gewaltigen Wucht vor %target%!
 
-[Wither-Explosion]
-Type=Schaden_AoE
-Target=Spieler
-BaseDamage=10
-ScalingFactor=3.0
-ManaCost=50
-Desc=%caster% löst eine gewaltige Detonation aus, die %target% von den Beinen reißt.
-
-[Seelen-Absorption]
-Type=Heilung_Schaden
-Target=Spieler
-BaseDamage=3
-ScalingFactor=1.2
-ManaCost=25
-Desc=%caster% entzieht %target% die Lebensenergie, um sich selbst zu heilen.
-
-; --- BOSS SKILLS (WARDEN) ---
-[Schallschrei]
-Type=Schaden_Unblockbar
-Target=Spieler
-BaseDamage=8
-ScalingFactor=2.5
-ManaCost=30
-Desc=%caster% feuert einen unblockbaren Strahl aus reiner Schallenergie auf %target%.
-
-[Blattschuss]
+[Sprungangriff]
 Type=Schaden
 Target=Spieler
-BaseDamage=12
-ScalingFactor=3.5
+BaseDamage=3
+ScalingFactor=1.0
 ManaCost=0
-Desc=%caster% holt mit roher Gewalt aus und verpasst %target% einen vernichtenden Hieb.
+Desc=%caster% springt aus dem Hinterhalt auf %target% zu.
 
-[Dunkelheit]
+[Netzwurf]
 Type=Effekt
 Target=Spieler
-BaseDamage=0
-ScalingFactor=0.0
-ManaCost=20
-Desc=%caster% hüllt %target% in absolute Finsternis und senkt dessen Trefferchance.
+StatusEffect=Dunkelheit
+EffectChance=50
+Desc=%caster% wirft ein klebriges Spinnennetz und schränkt die Sicht von %target% ein.
 
-; --- BOSS SKILLS (BREEZE PRIME) ---
-[Windladung]
+[Giftbiss]
 Type=Schaden_Effekt
 Target=Spieler
 BaseDamage=2
-ScalingFactor=1.0
+ScalingFactor=0.8
+StatusEffect=Vergiftung
+EffectChance=100
+Desc=%caster% beißt %target% mit giftigen Klauen!
+
+[Dreizackwurf]
+Type=Schaden_Fernkampf
+Target=Spieler
+BaseDamage=5
+ScalingFactor=1.5
+ManaCost=0
+Desc=%caster% schleudert einen knisternden Dreizack auf %target%.
+
+[Ertränken]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.1
+ManaCost=0
+Desc=%caster% zieht %target% unter Wasser, wodurch die Luft knapp wird.
+
+[Gifttrank]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=1
+ScalingFactor=0.5
+ManaCost=20
+StatusEffect=Vergiftung
+EffectChance=100
+Desc=%caster% wirft einen brodelnden Trank der Vergiftung auf %target%.
+
+[Heiltrank]
+Type=Heilung
+Target=Selbst
+BaseHeal=10
+ScalingFactor=1.5
 ManaCost=15
-Desc=%caster% schießt eine Windladung, die %target% zurückstößt und verwirrt.
+Desc=%caster% trinkt hastig einen Trank der Heilung.
+
+[Giftschuss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.0
+StatusEffect=Vergiftung
+EffectChance=40
+Desc=%caster% verschießt einen modrigen Giftpfeil auf %target%.
+
+[Windstoß]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.8
+ManaCost=0
+Desc=%caster% entfesselt eine Böe, die %target% nach hinten wirft.
 
 [Wirbelsturm]
 Type=Schaden_Schnell
 Target=Spieler
 BaseDamage=4
-ScalingFactor=1.4
-ManaCost=25
-DescEin rasanter Windwirbel von %caster% umgeht die Verteidigung von %target%.
+ScalingFactor=1.2
+Desc=%caster% wirbelt Staub und Wind auf, um die Deckung von %target% zu durchbrechen.
 
-[Fallen-Aktivierung]
-Type=Schaden_Falle
+[Feuerball]
+Type=Schaden_Fernkampf
 Target=Spieler
 BaseDamage=6
+ScalingFactor=2.0
+StatusEffect=Brennen
+EffectChance=50
+Desc=%caster% öffnet das Maul und speit ein explosives Feuerprojektil auf %target%.
+
+[Schrei]
+Type=Effekt
+Target=Spieler
+Desc=Das markerschütternde Jammern von %caster% lässt %target% erzittern.
+
+[Laserstrahl]
+Type=Schaden_Magie
+Target=Spieler
+BaseDamage=4
 ScalingFactor=1.5
-ManaCost=40
-Desc=%caster% löst versteckte Pfeilfallen aus den Kammerwänden gegen %target% aus.
+Desc=%caster% lädt das Auge auf und feuert einen heißen Energiestrahl auf %target%.
+
+[Dornenrüstung]
+Type=Konter
+Target=Spieler
+BlockChance=15
+BaseDamage=2
+Desc=Die scharfen Stacheln von %caster% schlagen einen Teil des Schadens auf %target% zurück.
+
+[Hauerstoß]
+Type=Schaden_Wuchtig
+Target=Spieler
+BaseDamage=5
+ScalingFactor=1.6
+Desc=%caster% senkt den Kopf und stößt %target% mit den mächtigen Hauern weg.
+
+[Ansturm]
+Type=Geschwindigkeit
+Target=Selbst
+BlockChance=20
+Desc=%caster% scharrt mit den Hufen und stürmt unaufhaltsam nach vorn.
+
+[Hungerbiss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=3
+ScalingFactor=0.9
+StatusEffect=Vergiftung
+EffectChance=50
+Desc=Der ausgetrocknete %caster% beißt %target% und entzieht wertvolle Ausdauer.
+
+[Schwerer Hieb]
+Type=Schaden
+Target=Spieler
+BaseDamage=5
+ScalingFactor=1.2
+Desc=%caster% lässt seine schweren Arme auf %target% niederkrachen.
+
+[Schwerer Sprung]
+Type=Schaden_Flächenschaden
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.1
+StatusEffect=Brennen
+EffectChance=30
+Desc=Der kochende %caster% springt hoch und versucht, %target% zu erdrücken.
+
+[Teilung]
+Type=Spezial_Passiv
+Target=Selbst
+Desc=Bei einer Niederlage teilt sich %caster% in kleinere Ausgaben auf.
+
+[Sturzkampf]
+Type=Schaden_Schnell
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.3
+Desc=%caster% stößt kreischend aus dem Nachthimmel herab und reißt an %target%.
+
+[Kreischen]
+Type=Effekt
+Target=Spieler
+Desc=Das hohe Kreischen von %caster% stört die Konzentration von %target%.
+
+[Axtschlag]
+Type=Schaden_Massiv
+Target=Spieler
+BaseDamage=9
+ScalingFactor=2.5
+Desc=Der brutale %caster% schlägt gnadenlos mit der Goldaxt auf %target% ein.
+
+[Wutanfall]
+Type=Angriffskraft_Bonus
+Target=Selbst
+Duration=2
+Desc=%caster% verfällt in Raserei, was den Schaden der nächsten Angriffe drastisch erhöht.
+
+[Levitationsgeschoss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.0
+Desc=%caster% feuert eine magische Kugel ab. Bei einem Treffer fängt %target% an zu schweben!
+
+[Panzerung]
+Type=Verteidigung
+Target=Selbst
+BlockChance=50
+Desc=%caster% schließt seine harte Kiste und verringert den erlittenen Schaden massiv.
+
+[Verstärkung]
+Type=Beschwörung
+Target=Spieler
+Desc=%caster% ruft durch lautes Rascheln weitere Silberfische aus den umliegenden Blöcken herbei.
+
+[Verlangsamungsschuss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=3
+ScalingFactor=0.9
+StatusEffect=Dunkelheit
+EffectChance=100
+Desc=%caster% verschießt einen eisigen Pfeil, der die Bewegungen von %target% einfriert.
+
+[Geisterhieb]
+Type=Schaden_Magie
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.1
+Desc=Das schwebende %caster% gleitet durch Wände und attackiert %target% mit dem Schwert.
+
+[Flugangriff]
+Type=Geschwindigkeit
+Target=Selbst
+BlockChance=30
+Desc=%caster% fliegt in engen Kurven um %target%, um Schlägen auszuweichen.
+
+[Infizierter Biss]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=3
+ScalingFactor=1.0
+StatusEffect=Vergiftung
+EffectChance=60
+Desc=Der kranke %caster% schnappt nach %target% und versucht, den Virus zu übertragen.
+
+; --- NEUTRALE MOBS ---
+[Stich]
+Type=Schaden_Effekt
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.5
+StatusEffect=Vergiftung
+EffectChance=100
+Desc=%caster% sticht mit dem Stachel zu und infiziert %target% mit Gift.
+
+[Giftopfer]
+Type=Spezial_Tod
+Target=Spieler
+Desc=%caster% verliert nach dem Stich den Stachel und opfert sich für den Schwarm.
+
+[Strömungsstoß]
+Type=Schaden
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.6
+Desc=%caster% springt aus den Wellen und rammt %target% mit der Schnauze.
+
+[Spieltrieb]
+Type=Effekt_Bonus
+Target=Selbst
+Desc=%caster% schwimmt elegant umher und erhöht die Angriffsgeschwindigkeit.
+
+[Teleport-Schlag]
+Type=Schaden_Spezial
+Target=Spieler
+BaseDamage=6
+ScalingFactor=2.0
+Desc=%caster% teleportiert sich hinter %target% und schlägt unerwartet zu.
+[Starren]
+Type=Effekt
+Target=Spieler
+Desc=Der unheimliche Blick von %caster% lässt %target% vor Schreck erstarren.
+
+[Zornhieb]
+Type=Schaden
+Target=Spieler
+BaseDamage=5
+ScalingFactor=1.5
+Desc=%caster% hebt das Goldschwert und schlägt wild auf %target% ein.
+
+[Rudelruf]
+Type=Beschwörung
+Target=Spieler
+Desc=%caster% stößt einen gurgelnden Schrei aus, der alle Schweinezombies der Umgebung alarmiert!
+
+[Ramme]
+Type=Schaden_Wuchtig
+Target=Spieler
+BaseDamage=5
+ScalingFactor=1.4
+Desc=%caster% nimmt Anlauf und rammt %target% mit den harten Hörnern.
+
+[Sprung]
+Type=Verteidigung
+Target=Selbst
+BlockChance=40
+Desc=%caster% springt hoch auf einen Felsen, um dem Angriff zu entgehen.
+
+[Prankenhieb]
+Type=Schaden_Schwer
+Target=Spieler
+BaseDamage=8
+ScalingFactor=1.6
+Desc=%caster% stellt sich auf die Hinterbeine und verpasst %target% einen schweren Prankenhieb.
+
+[Einrollen]
+Type=Verteidigung
+Target=Selbst
+BlockChance=70
+Desc=%caster% rollt sich zu einer harten Kugel zusammen. Fast immun gegen normalen Schaden!
+
+[Aufwärtshaken]
+Type=Schaden_Wuchtig
+Target=Spieler
+BaseDamage=15
+ScalingFactor=3.0
+Desc=%caster% schleudert %target% mit einem brutalen Aufwärtshaken in die Luft!
+
+[Beschützen]
+Type=Verteidigung
+Target=Selbst
+BlockChance=50
+Duration=1
+Desc=%caster% stellt sich schützend vor das Dorf.
+
+[Goldschuss]
+Type=Schaden_Fernkampf
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.1
+Desc=%caster% zieht die Armbrust und feuert einen glänzenden Bolzen auf %target% ab.
+
+[Handelstrick]
+Type=Ablenkung
+Target=Spieler
+Desc=%caster% raschelt mit Goldbarren, um %target% kurzzeitig zu verwirren.
+
+[Schneeballwurf]
+Type=Schaden_Gering
+Target=Spieler
+BaseDamage=1
+ScalingFactor=0.2
+Desc=%caster% wirft einen eisigen Schneeball auf %target%, der leicht zurückstößt.
+
+[Beißen]
+Type=Schaden
+Target=Spieler
+BaseDamage=4
+ScalingFactor=1.2
+Desc=Ein zorniger %caster% verbeißt sich im Bein von %target%.
+
+[Rudelangriff]
+Type=Schaden_Schnell
+Target=Spieler
+BaseDamage=6
+ScalingFactor=1.8
+Desc=%caster% ruft sein Rudel herbei, um %target% gemeinsam zu attackieren.
+
+; --- FRIEDLICHE MOBS ---
+[Gegenstandsheilung]
+Type=Heilung
+Target=Spieler
+BaseHeal=5
+Desc=%caster% bringt ein glänzendes Item vorbei, das deine Wunden leicht schließt.
+
+[Tanz]
+Type=Ablenkung
+Target=Gegner
+Desc=%caster% tanzt fröhlich in der Luft und lenkt den Angreifer ab.
+
+[Totstellen]
+Type=Verteidigung_Spezial
+Target=Selbst
+BlockChance=80
+Desc=%caster% lässt sich auf den Boden sinken und stellt sich tot. Gegner verlieren das Interesse.
+
+[Regenerationshilfe]
+Type=Effekt_Heilung
+Target=Spieler
+StatusEffect=Regeneration
+EffectChance=100
+Desc=%caster% verströmt eine beruhigende Aura, die deine Wunden schließt.
+
+[Flatterflug]
+Type=Verteidigung
+Target=Selbst
+BlockChance=50
+Desc=%caster% fliegt unvorhersehbar im Zickzack durch die Höhle.
+
+[Sitzblock]
+Type=Verteidigung
+Target=Selbst
+BlockChance=40
+Desc=%caster% setzt sich stur auf den Boden und blockiert den Weg.
+
+[Niedertrampeln]
+Type=Schaden
+Target=Spieler
+BaseDamage=4
+ScalingFactor=0.8
+Desc=Das riesige %caster% macht einen Satz nach vorn und trampelt über %target%.
+
+[Fauchschreck]
+Type=Ablenkung
+Target=Gegner
+Desc=%caster% macht einen Buckel und faucht wild. Vertreibt vor allem Creeper und Phantome!
+
+[Flatterflucht]
+Type=Flucht_Verteidigung
+Target=Selbst
+BlockChance=35
+Desc=%caster% flattert wild mit den Flügeln und erschwert es %target% zu treffen.
+
+[Pickhieb]
+Type=Schaden_Gering
+Target=Spieler
+BaseDamage=1
+ScalingFactor=0.1
+Desc=%caster% pickt panisch nach den Füßen von %target%.
+
+[Flucht]
+Type=Flucht
+Target=Selbst
+BlockChance=40
+Desc=%caster% spürt die Gefahr und flieht mit maximaler Geschwindigkeit!
+
+[Paniklauf]
+Type=Flucht_Verteidigung
+Target=Selbst
+BlockChance=40
+Desc=%caster% rennt laut muhend im Kreis, wodurch %target% das Ziel verfehlt.
+
+[Hufschlag]
+Type=Schaden_Gering
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.3
+Desc=%caster% tritt im Weglaufen panisch nach hinten aus und trifft %target%.
+
+[Lastentrag]
+Type=Verteidigung_Bonus
+Target=Selbst
+Desc=%caster% schüttelt die Truhen auf seinem Rücken und fängt den Schlag ab.
+
+[Hechtsprung]
+Type=Flucht_Spezial
+Target=Selbst
+BlockChance=45
+Desc=%caster% macht einen weiten Satz ins Gebüsch und weicht %target% geschickt aus.
+
+[Beutediebstahl]
+Type=Spezial_Effekt
+Target=Spieler
+Desc=%caster% lenkt %target% ab und schnappt sich ein Item aus dem Sichtfeld.
+
+[Zungenwurf]
+Type=Schaden
+Target=Gegner
+BaseDamage=3
+Desc=%caster% schnellt mit der langen Zunge nach vorn. Verschlingt kleine Schleime sofort!
+
+[Tintenwolke]
+Type=Ablenkung_Effekt
+Target=Gegner
+StatusEffect=Dunkelheit
+EffectChance=100
+Desc=%caster% stößt eine tiefschwarze Tintenwolke aus und flieht im Schutz der Dunkelheit!
+
+[Wollschild]
+Type=Verteidigung
+Target=Selbst
+BlockChance=30
+Desc=%caster% zieht den Kopf ein. Die dicke Wolle dämpft den Schlag von %target%.
+
+[Schlammwälzen]
+Type=Verteidigung
+Target=Selbst
+BlockChance=25
+Desc=%caster% wirft sich in den Schlamm. Die Dreckschicht schützt vor Schaden.
+
+[Aufblasen]
+Type=Konter_Effekt
+Target=Spieler
+BlockChance=20
+BaseDamage=3
+StatusEffect=Vergiftung
+EffectChance=100
+Desc=%caster% bläht sich prall auf und streckt die giftigen Stacheln in Richtung %target%!
+
+[Panzer-Rückzug]
+Type=Verteidigung
+Target=Selbst
+BlockChance=60
+Desc=%caster% zieht sich komplett in seine harte Schale zurück. Absolut unantastbar!
+
+[Strömungsflucht]
+Type=Flucht
+Target=Selbst
+BlockChance=50
+Desc=%caster% nutzt eine schnelle Unterwasserströmung, um %target% zu entkommen.
