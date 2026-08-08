@@ -152,7 +152,7 @@ on *:TEXT:!logout:#: {
   writeini $charfile(%player) Info IsLoggedIn 0
 
   ; 4. Voice-Rechte im Channel entziehen und Verabschiedung ausgeben
-  if ($me on %main_chan) {
+  if ($me ison %main_chan) {
     mode %main_chan -v %player
     msg %main_chan 💤 ** %player ** hat sein Lager aufgeschlagen und sich abgemeldet. Bis zum nächsten Mal!
   }
