@@ -1,12 +1,9 @@
-; =========================================================================
-; ⛏️ MINECRAFT IRC-TEXTADVENTURE - HAUPTSKRIPT (v1.21.11)
-; =========================================================================
-
 ; -------------------------------------------------------------------------
 ; 📁 CUSTOM IDENTIFIER (Gibt den Pfad zur Spieler-Charakterdatei zurück)
 ; -------------------------------------------------------------------------
 alias charfile {
-  return $mircdirdatabase\ $+ $1 $+ .char
+  ; $mircdir liefert "C:\Steve\" -> wir hängen "database\" und den Dateinamen an
+  return $mircdir $+ database\ $+ $1 $+ .char
 }
 
 ; -------------------------------------------------------------------------
@@ -39,10 +36,10 @@ alias mcrpg_time_cycle {
 ; 🔐 2. REGISTRIERUNGS- & LOGIN-SYSTEM (Mit integriertem $charfile-Alias)
 ; -------------------------------------------------------------------------
 
-; Befehl im Channel: !register
 on *:TEXT:!register:#: {
   var %player = $nick
-  var %template = $mircdirdatabase\player_template.char
+  ; Auch hier den Backslash zwischen $mircdir und database entfernen!
+  var %template = $mircdir $+ database\spieler_template.char
 
   ; Prüfen, ob der Spieler bereits eine Datei besitzt via $charfile
   if ($exists($charfile(%player))) {
@@ -68,14 +65,14 @@ on *:TEXT:!register:#: {
   writeini $charfile(%player) Info Password %crypt_pass
 
   msg $chan 📝 %player wurde erfolgreich in der Welt registriert! Dein Passwort wurde dir per PN zugeschickt.
-  .msg %player 🗝️ Hallo %player $+ ! Dein generiertes Passwort lautet: ** %pass ** -> Melde dich im Channel an mit: `/msg $me !login %pass`
+  .msg %player 🗝️ Hallo %player $+ ! Dein generiertes Passwort lautet: ** %pass ** -> Melde dich im Channel an mit: /msg $me !login  %pass  an
 }
 
 ; Befehl per PN (Private Nachricht): !login [Passwort]
 on *:TEXT:!login *?: {
   var %player = $nick
   var %input_pass = $2
-  var %main_chan = #EuerHauptKanalName ; <-- HIER DEINEN CHANNEL-NAMEN EINTRAGEN
+  var %main_chan = #RPG-Mc
 
   ; Prüfen via $charfile, ob eine Charakterdatei existiert
   if (!$exists($charfile(%player))) {

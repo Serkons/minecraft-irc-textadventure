@@ -4,9 +4,12 @@ GlobalMultiplier=1.0
 WorldAgeDays=1
 
 [Environment]
-TimeOfDay=Tag
+TimeOfDay=Nacht
 Weather=Klar
 
 [Spawns]
 MaxMobsPerArea=5
 GlobalDifficultyFactor=1.0
+
+[Settings,]
+WorldAgeDays=2
