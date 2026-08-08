@@ -133,24 +133,36 @@ on *:TEXT:!move:#: {
   var %new_biom = $gettok(%biom_liste, $rand(1, %total_biomes), 46)
   var %entdeckung_text = Du hast ein neues Biom entdeckt:  3 $+ %new_biom
 
-  ; 4. CHECK AUF FIXIERTE POSTEN (Wir prüfen, ob die neuen Koordinaten in eine Struktur fallen)
+  ; --- 4. CHECK AUF UNENDLICHE STRUKTUREN (Raster-Logik) ---
 
-  ; Check: Antike Stadt
-  if (%new_x >= -50) && (%new_x <= 50) && (%new_z >= -50) && (%new_z <= 50) {
+  ; Wir berechnen den Restwert (Modulo) für ein 2500-Blöcke-Raster auf der Karte
+  ; $calc(Wert \\ 2500) gibt uns immer die Position innerhalb des aktuellen Kartenabschnitts
+  var %mod_x = $calc(%new_x \\ 2500)
+  var %mod_z = $calc(%new_z \\ 2500)
+
+  ; Da Modulo im Minusbereich negativ sein kann, machen wir die Werte absolut (immer positiv)
+  if (%mod_x < 0) { var %mod_x = %mod_x + 2500 }
+  if (%mod_z < 0) { var %mod_z = %mod_z + 2500 }
+
+  ; Check 1: ANTIKE STADT (Taucht in jedem Rasterabschnitt nahe der Sektoren-Mitte auf)
+  if (%mod_x >= 1200) && (%mod_x <= 1300) && (%mod_z >= 1200) && (%mod_z <= 1300) {
     var %new_biom = Antike_Stadt
     var %new_y = -52
-    var %entdeckung_text = 💀 ⚠️ **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Antike_Stadt, Desc)
+    var %entdeckung_text = 💀 ⚠️ **GEHEIMER ORT ENTDECKT:** Du bist in eine gewaltige, verlassene Stadt tief unter der Erde gestolpert... Stille umgibt dich, der Warden wacht!
   }
-  ; Check: Ozeanmonument
-  elseif (%new_x >= 800) && (%new_x <= 1000) && (%new_z >= 400) && (%new_z <= 600) {
+
+  ; Check 2: OZEANMONUMENT (Taucht in jedem Rasterabschnitt auf)
+  if (%mod_x >= 400) && (%mod_x <= 600) && (%mod_z >= 1600) && (%mod_z <= 1800) {
     var %new_biom = Ozeanmonument
-    var %entdeckung_text = 🔱 🌊 **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Ozeanmonument, Desc)
+    var %entdeckung_text = 🔱 🌊 **GEHEIMER ORT ENTDECKT:** Aus den tiefen Wellen ragt ein monumentaler Prismin-Palast auf. Die Wächter haben dich im Visier!
   }
-  ; Check: Waldanwesen
-  elseif (%new_x >= -1500) && (%new_x <= -1200) && (%new_z >= -1500) && (%new_z <= -1200) {
+
+  ; Check 3: WALDANWESEN (Taucht seltener auf, da das Fenster kleiner ist)
+  if (%mod_x >= 2100) && (%mod_x <= 2200) && (%mod_z >= 200) && (%mod_z <= 300) {
     var %new_biom = Waldanwesen
-    var %entdeckung_text = 🏰 🌲 **GEHEIMER ORT ENTDECKT:** $readini(%world_db, Waldanwesen, Desc)
+    var %entdeckung_text = 🏰 🌲 **GEHEIMER ORT ENTDECKT:** Mitten im dichten, dunklen Wald ragt ein gigantisches, unheimliches Holzgebäude auf. Hier hausen die Illager!
   }
+
 
   ; 5. Neue Daten abspeichern
   writeini $charfile(%player) Location Biom %new_biom

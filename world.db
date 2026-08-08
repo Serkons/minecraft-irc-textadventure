@@ -212,6 +212,9 @@ Max_Z=50
 Fix_Y=-52
 Dimension=Oberwelt
 Desc=Du bist in eine gewaltige, verlassene Stadt tief unter der Erde gestolpert... Stille umgibt dich, der Warden wacht!
+Mine_Blocks=Tiefenschiefer.Tiefenschiefer.Skulk-Katalysator
+Surface_Monsters=Warden
+Surface_Animals=Kein_Tier
 
 [Ozeanmonument]
 Min_X=800
@@ -221,6 +224,9 @@ Max_Z=600
 Fix_Y=64
 Dimension=Oberwelt
 Desc=Aus den tiefen Wellen ragt ein monumentaler Prismin-Palast auf. Die Wächter haben dich im Visier!
+Mine_Blocks=Prismarin.Prismarin.Prismarinblock.Schwamm
+Surface_Monsters=Waechter.Grosser_Waechter.Ertrunkener
+Surface_Animals=Delfin.Tintenfisch
 
 [Waldanwesen]
 Min_X=-1500
@@ -230,3 +236,6 @@ Max_Z=-1200
 Fix_Y=64
 Dimension=Oberwelt
 Desc=Mitten im dichten, dunklen Wald ragt ein gigantisches, unheimliches Holzgebäude auf. Hier hausen die Illager!
+Mine_Blocks=Dunkeleichenholzstamm.Dunkeleichenholzstamm.Bruchstein
+Surface_Monsters=Pillager.Vindicator.Evoker.Vex
+Surface_Animals=Katze

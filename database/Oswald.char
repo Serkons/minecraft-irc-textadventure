@@ -7,10 +7,10 @@ Desc=Ein mutiger Abenteurer, bereit die mIRC-Minecraft-Welt zu erkunden.
 
 [Location]
 Dimension=Oberwelt
-Biom=Tropfsteinhoehlen
-X=0
+Biom=Dschungel
+X=797
 Y=64
-Z=324
+Z=676
 
 [Stats]
 Level=1
