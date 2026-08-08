@@ -220,11 +220,14 @@ alias mcrpg_show_status {
   var %z = $readini($charfile(%player), Location, Z)
 
   var %waffe = $readini($charfile(%player), Equipment, Waffe)
-  if (%streak == $null) || (!%streak) { var -s %streak = 0 }
+
+  ; NEU: Spitzhacke und Haltbarkeit auslesen
+  var %pick = $readini($charfile(%player), Equipment, Spitzhacke)
+  var %dur = $readini($charfile(%player), Equipment, Spitzhacke_Haltbarkeit)
 
   ; 4. Schöne, farbige Ausgabe im Channel generieren ( 03=Grün,  04=Rot,  07=Gold,  11=Hellblau,  =Reset)
   msg %chan 📊 ⚔️ **[ STATUS - %player ]**  $chr(124) Level:  7 %level  $chr(124) HP:  4 %hp $+ / $+ %max_hp  4  $chr(124) Ausdauer:  11 $+ %mana $+ / $+ %max_mana  11⚡ $chr(124) 11 Hunger:  5 %food / %max_food 
-  msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 %streak   $chr(124) Waffe: %waffe
+  msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 %streak   $chr(124) Waffe: %waffe . Picke: %pick ( $+ %dur $+ )
 }
 
 
