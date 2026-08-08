@@ -1,0 +1,6 @@
+%caster% holt weit aus und verpasst %target% einen saftigen Schlag ins Gesicht!
+%caster% duckt sich geschickt weg und kontert %target% mit einem gezielten Hieb!
+%caster% stürzt sich todesmutig nach vorn und rammt %target% mit voller Wucht!
+%caster% nutzt eine unachtsame Sekunde von %target% und schlägt gnadenlos zu!
+%caster% ballt die Fäuste und verpasst %target% eine krachende Links-Rechts-Kombination!
+%caster% springt hoch und landet einen harten Volltreffer direkt auf %target%!
