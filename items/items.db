@@ -942,3 +942,530 @@ Desc=Wird zum Fischen in Gewaessern genutzt. Kann auch verwendet werden, um Krea
 [Feuerzeug]
 Type=Crafting
 Desc=Kombination aus Eisen und Feuerstein. Zuendet Nether-Portale an, setzt Blaecke in Brand oder sprengt TNT in die Luft.
+
+; --- DETAILS: RUESTUNGEN ---
+
+[Lederhelm]
+Type=Crafting
+Desc=Eine einfache Kappe aus gegerbtem Leder. Bietet minimalen Schutz, kann aber im Kessel gefaerbt werden.
+
+[Lederbrustplatte]
+Type=Crafting
+Desc=Eine leichte Lederjacke. Schützt den Oberkoerper vor leichten Streifschuessen.
+
+[Lederhose]
+Type=Crafting
+Desc=Eine bequeme Beinkleidung aus Leder. Bietet grundlegenden Schutz vor der Witterung.
+
+[Lederstiefel]
+Type=Crafting
+Desc=Einfache Lederschuhe. Verhindern das Einsinken in Pulverschnee.
+
+[Eisenhelm]
+Type=Crafting
+Desc=Ein solider Kopfschutz aus geschmiedeten Eisenplatten. Ein wichtiger Meilenstein fuer die Sicherheit.
+
+[Eisenbrustplatte]
+Type=Crafting
+Desc=Ein schwerer Eisenpanzer fuer den Torso. Bietet hervorragenden Schutz gegen die meisten Gefahren.
+
+[Eisenhose]
+Type=Crafting
+Desc=Robuster Beinschutz aus Eisen. Schützt die Beine im dichten Schlachtgetuemmel.
+
+[Eisenstiefel]
+Type=Crafting
+Desc=Schwere Eisenstiefel, die festen Stand und guten Schutz vor Angriffen von unten bieten.
+
+[Goldhelm]
+Type=Crafting
+Desc=Ein glanzvoller Helm aus purem Gold. Schützt kaum, verhindert aber, dass Piglins im Nether angreifen.
+
+[Goldbrustplatte]
+Type=Crafting
+Desc=Ein schwerer, aber sehr weicher Brustpanzer aus Gold. Wird im Nether von Piglins hoch geschaetzt.
+
+[Goldhose]
+Type=Crafting
+Desc=Eine goldene Ruestung fuer die Beine. Schmueckt den Traeger, nutzt sich aber extrem schnell ab.
+
+[Goldstiefel]
+Type=Crafting
+Desc=Goldene Schuhe. Ideal fuer Expeditionen in den Nether, um friedlich mit den Piglins zu handeln.
+
+[Diamanthelm]
+Type=Crafting
+Desc=Ein meisterhafter Kopfschutz aus funkelnden Diamanten. Haelt selbst schwersten Schlaegen stand.
+
+[Diamantbrustplatte]
+Type=Crafting
+Desc=Der ultimative Schutzpanzer fuer den Oberkoerper. Macht den Traeger fast unbezwingbar im Nahkampf.
+
+[Diamanthose]
+Type=Crafting
+Desc=Prachtvoller Beinschutz aus Diamantkristallen. Bietet exzellente Verteidigungswerte.
+
+[Diamantstiefel]
+Type=Crafting
+Desc=Extrem widerstandsfaehige Stiefel aus Diamant. Minimieren den Schaden bei Stuerzen und Angriffen spuerbar.
+
+[Schienen]
+Type=Crafting
+Desc=Einfache Gleise aus Eisen und Holz. Erlauben den schnellen Transport von Loren ueber weite Strecken.
+
+[Antriebsschienen]
+Type=Crafting
+Desc=Mit Gold und Redstone verstaerkte Schienen. Beschleunigen Loren massiv, wenn sie mit Energie versorgt werden.
+
+[Aktivierungsschienen]
+Type=Crafting
+Desc=Spezialgleise, die beim Ueberfahren Mechanismen ausloesen. Bringen TNT-Loren zur Explosion oder werfen Spieler aus Loren.
+
+[Detektorschienen]
+Type=Crafting
+Desc=Ein Schienenabschnitt mit integrierter Druckplatte. Gibt ein Redstone-Signal ab, sobald eine Lore darueberrollt.
+
+[Lore]
+Type=Crafting
+Desc=Ein Schienenfahrzeug aus Eisen. Transportiert Spieler, Dorfbewohner oder Monster sicher ueber Gleissysteme.
+
+[Lore mit Truhe]
+Type=Crafting
+Desc=Eine fahrbare Holzkiste auf Schienen. Ideal, um geförderte Erze automatisch aus Minen abzutransportieren.
+
+[Lore mit Ofen]
+Type=Crafting
+Desc=Eine motorisierte Lore, die mit Kohle betrieben wird. Schiebt andere Loren auf normalen Schienen vor sich her.
+
+[Lore mit TNT]
+Type=Crafting
+Desc=Eine rollende Sprengladung. Explodiert heftig, sobald sie ueber eine aktive Aktivierungsschiene rollt.
+
+[Lore mit Trichter]
+Type=Crafting
+Desc=Sammelt waehrend der Fahrt automatisch Gegenstaende auf, die auf den Schienen oder in Truhen darueber liegen.
+
+[Weisser Wollblock]
+Type=Crafting
+Desc=Ein weicher, brennbarer Block aus Schafwolle. Perfekt als Baumaterial oder als Basis fuer Betten und Banner.
+
+[Oranger Wollblock]
+Type=Crafting
+Desc=Orange gefaerbte Schafwolle. Verleiht kuscheligen Inneneinrichtungen einen warmen Farbakzent.
+
+[Magenta Wollblock]
+Type=Crafting
+Desc=Kraehtig magenta gefaerbte Wolle. Faellt in jeder Kulisse sofort ins Auge.
+
+[Hellblauer Wollblock]
+Type=Crafting
+Desc=Ein sanft hellblauer Wollblock, der an einen klaren Sommerhimmel erinnert.
+
+[Gelber Wollblock]
+Type=Crafting
+Desc=Sonnengelb gefaerbte Wolle. Bringt eine freundliche Atmosphaere in jedes Wohnhaus.
+
+[Hellgruener Wollblock]
+Type=Crafting
+Desc=Frisch gruen gefaerbte Wolle. Passt wunderbar zu naturnahen Dekorationen im Innenbereich.
+
+[Rosa Wollblock]
+Type=Crafting
+Desc=Sanft rosa gefaerbte Wolle. Sehr beliebt fuer farbenfrohe Kunstwerke oder Kinderzimmer.
+
+[Grauer Wollblock]
+Type=Crafting
+Desc=Dunkelgrau gefaerbte Wolle. Eine weiche Alternative zu harten Steinwaenden.
+
+[Hellgrauer Wollblock]
+Type=Crafting
+Desc=Dezent hellgrau gefaerbte Wolle. Neutraler Farbton fuer Teppiche und Moebel.
+
+[Tuerkiser Wollblock]
+Type=Crafting
+Desc=Ein tief tuerkis gefaerbter Wollblock. Erinnert farblich an tropische Meeresbuchten.
+
+[Violetter Wollblock]
+Type=Crafting
+Desc=Edel violett gefaerbte Wolle. Wurde historisch oft in Thronsaaelen und Paloesten verlegt.
+
+[Blauer Wollblock]
+Type=Crafting
+Desc=Dunkelblau gefaerbte Wolle. Erzeugt eine beruhigende, dunkle Atmosphaere im Schlafzimmer.
+
+[Brauner Wollblock]
+Type=Crafting
+Desc=Erdig braun gefaerbte Wolle. Erinnert an die natuerliche Wolle brauner Schafe.
+
+[Gruener Wollblock]
+Type=Crafting
+Desc=Tiefgruen gefaerbte Wolle. Ahmt im Innenraum das Aussehen von sattem Moos oder Gras nach.
+
+[Roter Wollblock]
+Type=Crafting
+Desc=Ein kraeftig roter Wollblock. Der klassische Stoff fuer den roten Teppich oder herrschaftliche Betten.
+
+[Schwarzer Wollblock]
+Type=Crafting
+Desc=Pechschwarz gefaerbte Wolle. Schluckt optisch das Licht und eignet sich fuer schattige Kontraste.
+
+[Weisser Teppich]
+Type=Crafting
+Desc=Ein flacher Wollstoff fuer den Boden. Monster koennen auf Teppichen, die auf Zaeunen liegen, nicht spawnen.
+
+[Oranger Teppich]
+Type=Crafting
+Desc=Ein schmaler, oranger Bodenbelag. Bringt Waerme auf kalte Steinboeden.
+
+[Magenta Teppich]
+Type=Crafting
+Desc=Ein magentafarbener Teppich. Perfekt fuer schrille Muster oder moderne Wohnzimmer.
+
+[Hellblauer Teppich]
+Type=Crafting
+Desc=Hellblauer Stoffbelag. Verleiht Boeden eine frische, luftige Optik.
+
+[Gelber Teppich]
+Type=Crafting
+Desc=Ein leuchtend gelber Teppich. Ideal, um dunkle Flure optisch aufzuhellen.
+
+[Hellgruener Teppich]
+Type=Crafting
+Desc=Ein flacher Belag in hellem Gruen. Fuehlt sich weich an und schmueckt jede Huette.
+
+[Rosa Teppich]
+Type=Crafting
+Desc=Ein rosafarbener Teppich. Verleiht Raeumen eine sanfte, verspielte Note.
+
+[Grauer Teppich]
+Type=Crafting
+Desc=Ein schlichter, dunkelgrauer Teppich. Unempfindlich gegen Schmutz und sehr zeitlos.
+
+[Hellgrauer Teppich]
+Type=Crafting
+Desc=Hellgrauer Bodenstoff. Passt farblich zu fast jedem Holz- und Steinboden.
+
+[Tuerkiser Teppich]
+Type=Crafting
+Desc=Ein tuerkisfarbener Teppich. Ein toller Farbtupfer fuer Badezimmer oder Poolbereiche.
+
+[Violetter Teppich]
+Type=Crafting
+Desc=Ein violetter Stoffbelag. Verleiht Raeumen eine elegante, koenigliche Ausstrahlung.
+
+[Blauer Teppich]
+Type=Crafting
+Desc=Ein tiefblauer Teppich. Strahlt Ruhe aus und eignet sich bestens als Bettvorleger.
+
+[Brauner Teppich]
+Type=Crafting
+Desc=Ein bodenstaendiger brauner Teppich. Passt farblich perfekt zu Eichenholz-Inneneinrichtungen.
+
+[Gruener Teppich]
+Type=Crafting
+Desc=Ein satter gruener Teppich. Kann im Haus als kuenstliche Rasenflaeche genutzt werden.
+
+[Roter Teppich]
+Type=Crafting
+Desc=Der klassische rote Teppich. Verleiht Eingangshallen ein feierliches Ambiente.
+
+[Schwarzer Teppich]
+Type=Crafting
+Desc=Ein komplett schwarzer Teppich. Tarnt versteckte Beleuchtungen im Boden, ohne Licht zu schlucken.
+
+[Weisses Bett]
+Type=Crafting
+Desc=Ein weiches Moebelstueck. Erlaubt es Spielern, die Nacht zu ueberspringen und ihren Respawn-Punkt zu setzen. Explodiert im Nether!
+
+[Oranges Bett]
+Type=Crafting
+Desc=Ein orangefarbenes Bett. Bietet erholsamen Schlaf nach einem anstrengenden Tag in den Minen.
+
+[Magenta Bett]
+Type=Crafting
+Desc=Ein Bett mit auffaellig magenta Laken. Ein farbenfroher Rueckzugsort fuer die Nacht.
+
+[Hellblaues Bett]
+Type=Crafting
+Desc=Ein hellblaues Bett. Traeumen unter einer wolkenweichen Decke.
+
+[Gelbes Bett]
+Type=Crafting
+Desc=Ein sonnengelbes Bett. Bringt gute Laune direkt nach dem Aufwachen am Morgen.
+
+[Hellgruenes Bett]
+Type=Crafting
+Desc=Ein hellgruenes Bett. Passt stilistisch wunderbar in Dschungel-Basen oder Baumhaeuser.
+
+[Rosa Bett]
+Type=Crafting
+Desc=Ein kuscheliges rosa Bett. Schützt den Abenteurer vor den Gefahren der naechtlichen Monsterjagd.
+
+[Graues Bett]
+Type=Crafting
+Desc=Ein unauffaelliges, dunkelgraues Bett. Rustikal, schlicht und funktionell.
+
+[Hellgraues Bett]
+Type=Crafting
+Desc=Ein hellgraues Bett. Fuegt sich dezent in jede modern gestaltete Schlafkammer ein.
+
+[Tuerkises Bett]
+Type=Crafting
+Desc=Ein Bett mit tuerkisfarbenen Laken. Perfekt fuer Haeuser an der Kueste.
+
+[Violettes Bett]
+Type=Crafting
+Desc=Ein vornehm violettes Bett. Schlafkomfort fuer anspruchsvolle Schlossbesitzer.
+
+[Blaues Bett]
+Type=Crafting
+Desc=Ein tiefblaues Bett. Perfekt, um sich vom stressigen Kampf gegen Phantome zu erholen.
+
+[Braunes Bett]
+Type=Crafting
+Desc=Ein schlichtes braunes Bett. Erinnert an den klassischen Look frueherer Abenteuer.
+
+[Gruenes Bett]
+Type=Crafting
+Desc=Ein gruenes Bett. Ideal fuer Naturfreunde und Entdecker.
+
+[Rotes Bett]
+Type=Crafting
+Desc=Das ikonische, rote Minecraft-Bett. Seit Generationen der treue Begleiter fuer jede erste Nacht.
+
+[Schwarzes Bett]
+Type=Crafting
+Desc=Ein edles schwarzes Bett. Fuer alle, die eine dunkle und mysteriose Schlafumgebung bevorzugen.
+
+[Weisses Glas]
+Type=Crafting
+Desc=Ein transparenter Glasblock, der mit weisser Farbe mattiert wurde. Daempft harte Lichtstrahlen ab.
+
+[Oranges Glas]
+Type=Crafting
+Desc=Orange gefaerbtes Glas. Erzeugt ein wunderbar warmes Licht, wenn die Sonne durchscheint.
+
+[Magenta Glas]
+Type=Crafting
+Desc=Magentafarbener Glasblock. Perfekt fuer auffaellige, moderne Gebaeudefassaden.
+
+[Hellblaues Glas]
+Type=Crafting
+Desc=Hellblau gefaerbtes Glas. Sehr beliebt fuer den Bau von kuenstlichen Wasserfaellen oder Aquarien.
+
+[Gelbes Glas]
+Type=Crafting
+Desc=Sonnengelb getoentes Glas. Verwandelt einfallendes Tageslicht in einen goldenen Schimmer.
+
+[Hellgruenes Glas]
+Type=Crafting
+Desc=Hellgruener Glasblock. Passt optisch exzellent zu Gewaechshaeusern und botanischen Goerten.
+
+[Rosa Glas]
+Type=Crafting
+Desc=Rosa gefaerbtes Glas. Setzt verspielte und farbenfrohe Akzente in Fensterscheiben.
+
+[Graues Glas]
+Type=Crafting
+Desc=Dunkelgrau getoentes Glas. Ideal fuer moderne Hochhaeuser oder verdunkelte Beobachtungsposten.
+
+[Hellgraues Glas]
+Type=Crafting
+Desc=Hellgrau eingefaerbtes Glas. Reduziert die Sichtbarkeit der Glasstrukturen fuer eine sauberere Optik.
+
+[Tuerkises Glas]
+Type=Crafting
+Desc=Tuerkisfarbener Glasblock. Verleiht Fenstern einen tropischen, maritimen Look.
+
+[Violettes Glas]
+Type=Crafting
+Desc=Violett gefaerbtes Glas. Perfekt fuer den Bau von mystischen Kathedralenfenstern oder Nether-Stationen.
+
+[Blaues Glas]
+Type=Crafting
+Desc=Tiefblau getoentes Glas. Simuliert unter Wasser eine klare Sicht oder faerbt Lichtquellen blau.
+
+[Braunes Glas]
+Type=Crafting
+Desc=Braun gefaerbtes Glas. Eine rustikale Variante fuer altmodische Fachwerkhaeuser.
+
+[Gruenes Glas]
+Type=Crafting
+Desc=Dunkelgruen getoentes Glas. Harmoniert fantastisch mit Waldlandschaften und Blaettern.
+
+[Rotes Glas]
+Type=Crafting
+Desc=Kraehtig rot gefaerbtes Glas. Perfekt fuer Warnlichter, Alarmanlagen oder duestere Festungsfenster.
+
+[Schwarzes Glas]
+Type=Crafting
+Desc=Pechschwarz eingefaerbtes Glas. Bietet Sichtschutz und eignet sich hervorragend fuer schattige Bauprojekte.
+
+[Weisses Banner]
+Type=Crafting
+Desc=Eine weisse Stoffflagge, die an Waenden oder Boeden platziert werden kann. Kann am Webstuhl mit Mustern verziert werden.
+
+[Oranges Banner]
+Type=Crafting
+Desc=Eine orangefarbene Flagge. Zeigt stolz die Farben der Savanne oder des Herbstes.
+
+[Magenta Banner]
+Type=Crafting
+Desc=Ein auffaellig magentafarbenes Banner. Dient als weithin sichtbares Signal im Feld.
+
+[Hellblaues Banner]
+Type=Crafting
+Desc=Ein hellblaues Stoffbanner. Perfekt als Wappen fuer Fraktionen an Seen oder Kuesten.
+
+[Gelbes Banner]
+Type=Crafting
+Desc=Eine leuchtend gelbe Flagge. Repraesentiert das Licht und die Energie der Sonne.
+
+[Hellgruenes Banner]
+Type=Crafting
+Desc=Ein hellgruenes Banner. Schmueckt die Lager von Druiden, Waldlaeufern oder Dschungel-Entdeckern.
+
+[Rosa Banner]
+Type=Crafting
+Desc=Eine rosafarbene Flagge. Verleiht Burgen und Festungen einen friedlichen, froehlichen Touch.
+
+[Graues Banner]
+Type=Crafting
+Desc=Ein schlichtes, dunkelgraues Banner. Ideal als duesteres Wappen fuer Festungen oder Gilden.
+
+[Hellgraues Banner]
+Type=Crafting
+Desc=Ein hellgraues Stoffbanner. Ein unaufdringlicher Dekorationsgegenstand fuer noble Hallen.
+
+[Tuerkises Banner]
+Type=Crafting
+Desc=Eine tuerkisfarbene Flagge. Ein perfektes Erkennungsmerkmal fuer ozeanische Seefahrer.
+
+[Violettes Banner]
+Type=Crafting
+Desc=Ein edles violettes Banner. Symbolisiert seit jeher Macht, Magie und koeniglichen Wohlstand.
+
+[Blauer Banner]
+Type=Crafting
+Desc=Ein tiefblaues Banner. Erinnert an die endlosen Weiten des Ozeans und den Nachthimmel.
+
+[Brauner Banner]
+Type=Crafting
+Desc=Eine erdige, braune Flagge. Passt gut zu Holzfestungen und laendlichen Doerfern.
+
+[Gruenes Banner]
+Type=Crafting
+Desc=Ein waldgruenes Stoffbanner. Kennzeichnet Reiche, die tief im Einklang mit der Natur stehen.
+
+[Rotes Banner]
+Type=Crafting
+Desc=Ein stolzes rotes Banner. Das klassische Symbol fuer Kampfgeist, Imperien und herrschaftliche Hallen.
+
+[Schwarzer Banner]
+Type=Crafting
+Desc=Die beruechtigte schwarze Flagge. Die Grundlage fuer Piratenwappen oder die unheimlichen Banner der Pluenderer.
+
+[Kuchen]
+Type=Crafting
+Desc=Eine suesse Torte aus Ei, Milch, Zucker und Weizen. Wird als Block platziert und kann in sieben Stuecken gegessen werden.
+
+[Keks]
+Type=Crafting
+Desc=Ein kleiner, knuspriger Snack aus Kakao und Weizen. Heilt wenig Hunger, wird aber in grossen Mengen hergestellt.
+
+[Kuerbiskuppel]
+Type=Crafting
+Desc=Eine nahrhafte Suppe, die direkt in einem ausgehoehlten Kuerbis serviert wird. Schmeckt herbstlich suess.
+
+[Kanincheneintopf]
+Type=Crafting
+Desc=Das aufwendigste Gericht im Spiel. Kombiniert Fleisch, Kartoffeln, Karotten und Pilze zu einer enormen Mahlzeit.
+
+[Pilzsuppe]
+Type=Crafting
+Desc=Ein traditioneller Eintopf aus braunen und roten Pilzen. Wird in einer Holzschale serviert.
+
+[Verdaechtige Suppe]
+Type=Crafting
+Desc=Eine mysterioese Suppe. Verleiht je nach beigemischter Blume einen geheimen, positiven oder negativen Statuseffekt.
+
+[Bücherregal]
+Type=Blocks
+Desc=Ein solider Holzblock voller Buecher. Platziert man sie um einen Zaubertisch, erhoehen sie die maximale Stufe fuer Verzauberungen.
+
+[Geschnitztes Bücherregal]
+Type=Blocks
+Desc=Ein interaktives Regal aus Version 1.20+. Spieler koennen bis zu sechs Buecher manuell hineinstellen oder herausnehmen.
+
+[Gemaelde]
+Type=Crafting
+Desc=Ein dekoratives Kunstwerk aus Wolle und Stoecken. Passt sich beim Platzieren automatisch der verfuegbaren Wandgroesse an.
+
+[Bannertraeger]
+Type=Crafting
+Desc=Ein spezieller Halter oder Golem, der dazu dient, stolz die erstellten Flaggen und Banner im Wind zu praesentieren.
+
+[Ruestungsstaender]
+Type=Crafting
+Desc=Ein Holzgestell auf einer Steinplatte. Praesentiert Helme, Brustplatten, Hosen und Stiefel und haelt sie griffbereit.
+
+[Jukebox]
+Type=Blocks
+Desc=Der Schallplattenspieler von Minecraft. Spielt gefundene Musikdiscs ab und gibt je nach Song ein Redstone-Signal ab.
+
+[Notenblock]
+Type=Blocks
+Desc=Erzeugt bei Aktivierung einen Ton. Das Instrument aendert sich je nachdem, welcher Block sich direkt unter dem Notenblock befindet.
+
+[Kompass]
+Type=Crafting
+Desc=Ein Navigationsgeraet aus Eisen und Redstone. Die Nadel zeigt im normalen Zustand immer zum weltweiten Start-Spawnpunkt.
+
+[Bergungskompass]
+Type=Crafting
+Desc=Ein seltener Kompass aus Echoscherben. Seine Nadel zeigt treu auf den Ort des letzten Spielertodes.
+
+[Uhr]
+Type=Crafting
+Desc=Ein astronomisches Messgeraet aus Gold und Redstone. Zeigt die aktuelle Position von Sonne und Mond verlaesslich an.
+
+[Fernrohr]
+Type=Crafting
+Desc=Ein optisches Instrument aus Kupfer und einer Amethystscherbe. Ermoeglicht es, weit entfernte Objekte nah heranzuzoomen.
+
+[Leine]
+Type=Crafting
+Desc=Ein reissfestes Seil aus Schleim und Faeden. Erlaubt es, friedliche Tiere, Pferde oder Boote hinter sich herzuziehen.
+
+[Amboss]
+Type=Blocks
+Desc=Ein schwerer Eisenblock zum Schmieden, Reparieren und Benennen von Ausruestungsteilen.
+
+[Blitzableiter]
+Type=Blocks
+Desc=Ein schmaler Kupferstab, der Blitzeinschlaege im Umkreis abfaengt und in Energie umwandelt.
+
+[Zielblock]
+Type=Blocks
+Desc=Ein Trainingsblock fuer Bogenschuetzen. Je naeher ein Pfeil dem Zentrum der Zielscheibe kommt, desto staerker ist das ausgegebene Redstone-Signal.
+
+[Schleimblock]
+Type=Blocks
+Desc=Ein federnder, gruener Block. Federt jeglichen Sturzschaden komplett ab und laesst Spieler hoch in die Luft katapultieren.
+
+[Honigblock]
+Type=Blocks
+Desc=Ein extrem klebriger, orangefarbener Block. Verlangsamt Bewegungen massiv und laesst Kreaturen an Waenden langsam hinabgleiten.
+
+[Heuballen]
+Type=Blocks
+Desc=Ein kompakter Block aus Weizen. Dient als Futterlager und reduziert erlittenen Sturzschaden um satte 80 Prozent.
+
+[Zielscheibe]
+Type=Blocks
+Desc=Ein dekorativer Strohblock mit rotem Ringmuster fuer Schiessuebungen auf dem Schiessstand.
+
+[Tnt]
+Type=Blocks
+Desc=Der klassische Sprengstoffblock. Wird durch Feuerzeug, Redstone oder Explosionen aktiviert und detoniert nach vier Sekunden.
+
