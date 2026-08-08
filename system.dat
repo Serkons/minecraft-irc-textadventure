@@ -1,0 +1,12 @@
+[Settings]
+Maintenance=0
+GlobalMultiplier=1.0
+WorldAgeDays=1
+
+[Environment]
+TimeOfDay=Tag
+Weather=Klar
+
+[Spawns]
+MaxMobsPerArea=5
+GlobalDifficultyFactor=1.0
