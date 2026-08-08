@@ -20,6 +20,8 @@ CurrentHP=20
 MaxHP=20
 CurrentMana=20
 MaxMana=20
+CurrentFood=20
+MaxFood=20
 Killstreak=0
 
 [Equipment]

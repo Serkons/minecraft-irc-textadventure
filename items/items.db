@@ -307,87 +307,88 @@ Desc=Eine leuchtende Frucht, die an Lianen in Hoehlen waechst. Spendet sanftes L
 ; --- ESSEN ---
 
 [Brot]
-Type=Essen
+Type=Food
 Desc=Ein frisch gebackenes, duftendes Brot aus Weizen. Ein verlaesslicher Sattmacher.
-HealPoints=0
-HungerBars=5
-Saturation=6.0
+Heal=2
+Food=5
 
 [Apfel]
-Type=Essen
+Type=Food
 Desc=Ein knackig frischer, roter Apfel. Ein gesunder Snack fuer zwischendurch.
-HealPoints=0
-HungerBars=4
-Saturation=2.4
+Heal=1
+Food=2
+
+[Gebratenes Rindfleisch]
+Type=Food
+Heal=4
+Food=8
+Desc=Ein saftiges, über dem Lagerfeuer gebratenes Steak.
+
+[Tropenfisch]
+Type=Food
+Heal=1
+Food=1
+Desc=Ein kleiner, farbenfroher Fisch. Schmeckt etwas eigenartig.
 
 [Karotte]
-Type=Essen
+Type=Food
 Desc=Eine knackige, orangefarbene Karotte. Gut fuer die Augen und den kleinen Hunger.
-HealPoints=0
-HungerBars=3
-Saturation=3.6
+Heal=3
+Food=3
 
 [Kartoffel]
-Type=Essen
+Type=Food
 Desc=Eine rohe Kartoffel direkt aus der Erde. Schmeckt ungekocht eher maessig.
-HealPoints=0
-HungerBars=1
-Saturation=0.6
+Heal=1
+Food=1
 
 [Goldener Apfel]
-Type=Essen
+Type=Food
 Desc=Ein mit purem Gold umhuellter Apfel. Verleiht beim Essen Absorption und Regeneration.
-HealPoints=4
-HungerBars=4
-Saturation=9.6
+Heal=4
+Food=4
 
 [Goldene Karotte]
-Type=Essen
+Type=Food
 Desc=Eine edle, goldene Karotte. Bietet den hoechsten Saettigungswert aller normalen Lebensmittel.
-HealPoints=0
-HungerBars=6
-Saturation=14.4
+Heal=4
+Food=6
 
 [Verzauberter Goldener Apfel]
-Type=Essen
+Type=Food
 Desc=Ein mystischer, schimmernder Apfel aus Legenden. Verleiht gewaltige Schutz- und Heilungseffekte.
-HealPoints=8
-HungerBars=4
-Saturation=9.6
+Heal=8
+Food=4
 
 [Rohes_Schweinefleisch]
-Type=Essen
+Type=Food
 Desc=Ein rohes Stueck Fleisch. Sollte vor dem Verzehr im Ofen gebraten werden.
-HealPoints=0
-HungerBars=3
-Saturation=1.8
+Heal=2
+Food=3
 
 [Roher Kabeljau]
-Type=Essen
+Type=Food
 Desc=Ein frisch gefangener, roher Fisch aus dem Ozean.
-HealPoints=0
-HungerBars=2
-Saturation=0.4
+Heal=2
+Food=2
 
-[Roher Lachs]
-Type=Essen
+[Roher_Lachs]
+Type=Food
 Desc=Ein roher Lachs mit roetlichem Fleisch. Gebraten nahrhafter.
-HealPoints=0
-HungerBars=2
-Saturation=0.2
+Heal=2
+Food=2
 
 [Heiltrank]
-Type=Essen
+Type=Food
 Desc=Ein magisches Elixier in einer Glasflasche. Stellt sofort Lebensenergie wieder her.
-HealPoints=4
-HungerBars=0
-Saturation=0.0
+Heal=4
+Food=0
 
 [Feuerwiderstandstrank]
-Type=Essen
+Type=Food
 Desc=Ein braun schimmerndes Alchemie-Gebrueu. Macht den Trinker immun gegen Lava und Feuer.
-HealPoints=0
-HungerBars=0
+Heal=1
+Food=1
 Saturation=0.0
 
 [Wasseratmungstrank]
@@ -405,10 +406,10 @@ HungerBars=0
 Saturation=0.0
 
 [Weizen]
-Type=Essen
+Type=Food
 Desc=Ein goldenes Getreidebuendel. Kann von Menschen nicht direkt gegessen werden, dient aber zum Backen oder zur Tierzucht.
-HealPoints=0
-HungerBars=0
+Heal=1
+Food=3
 Saturation=0.0
 
 ; --- DETAILS: BLOCKS ---
