@@ -2,6 +2,8 @@
 IsLoggedIn=
 Name=
 Password=
+FirstLogin=off
+ChangedPass=off
 Desc=Ein mutiger Abenteurer, bereit die mIRC-Minecraft-Welt zu erkunden.
 
 [Location]

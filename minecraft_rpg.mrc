@@ -99,19 +99,24 @@ on *:TEXT:!login*:?: {
 
   if (%input_pass == %decrypted_pass) {
 
-    ; HIER DEINE NEUE LOGIK: Prüfen, ob IsLoggedIn in der Datei bereits auf 1 steht
     var %already_online = $readini($charfile(%player), Info, IsLoggedIn)
     if (%already_online == 1) {
-      .msg %player ❌ Du bist bereits im Spiel eingeloggt! Ein doppelter Login ist nicht erlaubt.
+      .msg %player ❌ Du bist bereits im Spiel eingeloggt!
       halt
     }
 
-    ; Wert in der Datei auf 1 setzen
-    writeini $charfile(%player) Info IsLoggedIn 1  
-
+    writeini $charfile(%player) Info IsLoggedIn 1
     .msg %player ✨ Erfolgreich angemeldet! Du hast nun Voice-Rechte im Channel erhalten. Viel Spaß beim Überleben!
 
-    ; --- STANDORT-DATEN AUS DER CHARAKTERDATEI LESEN ---
+    ; --- DYNAMISCHER ERST-LOGIN-RADAR ---
+    var %first = $readini($charfile(%player), Info, FirstLogin)
+    if (%first == off) {
+      ; Wenn es der allererste Login ist, schalten wir das Flag auf 'on' und senden die Anleitung per PN
+      writeini $charfile(%player) Info FirstLogin on
+      .msg %player 🔐 **WICHTIGER HINWEIS:** Dies ist dein erster Login mit einem generierten Passwort. Es wird dringend empfohlen, dein Passwort jetzt zu ändern!
+      .msg %player 📝 Tippe hier in der PN einfach: !password MEIN_NEUES_PASSWORT um es zu ändern.
+    }
+
     var %dimension = $readini($charfile(%player), Location, Dimension)
     var %biom = $readini($charfile(%player), Location, Biom)
     var %x = $readini($charfile(%player), Location, X)
@@ -125,7 +130,7 @@ on *:TEXT:!login*:?: {
       msg %main_chan 👋 ☀️ ** %player ** hat die Welt betreten und schärft seine Fäuste! Willkommen zurück!
 
       ; Zweite Nachricht: Die farbliche Standortmeldung ( 03 = Grün,  07 = Orange/Gold,   = Reset)
-      msg %main_chan 📍 [ %player ] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  07Y:  %y  07Z:  %z
+      msg %main_chan 📍 [ %player ] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  7Y:  %y  7Z:  %z
     }
   }
 }
@@ -157,6 +162,44 @@ on *:TEXT:!logout:#: {
     msg %main_chan 💤 ** %player ** hat sein Lager aufgeschlagen und sich abgemeldet. Bis zum nächsten Mal!
   }
 }
+
+; -------------------------------------------------------------------------
+; 🔐 PASSWORT ÄNDERN (Nur per PN ausführbar)
+; -------------------------------------------------------------------------
+on *:TEXT:!password *?: {
+  var %player = $nick
+  var %new_pass = $2
+
+  ; 1. Prüfen, ob der Charakter existiert
+  if (!$exists($charfile(%player))) {
+    .msg %player ❌ Du besitzt keinen Charakter! Registriere dich zuerst im Channel mit !register.
+    halt
+  }
+
+  ; 2. Prüfen, ob der Spieler eingeloggt ist (Sicherheit geht vor!)
+  var %online = $readini($charfile(%player), Info, IsLoggedIn)
+  if (%online != 1) {
+    .msg %player ❌ Du musst eingeloggt sein, um dein Passwort zu ändern!
+    halt
+  }
+
+  ; 3. Validierung des neuen Passworts (Sollte nicht leer sein und keine Punkte enthalten)
+  if ($len(%new_pass) < 4) {
+    .msg %player ❌ Dein neues Passwort muss mindestens 4 Zeichen lang sein!
+    halt
+  }
+
+  ; 4. Passwort verschlüsseln und speichern
+  var %crypt_pass = $encode(%new_pass, m)
+  writeini $charfile(%player) Info Password %crypt_pass
+
+  ; 5. Flags aktualisieren (FirstLogin löschen, ChangedPass auf 'on' setzen)
+  remini $charfile(%player) Info FirstLogin
+  writeini $charfile(%player) Info ChangedPass on
+
+  .msg %player 🔑 Dein Passwort wurde erfolgreich geändert und verschlüsselt hinterlegt! Merk es dir gut.
+}
+
 ; -------------------------------------------------------------------------
 ; 🔄 AUTOMATISCHER LOGOUT (Setzt IsLoggedIn in der Datei wieder auf 0)
 ; -------------------------------------------------------------------------
