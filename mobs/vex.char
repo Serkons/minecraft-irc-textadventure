@@ -1,0 +1,17 @@
+[Stats]
+Name=Vex
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=14
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein boshafter, fliegender Plagegeist, der von Evokern beschworen wird und mit seinem Schwert mühelos durch Wände gleitet.
+
+[Info]
+Size=Small
+Drops=Eisenbarren.Pfeil.Pfeil
+
+[Skills]
+Geisterhieb=1
+Flugangriff=1

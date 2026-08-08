@@ -1,0 +1,17 @@
+[Stats]
+Name=Stray
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein vom Frost gezeichnetes, im ewigen Eis herumstreunendes Skelett, dessen verzauberte Pfeile die Kälte des Todes bringen.
+
+[Info]
+Size=Medium
+Drops=Knochen.Knochen.Pfeil.Eis
+
+[Skills]
+Verlangsamungsschuss=1
+Rückzug=1

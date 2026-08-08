@@ -1,0 +1,17 @@
+[Stats]
+Name=Silverfish
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=8
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein winziges, flinkes Insekt, das in Festungsmauern lauert und bei Gefahr Verstärkung aus den umliegenden Blöcken ruft.
+
+[Info]
+Size=Small
+Drops=Kies.Kies.Kies
+
+[Skills]
+Biss=1
+Verstärkung=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Vindicator
+Type=Illager
+Dimension=Oberwelt
+BaseHP=24
+Mana=0
+ArmorPoints=0
+ExpDrop=5
+Desc=Ein hasserfüllter Vollstrecker der Illager, der im Kampf blind vor Wut mit einer geschärften Eisenaxt auf den Spieler zusprintet.
+
+[Info]
+Size=Medium
+Drops=Smaragd.Smaragd.Eisenbarren
+
+[Skills]
+Axtstreich=1
+Sprint=1

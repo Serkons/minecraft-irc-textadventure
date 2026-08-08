@@ -1,0 +1,17 @@
+[Stats]
+Name=Zombie Villager
+Type=Standardmonster
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=2
+ExpDrop=5
+Desc=Ein unglücklicher Dorfbewohner, der dem Biss der Untoten zum Opfer fiel und nun hungrig nach Menschenfleisch umherwandert.
+
+[Info]
+Size=Medium
+Drops=Verrottetes Fleisch.Verrottetes Fleisch.Smaragd
+
+[Skills]
+Infizierter_Biss=1
+Kratzen=1
