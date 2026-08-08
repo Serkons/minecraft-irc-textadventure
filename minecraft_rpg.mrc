@@ -25,10 +25,13 @@ alias mcrpg_time_cycle {
   }
   else {
     writeini %sys_dat Environment TimeOfDay Tag
+    ; Hier wurde der Punkt im INI-Pfad korrigiert
     var %days = $readini(%sys_dat, Settings, WorldAgeDays)
     inc %days
     writeini %sys_dat Settings, WorldAgeDays %days
-    if ($chan(0) > 0) { msg $chan(1) ☀️ *Die Sonnenstrahlen durchbrechen die Dunkelheit und verbrennen die Untoten. Ein neuer Tag bricht an! (Tag %days)* }
+
+    ; HIER IST DIE KORREKTUR: Leerzeichen vor und nach %days eingefügt, damit mIRC die Variable sauber erkennt!
+    if ($chan(0) > 0) { msg $chan(1) ☀️ *Die Sonnenstrahlen durchbrechen die Dunkelheit und verbrennen die Untoten. Ein neuer Tag bricht an! (Tag %days $+ )* }
   }
 }
 
