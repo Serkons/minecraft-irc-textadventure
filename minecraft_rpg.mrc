@@ -7,32 +7,25 @@ alias charfile {
 }
 
 ; -------------------------------------------------------------------------
-; 🤖 1. BOT-START & TAG/NACHT-TIMER (Simuliert den Minecraft-Tageszyklus)
+; 🤖 1. BOT-START (Bereinigt alte Login-Leichen bei einem Bot-Neustart)
 ; -------------------------------------------------------------------------
 on *:START: {
   echo -a 🤖 Minecraft-RPG-System wird geladen...
-  ; Starte den Tag/Nacht-Wechsel-Timer (600 Sekunden = 10 Minuten pro Phase)
+
+  ; Schleife durch alle Charakterdateien, um IsLoggedIn beim Serverstart zurückzusetzen
+  var %search_path = $mircdirdatabase\*.char
+  var %total_files = $findfile($mircdirdatabase, *.char, 0)
+  var %i = 1
+  while (%i <= %total_files) {
+    var %current_file = $findfile($mircdirdatabase, *.char, %i)
+    ; Das spieler_template ignorieren wir natürlich
+    if (spieler_template.char !isin %current_file) {
+      writeini %current_file Info IsLoggedIn 0
+    }
+    inc %i
+  }
+
   .timerMC_Cycle 0 600 mcrpg_time_cycle
-}
-
-alias mcrpg_time_cycle {
-  var %sys_dat = $mircdirsystem.dat
-  var %current = $readini(%sys_dat, Environment, TimeOfDay)
-
-  if (%current == Tag) {
-    writeini %sys_dat Environment TimeOfDay Nacht
-    if ($chan(0) > 0) { msg $chan(1) 🌑 *Die Sonne geht unter und ein unheimliches Stöhnen hallt durch die Ferne... Die Nacht bricht an! Mobs sind nun aggressiver!* }
-  }
-  else {
-    writeini %sys_dat Environment TimeOfDay Tag
-    ; Hier wurde der Punkt im INI-Pfad korrigiert
-    var %days = $readini(%sys_dat, Settings, WorldAgeDays)
-    inc %days
-    writeini %sys_dat Settings, WorldAgeDays %days
-
-    ; HIER IST DIE KORREKTUR: Leerzeichen vor und nach %days eingefügt, damit mIRC die Variable sauber erkennt!
-    if ($chan(0) > 0) { msg $chan(1) ☀️ *Die Sonnenstrahlen durchbrechen die Dunkelheit und verbrennen die Untoten. Ein neuer Tag bricht an! (Tag %days $+ )* }
-  }
 }
 
 ; -------------------------------------------------------------------------
@@ -88,6 +81,17 @@ on *:TEXT:!login*:?: {
   var -s %decrypted_pass = $decode(%saved_crypt, m)
 
   if (%input_pass == %decrypted_pass) {
+
+    ; HIER DEINE NEUE LOGIK: Prüfen, ob IsLoggedIn in der Datei bereits auf 1 steht
+    var %already_online = $readini($charfile(%player), Info, IsLoggedIn)
+    if (%already_online == 1) {
+      .msg %player ❌ Du bist bereits im Spiel eingeloggt! Ein doppelter Login ist nicht erlaubt.
+      halt
+    }
+
+    ; Wert in der Datei auf 1 setzen
+    writeini $charfile(%player) Info IsLoggedIn 1  
+
     .msg %player ✨ Erfolgreich angemeldet! Du hast nun Voice-Rechte im Channel erhalten. Viel Spaß beim Überleben!
 
     ; --- STANDORT-DATEN AUS DER CHARAKTERDATEI LESEN ---
@@ -106,5 +110,22 @@ on *:TEXT:!login*:?: {
       ; Zweite Nachricht: Die farbliche Standortmeldung ( 03 = Grün,  07 = Orange/Gold,   = Reset)
       msg %main_chan 📍 [%player] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  07Y:  %y  07Z:  %z
     }
+  }
+}
+
+; -------------------------------------------------------------------------
+; 🔄 AUTOMATISCHER LOGOUT (Setzt IsLoggedIn in der Datei wieder auf 0)
+; -------------------------------------------------------------------------
+on !*:PART:#MC-RPG: {
+  if ($exists($charfile($nick))) {
+    writeini $charfile($nick) Info IsLoggedIn 0
+    echo -a 🤖 [$nick] Automatisch ausgeloggt (Channel verlassen).
+  }
+}
+
+on !*:QUIT: {
+  if ($exists($charfile($nick))) {
+    writeini $charfile($nick) Info IsLoggedIn 0
+    echo -a 🤖 [$nick] Automatisch ausgeloggt (Server verlassen).
   }
 }
