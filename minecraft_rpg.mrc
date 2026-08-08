@@ -28,6 +28,23 @@ on *:START: {
   .timerMC_Cycle 0 600 mcrpg_time_cycle
 }
 
+alias mcrpg_time_cycle {
+  var %sys_dat = $mircdirsystem.dat
+  var %current = $readini(%sys_dat, Environment, TimeOfDay)
+
+  if (%current == Tag) {
+    writeini %sys_dat Environment TimeOfDay Nacht
+    if ($chan(0) > 0) { msg $chan(1) 🌑 *Die Sonne geht unter und ein unheimliches Stöhnen hallt durch die Ferne... Die Nacht bricht an! Mobs sind nun aggressiver!* }
+  }
+  else {
+    writeini %sys_dat Environment TimeOfDay Tag
+    var %days = $readini(%sys_dat, Settings, WorldAgeDays)
+    inc %days
+    writeini %sys_dat Settings, WorldAgeDays %days
+    if ($chan(0) > 0) { msg $chan(1) ☀️ *Die Sonnenstrahlen durchbrechen die Dunkelheit und verbrennen die Untoten. Ein neuer Tag bricht an! (Tag %days $+ )* }
+  }
+}
+
 ; -------------------------------------------------------------------------
 ; 🔐 2. REGISTRIERUNGS- & LOGIN-SYSTEM (Mit integriertem $charfile-Alias)
 ; -------------------------------------------------------------------------
