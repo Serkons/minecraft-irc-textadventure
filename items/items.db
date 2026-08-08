@@ -1,6 +1,9 @@
 [Categories]
 Material=Eisenbarren.Goldbarren.Diamant.Smaragd.Netheritbarren.Kohle.Schwarzpulver.Knochen.Pfeil.Verrottetes Fleisch.Enderperle.Pruefungsschluessel.Unheilvoller Pruefungsschluessel.Windladung.Vergifteter Pfeil.Unheilvolle Flasche.Lohenrute.Magmacreme.Schleimball.Kupferbarren.Faden.Spinnenauge.Schiesspulver.Glowstone-Staub.Redstone-Staub.Zucker.Glasflasche.Stickstoff.Leere Flasche.Ghast-Traene.Wither-Skelettschaedel.Phantomhaut.Sattel.Namensschild.Melonensamen.Kuerbissamen.Endperle.Flint_and_Steel.Goldene Pferderuestung.Eisenpferderuestung.Diamantpferderuestung.Netherit-Aufwertung.Antiker Schrott.Goldblock.Schweine-Musikdisc.Shulker-Schale.Rote-Beete-Samen.Echoscherbe.Katalysator.Kompakt-Eis.Kerzen.Diamant-Pferderuestung.Musikdisc-Fragment.Schwamm.Prismarinsplitter.Prismarienkristall.Schatzkarte.Papier.Buch.Herz des Meeres.Nautilus-Schale.Goldschneide.Lederfett.Feuerstein.Kies.Netherquarz.Seelensand.Feuerladung.Goldaxt.Eisenaxt.Ruesstungsschmiede-Vorlage.Schmiedevorlage.Sand.Glow-Beeren
 Essen=Brot.Apfel.Karotte.Kartoffel.Goldener Apfel.Goldene Karotte.Verzauberter Goldener Apfel.Rohes Schweinefleisch.Roher Kabeljau.Roher Lachs.Heiltrank.Feuerwiderstandstrank.Wasseratmungstrank.Schnelligkeitstrank.Weizen
+Blocks=Verstaerkter Tiefenschiefer.Antiker Schrott.Netheritblock.Obsidian.Weinender Obsidian.Seelenanker.Pruefungsspawne.Tresor.Schwerer Kern.Enderkiste.Amboss.Angeschlagener Amboss.Beschaedigter Amboss.Eisenblock.Eisentuer.Eisenfalltuer.Eisengitter.Monster-Spawner.Tiefenschiefer-Kohleerz.Tiefenschiefer-Eisenerz.Tiefenschiefer-Kupfererz.Tiefenschiefer-Golderz.Tiefenschiefer-Redstone-Erz.Tiefenschiefer-Lapislazulierz.Tiefenschiefer-Diamanterz.Tiefenschiefer-Smaragderz.Kohleerz.Eisenerz.Kupfererz.Golderz.Redstone-Erz.Lapislazulierz.Diamanterz.Smaragderz.Nethergolderz.Netherquarzerz.Roheisenblock.Rohkupferblock.Rohgoldblock.Goldblock.Diamantblock.Smaragdblock.Lapislazuliblock.Kohleblock.Amethystblock.Amethystknospen-Block.Leitstein.Blitzableiter.Stein.Bruchstein.Glatte Stein-Doppelstufe.Glatter Stein.Steinziegel.Meisel-Steinziegel.Rissige Steinziegel.Moosiger Stein.Moosige Steinziegel.Granit.Polierter Granit.Diorit.Polierter Diorit.Andesit.Polierter Andesit.Tiefenschiefer.Gepraegter Tiefenschiefer.Bruch-Tiefenschiefer.Polierter Tiefenschiefer.Meisel-Tiefenschiefer.Tiefenschiefer-Fliesen.Rissige Tiefenschiefer-Fliesen.Tiefenschiefer-Ziegel.Rissige Tiefenschiefer-Ziegel.Tuff.Polierter Tuff.Tuffziegel.Rissige Tuffziegel.Meisel-Tuffziegel.Kupferblock.Anwitternder Kupferblock.Verwitterter Kupferblock.Oxidierter Kupferblock.Gekerbter Kupferblock.Gekerbter anwitternder Kupferblock.Gekerbter verwitterter Kupferblock.Gekerbter oxidierter Kupferblock.Kupfergitter.Anwitterndes Kupfergitter.Verwittertes Kupfergitter.Oxidiertes Kupfergitter.Kupferhals.Anwitternder Kupferhals.Verwitterter Kupferhals.Oxidierter Kupferhals.Kupferlampe.Anwitternde Kupferlampe.Verwitterte Kupferlampe.Oxidierte Kupferlampe.Eichenstamm.Eichenholz.Entrindeter Eichenstamm.Entrindetes Eichenholz.Eichenbretter.Eichenzaun.Eichenzauntor.Eichentuer.Eichenfalltuer.Fichtenstamm.Fichtenholz.Entrindeter Fichtenstamm.Entrindetes Fichtenholz.Fichtenbretter.Fichtenzaun.Fichtenzauntor.Fichtentuer.Fichtenfalltuer.Birkenstamm.Birkenholz.Entrindeter Birkenstamm.Entrindetes Birkenholz.Birkenbretter.Birkenzaun.Birkenzauntor.Birkentuer.Birkenfalltuer.Tropenholzstamm.Tropenholz.Entrindeter Tropenholzstamm.Entrindetes Tropenholz.Tropenholzbretter.Tropenholzzaun.Tropenholzzauntor.Tropenholztuer.Tropenholzfalltuer.Akazienstamm.Akazienholz.Entrindeter Akazienstamm.Entrindetes Akazienholz.Akazienbretter.Akazienzaun.Akazienzauntor.Akazientuer.Akazienfalltuer.Schwarzeichenstamm.Schwarzeichenholz.Entrindeter Schwarzeichenstamm.Entrindetes Schwarzeichenholz.Schwarzeichenbretter.Schwarzeichenzaun.Schwarzeichenzauntor.Schwarzeichentuer.Schwarzeichenfalltuer.Mangrovenstamm.Mangrovenholz.Entrindeter Mangrovenstamm.Entrindetes Mangrovenholz.Mangrovenbretter.Mangrovenzaun.Mangrovenzauntor.Mangroventuer.Mangrovenfalltuer.Kirschbaumstamm.Kirschbaumholz.Entrindeter Kirschbaumstamm.Entrindetes Kirschbaumholz.Kirschbaumbretter.Kirschbaumzaun.Kirschbaumzauntor.Kirschbaumtuer.Kirschbaumfalltuer.Bambusblock.Entrindeter Bambusblock.Bambusbretter.Bambusmosaik.Bambuszaun.Bambuszauntor.Bambustuer.Bambusfalltuer.Karmesinstamm.Karmesinhylphen.Entrindeter Karmesinstamm.Entrindete Karmesinhylphen.Karmesinbretter.Karmesinzaun.Karmesinzauntor.Karmesintuer.Karmesinfalltuer.Wirrstamm.Wirrhylphen.Entrindeter Wirrstamm.Entrindete Wirrhylphen.Wirrbretter.Wirrzaun.Wirrzauntor.Wirrtuer.Wirrfalltuer.Erde.Grasblock.Grobe Erde.Podsol.Myzel.Verwurzelte Erde.Schlamm.Gepackter Schlamm.Schlammziegel.Sand.Roter Sand.Verdaechtiger Sand.Verdaechtiger Kies.Kies.Sandstein.Meisel-Sandstein.Glatte Sandstein-Doppelstufe.Glatter Sandstein.Roter Sandstein.Meisel-roter Sandstein.Glatter roter Sandstein.Ton.Keramik.Weisse Keramik.Orange Keramik.Magenta Keramik.Hellblaue Keramik.Gelbe Keramik.Hellgruene Keramik.Rosa Keramik.Graue Keramik.Hellgraue Keramik.Tuerkise Keramik.Violette Keramik.Blaue Keramik.Braune Keramik.Gruene Keramik.Rote Keramik.Schwarze Keramik.Glasierte Keramik.Glas.Gefaebtes Glas.Getoentes Glas.Netherrack.Seelensand.Seelenerde.Magmablock.Glowstone.Karmesin-Nezel.Wirr-Nezel.Netherziegel.Rote Netherziegel.Chiseled Netherziegel.Rissige Netherziegel.Schwarzstein.Polierter Schwarzstein.Polierte Schwarzsteinziegel.Rissige polierte Schwarzsteinziegel.Meisel-Schwarzstein.Basalt.Polierter Basalt.Glatter Basalt.Wolle.Weisser Beton.Oranger Beton.Magenta Beton.Hellblauer Beton.Gelber Beton.Hellgruener Beton.Rosa Beton.Grauer Beton.Hellgrauer Beton.Tuerkiser Beton.Violetter Beton.Blauer Beton.Brauner Beton.Gruener Beton.Roter Beton.Schwarzer Beton.Betonpulver.Ziegelblock.Prismarin.Prismarinziegel.Dunkler Prismarin.Seelaterne.Quarzblock.Meisel-Quarzblock.Quarzsäule.Glatter Quarzblock.Glatte Quarz-Doppelstufe.Bricks-Quarzblock.Endstein.Endsteinziegel.Purpurbank.Purpurblock.Purpursaeule.Knochenblock.Buecherregal.Geschnitztes Buecherregal.Schwamm.Nasser Schwamm.Heuballen.Honigwabe-Block.Pilzblock.Pilzstiel.Ockerfarbener Froschlicht-Block.Verdant Froschlicht-Block.Perlmuttfarbener Froschlicht-Block
+Crafting=Eichenbretter.Fichtenbretter.Birkenbretter.Tropenholzbretter.Akazienbretter.Schwarzeichenbretter.Mangrovenbretter.Kirschbaumbretter.Bambusbretter.Karmesinbretter.Wirrbretter.Stoecke.Fackel.Seelenfackel.Holzknopf.Steinknopf.Holzdruckplatte.Steindruckplatte.Werkbank.Truhe.Ofen.Schmelzofen.Raeucherofen.Braustand.Fass.Crafter.Kolben.Klebriger Kolben.Redstone-Verstaerker.Redstone-Komparator.Beobachter.Spender.Werfer.Redstone-Fackel.Redstone-Lampe.Kupferlampe.Hebel.Steinschalter.Eichenzaun.Fichtenzaun.Birkenzaun.Tropenholzzaun.Akazienzaun.Schwarzeichenzaun.Mangrovenzaun.Kirschbaumzaun.Bambuszaun.Karmesinzaun.Wirrzaun.Netherziegelzaun.Eichenzauntor.Fichtenzauntor.Birkenzauntor.Tropenholzzauntor.Akazienzauntor.Schwarzeichenzauntor.Mangrovenzauntor.Kirschbaumzauntor.Bambuszauntor.Karmesinzauntor.Wirrzauntor.Eichentuer.Fichtentuer.Birkentuer.Tropenholztuer.Akazientuer.Schwarzeichentuer.Mangroventuer.Kirschbaumtuer.Bambustuer.Karmesintuer.Wirrtuer.Eisentuer.Eichenfalltuer.Fichtenfalltuer.Birkenfalltuer.Tropenholzfalltuer.Akazienfalltuer.Schwarzeichenfalltuer.Mangrovenfalltuer.Kirschbaumfalltuer.Bambusfalltuer.Karmesinfalltuer.Wirrfalltuer.Eisenfalltuer.Eisenblock.Goldblock.Diamantblock.Netheritblock.Kupferblock.Gekerbter Kupferblock.Kupfergitter.Kupferhals.Lapislazuliblock.Redstone-Block.Smaragdblock.Kohleblock.Roheisenblock.Rohcopperblock.Rohgoldblock.Ziegelblock.Schlammziegel.Netherziegel.Quarzblock.Prismarinblock.Prismarinziegel.Dunkler Prismarin.Endsteinziegel.Purpurblock.Purpursaeule.Knochenblock.Bruchsteintreppe.Steinziegeltreppe.Granittreppe.Diorittreppe.Andesittreppe.Tiefenschiefertreppe.Tufftreppe.Netherziegeltreppe.Schwarzsteintreppe.Quarztreppe.Prismarintreppe.Purpurtreppe.Eichenholztreppe.Fichtenholztreppe.Birkenholztreppe.Tropenholztreppe.Akazienholztreppe.Schwarzeichenholztreppe.Mangrovenholztreppe.Kirschbaumholztreppe.Bambustreppe.Bambusmosaiktreppe.Karmesintreppe.Wirrtreppe.Bruchsteinstufe.Steinziegelstufe.Granitstufe.Dioritstufe.Andesitstufe.Tiefenschieferstufe.Tuffstufe.Netherziegelstufe.Schwarzsteinstufe.Quarzstufe.Prismarinstufe.Purpurstufe.Eichenholzstufe.Fichtenholzstufe.Birkenholzstufe.Tropenholzstufe.Akazienholzstufe.Schwarzeichenholzstufe.Mangrovenholzstufe.Kirschbaumholzstufe.Bambusstufe.Bambusmosaikstufe.Karmesinstufe.Wirrstufe.Eichenboot.Fichtenboot.Birkenboot.Tropenholzboot.Akazienboot.Schwarzeichenboot.Mangrovenboot.Kirschbaumboot.Bambusfloss.Eichenboot mit Truhe.Fichtenboot mit Truhe.Birkenboot mit Truhe.Tropenholzboot mit Truhe.Akazienboot mit Truhe.Schwarzeichenboot mit Truhe.Mangrovenboot mit Truhe.Kirschbaumboot mit Truhe.Bambusfloss mit Truhe.Schienen.Antriebsschienen.Aktivierungsschienen.Detektorschienen.Lore.Lore mit Truhe.Lore mit Ofen.Lore mit TNT.Lore mit Trichter.Trichter.Holzschwert.Steinschwert.Eisenschwert.Goldschwert.Diamantschwert.Holzspitzhacke.Steinspitzhacke.Eisenspitzhacke.Goldspitzhacke.Diamantspitzhacke.Holzaxt.Steinaxt.Eisenaxt.Goldaxt.Diamantaxt.Holzschaufel.Steinschaufel.Eisenschaufel.Goldschaufel.Diamantschaufel.Holzhacke.Steinhacke.Eisenhacke.Goldhacke.Diamanthacke.Pfeil.Bogen.Armbrust.Streitkolben.Schild.Schere.Angel.Feuerzeug.Lederhelm.Lederbrustplatte.Lederhose.Lederstiefel.Eisenhelm.Eisenbrustplatte.Eisenhose.Eisenstiefel.Kettenhelm.Kettenbrustplatte.Kettenhose.Kettenstiefel.Goldhelm.Goldbrustplatte.Goldhose.Goldstiefel.Diamanthelm.Diamantbrustplatte.Diamanthose.Diamantstiefel.Brot.Kuchen.Keks.Kuerbiskuppel.Kanincheneintopf.Pilzsuppe.Verdaechtige Suppe.Goldener Apfel.Goldene Karotte.Bücherregal.Geschnitztes Bücherregal.Gemaelde.Bannertraeger.Ruestungsstaender.Bett.Jukebox.Notenblock.Kompass.Bergungskompass.Uhr.Fernrohr.Leine.Sattel.Teppich.Wolle.Glasflasche.Glowstone.Magmacreme.Feuerladung.Zucker.Papier.Buch.Buch mit Feder.Karte.Amboss.Blitzableiter.Zielblock.Schleimblock.Honigblock.Honigwabe-Block.Heuballen.Zielscheibe.Tnt.Weisser Wollblock.Oranger Wollblock.Magenta Wollblock.Hellblauer Wollblock.Gelber Wollblock.Hellgruener Wollblock.Rosa Wollblock.Grauer Wollblock.Hellgrauer Wollblock.Tuerkiser Wollblock.Violetter Wollblock.Blauer Wollblock.Brauner Wollblock.Gruener Wollblock.Roter Wollblock.Schwarzer Wollblock.Weisser Teppich.Oranger Teppich.Magenta Teppich.Hellblauer Teppich.Gelber Teppich.Hellgruener Teppich.Rosa Teppich.Grauer Teppich.Hellgrauer Teppich.Tuerkiser Teppich.Violetter Teppich.Blauer Teppich.Brauner Teppich.Gruener Teppich.Roter Teppich.Schwarzer Teppich.Weisses Bett.Oranges Bett.Magenta Bett.Hellblaues Bett.Gelbes Bett.Hellgruenes Bett.Rosa Bett.Graues Bett.Hellgraues Bett.Tuerkises Bett.Violettes Bett.Blaues Bett.Braunes Bett.Gruenes Bett.Rotes Bett.Schwarzes Bett.Weisses Glas.Oranges Glas.Magenta Glas.Hellblaues Glas.Gelbes Glas.Hellgruenes Glas.Rosa Glas.Graues Glas.Hellgraues Glas.Tuerkises Glas.Violettes Glas.Blaues Glas.Braunes Glas.Gruenes Glas.Rotes Glas.Schwarzes Glas.Weisses Banner.Oranges Banner.Magenta Banner.Hellblaues Banner.Gelbes Banner.Hellgruenes Banner.Rosa Banner.Graues Banner.Hellgraues Banner.Tuerkises Banner.Violettes Banner.Blaues Banner.Braunes Banner.Gruenes Banner.Rotes Banner.Schwarzes Banner.Eichenholz.Fichtenholz.Birkenholz.Tropenholz.Akazienholz.Schwarzeichenholz.Mangrovenholz.Kirschbaumholz.Entrindetes Eichenholz.Entrindetes Fichtenholz.Entrindetes Birkenholz.Entrindetes Tropenholz.Entrindetes Akazienholz.Entrindetes Schwarzeichenholz.Entrindetes Mangrovenholz.Entrindetes Kirschbaumholz.Moosige Steinziegel.Moosiger Bruchstein.Glatte Stein Doppelstufe.Polierter Granit.Polierter Diorit.Polierter Andesit.Meisel Steinziegel.Rissige Steinziegel.Polierter Tiefenschiefer.Tiefenschiefer Ziegel.Tiefenschiefer Fliesen.Meisel Tiefenschiefer.Polierter Tuff.Tuffziegel.Meisel Tuffziegel.Gekerbter anwitternder Kupferblock.Gekerbter verwitterter Kupferblock.Gekerbter oxidierter Kupferblock.Anwitterndes Kupfergitter.Verwittertes Kupfergitter.Oxidiertes Kupfergitter.Anwitternder Kupferhals.Verwitterter Kupferhals.Oxidierter Kupferhals.Anwitternde Kupferlampe.Verwitterte Kupferlampe.Oxidierte Kupferlampe.Glatte Sandstein Doppelstufe.Meisel Sandstein.Glatter roter Sandstein.Meisel roter Sandstein.Gepackter Schlamm.Polierter Schwarzstein.Polierte Schwarzsteinziegel.Meisel Schwarzstein.Polierter Basalt.Meisel Quarzblock.Quarzsaeule.Glatter Quarzblock.Glatte Quarz Doppelstufe.Bricks Quarzblock.Gischt Prismarin.Dunkler Prismarin Saeule.Lederkocher.Papierblatt.Glowstone Block.Seelaterne.Kleverer Kolben.Fuehrungskompass.Schmiedetisch.Schleifstein.Kartentisch.Fletching Table.Webstuhl.Faesser.Ruestungsstaender Holz.Buertenschrank.Amethyst Block.Glaenzender Beobachter
+
 
 ; --- MATERIALIEN ---
 
@@ -407,3 +410,535 @@ Desc=Ein goldenes Getreidebuendel. Kann von Menschen nicht direkt gegessen werde
 HealPoints=0
 HungerBars=0
 Saturation=0.0
+
+; --- DETAILS: BLOCKS ---
+
+[Verstaerkter Tiefenschiefer]
+Type=Blocks
+Desc=Ein extrem widerstandsfaehiger Tiefenschiefer-Block. Kann im Survival-Modus nicht von Kolben bewegt oder als Item erhalten werden.
+
+[Antiker Schrott]
+Type=Blocks
+Desc=Ein seltenes, fossiles Erz aus den tiefsten Schichten des Nethers. Hitzebestaendig und die Quelle fuer Netherit.
+
+[Netheritblock]
+Type=Blocks
+Desc=Ein massiver, feuerfester Block aus reinem Netherit. Extrem schwer, kostbar und unzerstoerbar durch Explosionen.
+
+[Obsidian]
+Type=Blocks
+Desc=Ein pechschwarzer, vulkanischer Block. Entsteht, wenn Wasser auf Lava-Quellbloecke trifft. Benoetigt fuer Nether-Portale.
+
+[Weinender Obsidian]
+Type=Blocks
+Desc=Eine glimmende Obsidian-Variante, die lila Partikel weint. Wird als Energiequelle fuer den Seelenanker genutzt.
+
+[Seelenanker]
+Type=Blocks
+Desc=Ein mystischer Block, der mit weinendem Obsidian aufgeladen wird, um Spielern den Respawn im Nether zu ermoeglichen.
+
+[Pruefungsspawne]
+Type=Blocks
+Desc=Ein besonderer Spawner in Pruefungskammern, der sich an der Spieleranzahl anpasst und nach dem Sieg Beute auswirft.
+
+[Tresor]
+Type=Blocks
+Desc=Ein verschlossenes Beuteversteck in den Pruefungskammern. Kann von jedem Spieler genau einmal mit einem Schluessel geoeffnet werden.
+
+[Schwerer Kern]
+Type=Blocks
+Desc=Ein mysterioeser, extrem dichter Block aus den Tresoren. Bildet zusammen mit einer Lohenrute den maechtigen Streitkolben.
+
+[Enderkiste]
+Type=Blocks
+Desc=Eine Truhe, die ihr Inventar mit allen anderen Enderkisten des Spielers teilt. Kann nur mit Behutsamkeit abgebaut werden.
+
+[Amboss]
+Type=Blocks
+Desc=Ein schweres Eisenwerkzeug zum Reparieren, Benennen und Verzaubern von Ausruestungsteilen. Verbraucht Level-Erfahrung.
+
+[Angeschlagener Amboss]
+Type=Blocks
+Desc=Ein Amboss, der durch haeufige Nutzung bereits erste Risse im Metall zeigt.
+
+[Beschaedigter Amboss]
+Type=Blocks
+Desc=Ein stark abgenutzter Amboss, der kurz davor steht, bei der naechsten Benutzung komplett zu zerbrechen.
+
+[Eisenblock]
+Type=Blocks
+Desc=Ein kompakter Metallblock aus neun Eisenbarren. Dient zur Lagerung oder als Basis fuer Eisengolems.
+
+[Eisentuer]
+Type=Blocks
+Desc=Eine massive Tuer, die sich im Gegensatz zu Holztueren nur durch Redstone-Signale oder Schalter oeffnen laesst.
+
+[Eisenfalltuer]
+Type=Blocks
+Desc=Eine flache Sicherheitsklappe aus Eisen. Kann nur mittels Schaltern, Druckplatten oder Redstone bewegt werden.
+
+[Eisengitter]
+Type=Blocks
+Desc=Schmale, robuste Metallstaebe. Perfekt als Fenstergitter oder fuer Gefaengniszellen geeignet.
+
+[Monster Spawner]
+Type=Blocks
+Desc=Ein feuriger Kafig, der kontinuierlich bestimmte Kreaturen erschafft. Kann nicht im normalen Survival-Modus erbeutet werden.
+
+[Tiefenschiefer Kohleerz]
+Type=Blocks
+Desc=Eine harte Variante des Kohleerzes, die in den tiefen Schieferschichten der Oberwelt eingebettet ist.
+
+[Tiefenschiefer Eisenerz]
+Type=Blocks
+Desc=Ein Rohgestein tief unter der Erde. Muss in einem Ofen geschmolzen werden, um nutzbare Eisenbarren zu gewinnen.
+
+[Tiefenschiefer Kupfererz]
+Type=Blocks
+Desc=Ein kupferhaltiges Tiefengestein. Beim Abbau fallen mehrere Rohkupfer-Erzecken fuer die Schmelze ab.
+
+[Tiefenschiefer Golderz]
+Type=Blocks
+Desc=Ein funkelndes Golderz aus den Tiefen. Erfordert mindestens eine Eisenspitzhacke fuer den erfolgreichen Abbau.
+
+[Tiefenschiefer Redstone Erz]
+Type=Blocks
+Desc=Ein rot leuchtendes Erz, das bei Beruehrung oder Schlag funkelt und wertvollen Redstone-Staub fallen laesst.
+
+[Tiefenschiefer Lapislazulierz]
+Type=Blocks
+Desc=Ein tiefblau geadertes Gestein aus den unteren Schichten, welches das wichtige Pigment fuer Verzauberungen liefert.
+
+[Tiefenschiefer Diamanterz]
+Type=Blocks
+Desc=Das begehrteste Tiefenerz der Welt. Birgt den kostbaren Diamanten, das Herzstueck jeder Profi-Ausruestung.
+
+[Tiefenschiefer Smaragderz]
+Type=Blocks
+Desc=Ein extrem seltenes Erz, das ausschliesslich unter Gebirgen in den tiefen Schieferschichten vorkommt.
+
+[Kohleerz]
+Type=Blocks
+Desc=Das haeufigste Erz der Oberwelt. Liefert direkt Kohle als Brennstoff fuer Fackeln und Oefen.
+
+[Eisenerz]
+Type=Blocks
+Desc=Klassisches Roherz aus den Steinschichten. Eine der wichtigsten Ressourcen fuer den gesamten Spielverlauf.
+
+[Kupfererz]
+Type=Blocks
+Desc=Ein weiches Metallerz der hoeheren Steinschichten. Faellt in grossen Mengen an und ist ideal fuer dekorative Bauten.
+
+[Golderz]
+Type=Blocks
+Desc=Edelmetallerz aus den Bergen oder Tiefen. Goldbarren sind weich, aber unverzichtbar fuer Alchemie und Elektronik.
+
+[Redstone Erz]
+Type=Blocks
+Desc=Ein kriechendes Energieerz der Oberwelt. Liefert den roten Staub, der als Stromleitung fuer Apparaturen dient.
+
+[Lapislazulierz]
+Type=Blocks
+Desc=Ein blaues Erz, das sich leicht mit Steinwerkzeugen abbauen laesst und Verzauberungsmaterial spendet.
+
+[Diamanterz]
+Type=Blocks
+Desc=Das klassische Edelsteinerz der Oberwelt, verborgen in den tiefen Lavahoehlen.
+
+[Smaragderz]
+Type=Blocks
+Desc=Ein seltenes, gruenes Mineral, das in den Steinschichten von Bergen zu finden ist. Die Waehrung der Doerfer.
+
+[Nethergolderz]
+Type=Blocks
+Desc=Ein instabiles Golderz aus dem Nether. Zerbricht beim Abbau in Goldklumpen, es sei denn, man nutzt Behutsamkeit.
+
+[Netherquarzerz]
+Type=Blocks
+Desc=Ein weisses Mineralerz, das ueberall im Nether waechst. Gibt beim Abbau wertvolle Erfahrungspunkte und Quarz-Kristalle.
+
+[Roheisenblock]
+Type=Blocks
+Desc=Ein kompakter, ungeschmolzener Lagerblock aus rohen Eisenstuecken direkt aus der Mine.
+
+[Rohkupferblock]
+Type=Blocks
+Desc=Ein schwerer Block aus Rohkupfer. Zeigt eine charakteristische, gemusterte Rohtextur vor dem Schmelzen.
+
+[Rohgoldblock]
+Type=Blocks
+Desc=Ein massiver, schwerer Klumpenblock aus ungeschmolzenem Rohgold. Sehr dekorativ.
+
+[Goldblock]
+Type=Blocks
+Desc=Ein glanzvoller Edelmetallblock aus neun geschmiedeten Goldbarren. Wird fuer den Bau von Signalfeuern gebraucht.
+
+[Diamantblock]
+Type=Blocks
+Desc=Ein prachtvoller, hellblau funkelnder Block aus puren Diamanten. Zeugnis von absolutem Wohlstand.
+
+[Smaragdblock]
+Type=Blocks
+Desc=Ein satter gruener Block aus neun Smaragden. Perfekt als dauerhafte Energiebasis fuer Leuchtfeuer.
+
+[Lapislazuliblock]
+Type=Blocks
+Desc=Ein tiefblauer Dekorationsblock. Wurde frueher oft fuer edle Palastbauten und blaue Verzierungen genutzt.
+
+[Kohleblock]
+Type=Blocks
+Desc=Ein hocheffizienter Brennstoffblock. Brennt im Ofen extrem lange und schmilzt bis zu 80 Gegenstaende am Stueck.
+
+[Amethystblock]
+Type=Blocks
+Desc=Ein violetter Kristallblock. Erzeugt beim Platzieren, Gehen oder Zerbrechen wunderschoene, glockenartige Klaenge.
+
+[Amethystknospen Block]
+Type=Blocks
+Desc=Ein spezieller Amethyst-Mutterblock, an dessen Seiten im Laufe der Zeit neue Amethystkristalle heranwachsen.
+
+[Leitstein]
+Type=Blocks
+Desc=Ein magnetisierter Steinblock. Erlaubt es Spielern, einen Kompass darauf abzustimmen, um den Weg zu diesem Punkt zu finden.
+
+[Blitzableiter]
+Type=Blocks
+Desc=Ein schmaler Kupferstab, der Blitzeinschlaege im Umkreis abfaengt und die Energie in ein Redstone-Signal umwandelt.
+
+[Stein]
+Type=Blocks
+Desc=Das fundamentale Gestein der Oberwelt. Wird beim Abbau ohne Behutsamkeit zu Bruchstein zertruemmert.
+
+[Bruchstein]
+Type=Blocks
+Desc=Raues, gesplittertes Gestein. Der wichtigste Grundbaustoff fuer Werkzeuge, Oefen und einfache Mauern.
+
+[Glatte Stein Doppelstufe]
+Type=Blocks
+Desc=Ein nahtloser, massiver Block, der durch das Aufeinanderplatzieren von zwei glatten Steinstufen entsteht.
+
+[Glatter Stein]
+Type=Blocks
+Desc=Ein sauberer Gesteinsblock mit feiner Graustruktur. Entsteht durch das erneute Schmelzen von normalem Stein im Ofen.
+
+[Steinziegel]
+Type=Blocks
+Desc=Fein behauene Bausteine aus glattem Gestein. Verleiht Burgen und Festungen ein stabiles, ordentliches Aussehen.
+
+[Meisel Steinziegel]
+Type=Blocks
+Desc=Ein dekorativer Gesteinsblock mit eingemeisseltem quadratischen Muster. Perfekt fuer Saeulen oder Verzierungen.
+
+[Rissige Steinziegel]
+Type=Blocks
+Desc=Alte, verwitterte Steinziegel, die feine Risse aufweisen. Entstehen durch das Erhitzen von Steinziegeln im Ofen.
+
+[Moosiger Stein]
+Type=Blocks
+Desc=Mit Flechten und Moos bewachsener Bruchstein. Verleiht Ruinen oder Dschungeltempeln einen antiken Look.
+
+[Moosige Steinziegel]
+Type=Blocks
+Desc=Feine Gesteinsziegel, durch die sich gruene Moosadern ziehen. Ideal fuer naturnahe, gealterte Festungsmauern.
+
+[Granit]
+Type=Blocks
+Desc=Ein roetliches, kornreiches Tiefengestein. Kommt in grossen Adern im Untergrund vor.
+
+[Polierter Granit]
+Type=Blocks
+Desc=Glatter, glaenzend geschliffener Granit. Besitzt ein edles, rot-braunes Muster fuer Innenraeume.
+
+[Diorit]
+Type=Blocks
+Desc=Ein helles, weiss-grau gesprenkeltes Gestein. Wird von Baumeistern oft spotthaft als "Vogelkot-Stein" bezeichnet.
+
+[Polierter Diorit]
+Type=Blocks
+Desc=Ein edel aufbereiteter, fast rein weisser Gesteinsblock mit sanften Graustrukturen.
+
+[Andesit]
+Type=Blocks
+Desc=Ein mattgraues Gestein, das farblich stark an normalen Stein erinnert, aber eine rauere Textur aufweist.
+
+[Polierter Andesit]
+Type=Blocks
+Desc=Ein wunderschoen glatter, dunkelgrauer Konstruktionsblock, der sich hervorragend fuer moderne Boeden eignet.
+
+[Tiefenschiefer]
+Type=Blocks
+Desc=Das extrem harte Gestein der tiefen Unterwelt. Benoetigt laenger zum Abbauen als normaler Stein.
+
+[Gepraegter Tiefenschiefer]
+Type=Blocks
+Desc=Ein bearbeiteter, dunkler Schieferblock mit kunstvollen Gravuren an den Aussenseiten.
+
+[Bruch Tiefenschiefer]
+Type=Blocks
+Desc=Die gesplitterte Variante des Tiefenschiefers, die beim normalen Abbau ohne Behutsamkeit anfaellt.
+
+[Polierter Tiefenschiefer]
+Type=Blocks
+Desc=Dunkelgrauer, spiegelglatt geschliffener Schiefer. Verleiht modernen Basen ein edles, duesteres Aussehen.
+
+[Meisel Tiefenschiefer]
+Type=Blocks
+Desc=Ein Schieferblock mit eingemeisseltem Wither-Skelett-Symbol. Sehr dekorativ fuer Nether- oder Dungeonbauten.
+
+[Tiefenschiefer Fliesen]
+Type=Blocks
+Desc=Zu Kacheln geschnittener Tiefenschiefer. Besitzt ein feines, quadratisches Oberflaechenmuster.
+
+[Rissige Tiefenschiefer Fliesen]
+Type=Blocks
+Desc=Beschaeigte, rissige Kacheln aus dunklem Schiefer. Perfekt fuer duestere Verliese oder Ruinen.
+
+[Tiefenschiefer Ziegel]
+Type=Blocks
+Desc=Grossteilig behauene Ziegelbloecke aus Schiefer. Die dunkle Alternative zu den klassischen grauen Steinziegeln.
+
+[Rissige Tiefenschiefer Ziegel]
+Type=Blocks
+Desc=Gealterte Schieferziegel mit tiefen Rissen. Zeugen von jahrhundertelangem Verfall.
+
+[Tuff]
+Type=Blocks
+Desc=Ein graues, vulkanisches Gestein mit leicht gruenlichem Schimmer. Bildet die Umgebung von Amethystgeoden.
+
+[Polierter Tuff]
+Type=Blocks
+Desc=Glatt aufbereiteter Tuffstein, der seine vulkanischen Mineraleinschluesse deutlich zeigt.
+
+[Tuffziegel]
+Type=Blocks
+Desc=Fein gemusterte Konstruktionsziegel aus Tuffstein, eingefuehrt in Version 1.21.
+
+[Rissige Tuffziegel]
+Type=Blocks
+Desc=Strukturell beschaedigte Tuffziegel, die sich hervorragend fuer antike Pruefungskammern eignen.
+
+[Meisel Tuffziegel]
+Type=Blocks
+Desc=Ein Tuffblock mit eingemeisseltem Wirbel- oder Wind-Muster, inspiriert von den Boeen.
+
+[Eichenstamm]
+Type=Blocks
+Desc=Der klassische Holzstamm aus den Waeldern der Oberwelt. Die absolute Basisressource fuer fast jedes Crafting-Rezept.
+
+[Eichenholz]
+Type=Blocks
+Desc=Ein reiner Holzblock, der an allen sechs Seiten die raue Rindentextur aufweist (ohne die abgehackten Stirnseiten).
+
+; --- DETAILS: CRAFTING ---
+
+[Eichenbretter]
+Type=Crafting
+Desc=Sauber zugeschnittene Holzbretter aus Eichenholz. Universeller Baustoff fuer Haeuser, Kisten und Werkzeuge.
+
+[Fichtenbretter]
+Type=Crafting
+Desc=Dunkelbraune Holzbretter aus den Nadelwaeldern. Sehr beliebt fuer rustikale Huetten und Daecher.
+
+[Birkenbretter]
+Type=Crafting
+Desc=Sehr helle, fast weisse Holzbretter. Bringen viel Licht in moderne Raeume und Inneneinrichtungen.
+
+[Tropenholzbretter]
+Type=Crafting
+Desc=Holzbretter mit einem sanften, roetlich-warmen Farbton, direkt aus den dichten Dschungelbaeumen.
+
+[Akazienbretter]
+Type=Crafting
+Desc=Auffaellig orangefarbene Bretter aus den Savannen. Verleihen Bauwerken einen exotischen Touch.
+
+[Schwarzeichenbretter]
+Type=Crafting
+Desc=Sehr dunkle, schokoladenbraune Bretter aus den dichten Waeldern. Ideal fuer edle Kontraste.
+
+[Mangrovenbretter]
+Type=Crafting
+Desc=Tiefrote Holzbretter aus den Suempfen. Behalten auch verarbeitet ihre charakteristische, feurige Farbe.
+
+[Kirschbaumbretter]
+Type=Crafting
+Desc=Wunderschoene, pastellrosa Holzbretter aus den Kirschbluetenhainen. Perfekt fuer farbenfrohe Dekorationen.
+
+[Bambusbretter]
+Type=Crafting
+Desc=Aus Bambusstengeln zusammengepresste Bretter mit einer einzigartigen, linienfoermigen Textur.
+
+[Karmesinbretter]
+Type=Crafting
+Desc=Nether-Holzbretter in einem schimmernden Purpurton. Absolut feuerfest und brennen niemals ab.
+
+[Wirrbretter]
+Type=Crafting
+Desc=Blau-tuerkise Holzbretter aus den verzerrten Waeldern des Nethers. Komplett feuerresistent.
+
+[Stoecke]
+Type=Crafting
+Desc=Einfache Holzstaebe. Werden als Griffe fuer alle Werkzeuge, Waffen sowie fuer Fackeln und Zaeune gebraucht.
+
+[Fackel]
+Type=Crafting
+Desc=Eine klassische Lichtquelle aus Kohle und Stock. Haelt Monster vom Spawnen ab und schmilzt Eis in der Naehe.
+
+[Seelenfackel]
+Type=Crafting
+Desc=Eine Fackel mit einer unheimlichen, blauen Flamme. Spendet weniger Licht, vertreibt aber Piglins im Nether.
+
+[Holzknopf]
+Type=Crafting
+Desc=Ein kleiner Schalter aus Holz. Gibt bei Aktivierung ein kurzes Redstone-Signal ab und kann von Pfeilen ausgeloest werden.
+
+[Steinknopf]
+Type=Crafting
+Desc=Ein unauffaelliger Knopf aus Stein. Gibt ein kuerzeres Signal ab als der Holzknopf und reagiert nicht auf Pfeile.
+
+[Holzdruckplatte]
+Type=Crafting
+Desc=Eine Bodenplatte, die Signale ausloest, wenn Spieler, Monster oder fallengelassene Items auf sie treten.
+
+[Steindruckplatte]
+Type=Crafting
+Desc=Eine schwere Gesteinsplatte. Reagiert ausschliesslich auf das Gewicht von lebenden Kreaturen, nicht auf Items.
+
+[Werkbank]
+Type=Crafting
+Desc=Das wichtigste Utensil des Spiels. Erhoeht das Herstellungsfeld von 2x2 auf das vollwertige 3x3-Gitter.
+
+[Truhe]
+Type=Crafting
+Desc=Ein holzerner Aufbewahrungsbehaelter mit 27 Inventarplaetzen. Platziert man zwei nebeneinander, entsteht eine grosse Truhe.
+
+[Ofen]
+Type=Crafting
+Desc=Die Standard-Schmelzapparatur. Verarbeitet Erze zu Barren, brennt Steine und kocht rohes Fleisch mittels Brennstoff.
+
+[Schmelzofen]
+Type=Crafting
+Desc=Ein spezialisierter Ofen, der Erze und Metallruestungen doppelt so schnell schmilzt, aber kein Essen kocht.
+
+[Raeucherofen]
+Type=Crafting
+Desc=Ein Ofen fuer Kuechenmeister. Bereitet alle Fleisch- und Fischgerichte mit doppelter Geschwindigkeit zu.
+
+[Braustand]
+Type=Crafting
+Desc=Die alchemistische Station zum Brauen von Tranken. Benoetigt Lohenpulver als Hitzequelle.
+
+[Fass]
+Type=Crafting
+Desc=Ein alternativer Lagerblock mit 27 Plaetzen. Funktioniert im Gegensatz zur Truhe auch dann, wenn ein solider Block direkt darueber steht.
+
+[Crafter]
+Type=Crafting
+Desc=Der vollautomatische Werkbank-Block aus Version 1.21! Setzt Redstone-Impulse in selbststaendiges Crafting um.
+
+[Kolben]
+Type=Crafting
+Desc=Eine mechanische Apparatur, die bei einem Redstone-Signal Blaecke und Kreaturen genau ein Feld weit nach vorne schiebt.
+
+[Klebriger Kolben]
+Type=Crafting
+Desc=Ein Kolben mit einer Schleimschicht. Schiebt Blaecke nach vorne und zieht sie beim Deaktivieren wieder zurueck.
+
+[Redstone Verstaerker]
+Type=Crafting
+Desc=Verlaengert Redstone-Leitungssignale auf die volle Staerke und kann als zeitliche Verzogering eingestellt werden.
+
+[Redstone Komparator]
+Type=Crafting
+Desc=Ein intelligenter Schaltblock. Vergleicht Signalstaerken oder liest den Fuellstand von Truhen und Oefen aus.
+
+[Beobachter]
+Type=Crafting
+Desc=Ein Sensor-Block, der Block-Aktualisierungen (wie das Wachsen von Pflanzen) registriert und ein kurzes Signal nach hinten abgibt.
+
+[Spender]
+Type=Crafting
+Desc=Ein mechanischer Block, der Gegenstaende aktiv benutzt (Pfeile schiessen, Boote platzieren, Wassereimer auskippen).
+
+[Werfer]
+Type=Crafting
+Desc=Wirft Gegenstaende lediglich als aufsammelbare Items in die Welt hinaus, ohne sie zu benutzen.
+
+[Redstone Fackel]
+Type=Crafting
+Desc=Eine konstante Energiequelle fuer Redstone-Leitungen. Kann durch ein Signal von unten invertiert (ausgeschaltet) werden.
+
+[Redstone Lampe]
+Type=Crafting
+Desc=Ein sauberer Leuchtblock, der helles Licht ausstrahlt, sobald er mit Redstone-Energie versorgt wird.
+
+[Kupferlampe]
+Type=Crafting
+Desc=Ein Leuchtblock aus Version 1.21. Je staerker sie oxidiert, desto schwaecher wird ihr Licht. Kann mit einer Axt gereinigt werden.
+
+[Hebel]
+Type=Crafting
+Desc=Ein manueller Schalter, der Redstone-Signale dauerhaft ein- oder ausschaltet (Dauerstrom).
+
+[Steinschalter]
+Type=Crafting
+Desc=Ein robuster Gesteinsschalter zur manuellen Aktivierung von Apparaturen im Feld.
+
+[Eichenzaun]
+Type=Crafting
+Desc=Eine holzerne Barriere, die von Kreaturen und Spielern wegen ihrer berechneten Hoehe von 1.5 Bloecken nicht uebersprungen werden kann.
+
+[Eichenzauntor]
+Type=Crafting
+Desc=Das passende Durchgangstor fuer Zaeune. Kann in beide Richtungen auf- und zugeschwungen werden.
+
+[Eichentuer]
+Type=Crafting
+Desc=Eine einfache Holztuer mit Sichtfenster zur Absicherung von Wohnhaeusern vor Zombies.
+
+[Eisenfalltuer]
+Type=Crafting
+Desc=Eine flache Schutzklappe aus Metall, die sich ausschliesslich mechanisch oeffnen laesst.
+
+[Holzschwert]
+Type=Crafting
+Desc=Die simpelste aller Nahkampfwaffen. Reicht fuer die ersten Naechte, nutzt sich aber extrem schnell ab.
+
+[Eisenspitzhacke]
+Type=Crafting
+Desc=Ein unverzichtbares Abbauwerkzeug. Erlaubt es endlich, wertvolle Diamant-, Gold- und Redstone-Erze erfolgreich abzubauen.
+
+[Diamantaxt]
+Type=Crafting
+Desc=Ein meisterhaftes Werkzeug aus Diamanten. Faellt Baeume in Sekundenschnelle und besitzt eine gewaltige Haltbarkeit.
+
+[Eisenschaufel]
+Type=Crafting
+Desc=Ein solides Grabewerkzeug fuer den schnellen Abbau von Erde, Sand, Kies und Schlamm.
+
+[Bogen]
+Type=Crafting
+Desc=Die klassische Fernkampfwaffe. Verschiesst Pfeile und kann mit Maechtigkeit oder Unendlichkeit verzaubert werden.
+
+[Armbrust]
+Type=Crafting
+Desc=Fernkampfwaffe mit hoher Reichweite. Kann geladen gehalten werden und verschiesst Pfeile oder explosive Raketen.
+
+[Streitkolben]
+Type=Crafting
+Desc=Die maechtige Waffe aus 1.21! Je tiefer der Spieler faellt, bevor er den Gegner trifft, desto verheerender ist der Schaden.
+
+[Schild]
+Type=Crafting
+Desc=Ein hocheffektives Abwehrwerkzeug aus Holz und Eisen. Blockiert Angriffe, Pfeile und sogar die Explosionen von Creepern.
+
+[Schere]
+Type=Crafting
+Desc=Werkzeug zum sauberen Scheren von Schafen, Ernten von Spinnweben, Blaettern und Ranken.
+
+[Angel]
+Type=Crafting
+Desc=Wird zum Fischen in Gewaessern genutzt. Kann auch verwendet werden, um Kreaturen oder Boote an sich heranzuziehen.
+
+[Feuerzeug]
+Type=Crafting
+Desc=Kombination aus Eisen und Feuerstein. Zuendet Nether-Portale an, setzt Blaecke in Brand oder sprengt TNT in die Luft.
