@@ -113,6 +113,34 @@ on *:TEXT:!login*:?: {
   }
 }
 
+; Befehl im Channel: !logout
+on *:TEXT:!logout:#: {
+  var %player = $nick
+  var %main_chan = #MC-RPG ; <-- Hier wieder deinen Channel-Namen eintragen
+
+  ; 1. Prüfen, ob der Spieler registriert ist und eine Datei hat
+  if (!$exists($charfile(%player))) {
+    msg $chan ❌ %player $+ , du hast noch gar keinen Charakter registriert!
+    halt
+  }
+
+  ; 2. Prüfen, ob der Spieler überhaupt als eingeloggt markiert ist
+  var %status = $readini($charfile(%player), Info, IsLoggedIn)
+  if (%status != 1) {
+    msg $chan 🎒 %player $+ , du bist aktuell gar nicht eingeloggt!
+    halt
+  }
+
+  ; 3. Login-Status in der Datei auf 0 setzen
+  writeini $charfile(%player) Info IsLoggedIn 0
+
+  ; 4. Voice-Rechte im Channel entziehen und Verabschiedung ausgeben
+  if ($me on %main_chan) {
+    mode %main_chan -v %player
+    msg %main_chan 💤 ** %player ** hat sein Lager aufgeschlagen und sich abgemeldet. Bis zum nächsten Mal!
+  }
+}
+
 ; -------------------------------------------------------------------------
 ; 🔄 AUTOMATISCHER LOGOUT (Setzt IsLoggedIn in der Datei wieder auf 0)
 ; -------------------------------------------------------------------------
