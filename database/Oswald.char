@@ -1,8 +1,9 @@
 [Info]
-Name=Oswald
-Password=UzE1Wjc0
-Desc=Ein mutiger Abenteurer, bereit die mIRC-Minecraft-Welt zu erkunden.
 IsLoggedIn=1
+Name=Oswald
+Password=TWVpbkdlaGVpbWVzMTIy
+ChangedPass=on
+Desc=Ein mutiger Abenteurer, bereit die mIRC-Minecraft-Welt zu erkunden.
 
 [Location]
 Dimension=Oberwelt

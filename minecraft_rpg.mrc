@@ -166,9 +166,13 @@ on *:TEXT:!logout:#: {
 ; -------------------------------------------------------------------------
 ; 🔐 PASSWORT ÄNDERN (Nur per PN ausführbar)
 ; -------------------------------------------------------------------------
-on *:TEXT:!password *?: {
+; -------------------------------------------------------------------------
+; 🔐 PASSWORT ÄNDERN (Sichere Version mit Abfrage des alten Passworts)
+; -------------------------------------------------------------------------
+on *:TEXT:!password*:?: {
   var %player = $nick
-  var %new_pass = $2
+  var %old_pass = $2
+  var %new_pass = $3
 
   ; 1. Prüfen, ob der Charakter existiert
   if (!$exists($charfile(%player))) {
@@ -176,28 +180,48 @@ on *:TEXT:!password *?: {
     halt
   }
 
-  ; 2. Prüfen, ob der Spieler eingeloggt ist (Sicherheit geht vor!)
+  ; 2. NEUER SECURITY-CHECK: Prüfen, ob das Passwort bereits einmal geändert wurde
+  var %changed = $readini($charfile(%player), Info, ChangedPass)
+  if (%changed == on) {
+    .msg %player ❌ Sicherheitssperre: Du hast dein Passwort bereits geändert. Eine erneute Änderung ist nicht erlaubt!
+    halt
+  }
+
+  ; 2. Prüfen, ob der Spieler eingeloggt ist
   var %online = $readini($charfile(%player), Info, IsLoggedIn)
   if (%online != 1) {
     .msg %player ❌ Du musst eingeloggt sein, um dein Passwort zu ändern!
     halt
   }
 
-  ; 3. Validierung des neuen Passworts (Sollte nicht leer sein und keine Punkte enthalten)
+  ; 3. SICHERHEITS-CHECK: Altes Passwort auslesen, entschlüsseln und prüfen
+  var %saved_crypt = $readini($charfile(%player), Info, Password)
+  var %decrypted_pass = $decode(%saved_crypt, m)
+
+  if (%old_pass != %decrypted_pass) {
+    .msg %player ❌ Sicherheitssperre: Das angegebene alte Passwort ist falsch! Änderung verweigert.
+    halt
+  }
+
+  ; 4. Validierung des neuen Passworts
+  if (%new_pass == $null) {
+    .msg %player ❌ Fehler: Du musst ein neues Passwort angeben! Syntax: !password [altes_passwort] [neues_passwort]
+    halt
+  }
   if ($len(%new_pass) < 4) {
     .msg %player ❌ Dein neues Passwort muss mindestens 4 Zeichen lang sein!
     halt
   }
 
-  ; 4. Passwort verschlüsseln und speichern
+  ; 5. Neues Passwort verschlüsseln und speichern
   var %crypt_pass = $encode(%new_pass, m)
   writeini $charfile(%player) Info Password %crypt_pass
 
-  ; 5. Flags aktualisieren (FirstLogin löschen, ChangedPass auf 'on' setzen)
+  ; 6. Flags aktualisieren (FirstLogin löschen, ChangedPass auf 'on' setzen)
   remini $charfile(%player) Info FirstLogin
   writeini $charfile(%player) Info ChangedPass on
 
-  .msg %player 🔑 Dein Passwort wurde erfolgreich geändert und verschlüsselt hinterlegt! Merk es dir gut.
+  .msg %player 🔑 Dein Passwort wurde erfolgreich geändert und sicher verschlüsselt hinterlegt!
 }
 
 ; -------------------------------------------------------------------------
