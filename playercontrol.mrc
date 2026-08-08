@@ -19,33 +19,69 @@ alias mcrpg_show_inventory {
     halt
   }
 
-  ; 3. DYNAMISCHE SCHLEIFE DURCH DIE INVENTAR-SEKTION
+  ; Info im Channel ausgeben
+  msg %chan 🎒 %player $+ , ich habe dir eine Übersicht deines Rucksacks per Privatnachricht gesendet!
+
+  ; 3. KATEGORIEN-VARIABLEN ABSOLUT LEER VORBEREITEN
   var %file = $charfile(%player)
+  var %items_db = $mircdiritems\items.db
+
+  var %inv_bloecke = $null
+  var %inv_material = $null
+  var %inv_essen = $null
+  var %inv_crafting = $null
+
+  ; 4. DYNAMISCHE SCHLEIFE DURCH ALLE ITEMS IN DER DATEI
   var %total_items = $ini(%file, Inventar, 0)
   var %i = 1
-  var %inv_string = ""
 
   while (%i <= %total_items) {
-    ; Holt den Namen des Gegenstands (z.B. Brot)
     var %item_name = $ini(%file, Inventar, %i)
-    ; Holt die Anzahl des Gegenstands (z.B. 3)
     var %item_count = $readini(%file, Inventar, %item_name)
 
-    ; Nur Gegenstände anzeigen, die der Spieler auch wirklich besitzt (größer als 0)
+    ; Nur verarbeiten, wenn die Anzahl wirklich größer als 0 ist
     if (%item_count > 0) {
-      ; Wir kleben die Gegenstände mit einem Punkt getrennt aneinander
-      if (%inv_string == "") { var %inv_string = %item_name $+ ( 07 $+ %item_count $+  ) }
-      else { var %inv_string = %inv_string  . %item_name $+ ( 07 $+ %item_count $+  ) }
+
+      var %type = $readini(%items_db, %item_name, Type)
+      ; Formatierung des Items: Itemname(Anzahl in Orange)
+      var %format_item = %item_name $+ ( $+ %item_count $+  )
+
+      if (%type == Block) {
+        if (%inv_bloecke == $null) { %inv_bloecke = %format_item }
+        else { %inv_bloecke = %inv_bloecke $+ , %format_item }
+      }
+      elseif (%type == Material) {
+        if (%inv_material == $null) { %inv_material = %format_item }
+        else { %inv_material = %inv_material $+ , %format_item }
+      }
+      elseif (%type == Food) {
+        if (%inv_essen == $null) { %inv_essen = %format_item }
+        else { %inv_essen = %inv_essen $+ , %format_item }
+      }
+      elseif (%type == Crafting) || (%type == Tool) || (%type == Weapon) || (%type == Armor) {
+        if (%inv_crafting == $null) { %inv_crafting = %format_item }
+        else { %inv_crafting = %inv_crafting $+ , %format_item }
+      }
     }
     inc %i
   }
 
-  ; 4. Schöne Ausgabe im Channel generieren
-  msg %chan 🎒 **[ INVENTAR - %player ]**
-  if (%inv_string == "") {
-    msg %chan    *Dein Rucksack ist im Moment komplett leer... Zeit, Materialien zu sammeln!*
+  ; 5. SELEKTIVE AUSGABE PER PN (Nur senden, wenn die Variable nicht $null ist!)
+  .msg %player 📋 🎒 ********** **INVENTAR - %player ** **********
+  if (%inv_bloecke != $null) { .msg %player 14[Blöcke]  %inv_bloecke }
+  if (%inv_material != $null) { .msg %player 12[Material]  %inv_material }
+  if (%inv_essen != $null) { .msg %player 3[Essen]  %inv_essen }
+  if (%inv_crafting != $null) { .msg %player 15[Ausrüstung & Crafting]  %inv_crafting }
+
+  ; Falls der Rucksack komplett leer sein sollte
+  if (%inv_bloecke == $null) && (%inv_material == $null) && (%inv_essen == $null) && (%inv_crafting == $null) {
+    .msg %player 🧳 *Dein Rucksack ist im Moment komplett leer...*
   }
-  else {
-    msg %chan 📦 %inv_string
-  }
+  .msg %player ***************************************************
+}
+
+; Kleiner Hilfs-Alias, der 0 zurückgibt, falls ein Item noch gar nicht in der Datei steht
+alias -l get_amt {
+  var %val = $readini($1, Inventar, $2)
+  return $iif(%val == $null, 0, %val)
 }
