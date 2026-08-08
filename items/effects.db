@@ -1,0 +1,36 @@
+[NegativeEffects]
+Liste=Brennen.Wither.Vergiftung.Dunkelheit
+
+[PositiveEffects]
+Liste=Regeneration.Absorption
+
+; --- DETAILS ZU DEN EFFEKTEN ---
+[Brennen]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=2
+DefaultDuration=3
+Desc=%target% steht in Flammen und erleidet jede Runde Schaden!
+
+[Wither]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=3
+DefaultDuration=4
+Desc=Der Wither-Effekt zersetzt die Lebenskraft von %target%!
+
+[Vergiftung]
+Type=Schaden_Ueber_Zeit
+ValuePerTurn=1
+DefaultDuration=5
+Desc=%target% wurde vergiftet! Die HP sinken langsam.
+
+[Dunkelheit]
+Type=Attribut_Senkung
+AccuracyReduction=30
+DefaultDuration=3
+Desc=Absolute Finsternis umhüllt %target%! Die Trefferchance sinkt um 30%.
+
+[Regeneration]
+Type=Heilung_Ueber_Zeit
+ValuePerTurn=3
+DefaultDuration=3
+Desc=Heilende Energie durchströmt %target% und stellt HP wieder her.
