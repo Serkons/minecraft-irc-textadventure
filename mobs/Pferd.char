@@ -1,0 +1,17 @@
+[Stats]
+Name=Pferd
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein stolzes, schnelles Reittier der Ebenen, das im Kampf bei Panik laut wiehert oder mit den Hinterhufen nach Angreifern tritt.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Wiehern=1
+Tritt=1

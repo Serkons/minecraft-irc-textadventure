@@ -1,0 +1,16 @@
+[Stats]
+Name=Kabeljau
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=3
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein flinker, harmloser Fisch, der in den weiten Meeren und Flüssen der Oberwelt schwimmt und bei Gefahr blitzschnell die Flucht ergreift.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Flucht=1

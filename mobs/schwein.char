@@ -6,11 +6,11 @@ BaseHP=10
 Mana=0
 ArmorPoints=0
 ExpDrop=2
-Desc=Ein rosa Rüsseltier, das sich mit Vorliebe im Schlamm wälzt und Karotten über alles liebt.
+Desc=Ein rosafarbenes, gutmütiges Rüsseltier, das Karotten über alles liebt, sich im Kampf zum Schutz im Schlamm wälzt oder laut quiekend die Flucht ergreift.
 
 [Info]
 Size=Medium
-Drops=Verrottetes Fleisch.Apfel.Apfel
+Drops=Rohes Schweinefleisch.Leder
 
 [Skills]
 Schlammwälzen=1

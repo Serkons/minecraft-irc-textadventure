@@ -161,6 +161,11 @@ ScalingFactor=1.2
 ManaCost=0
 Desc=%caster% zielt sorgfältig mit der Armbrust und feuert einen Bolzen auf %target% ab.
 
+[Leuchtspur]
+Type=Ablenkung
+Target=Gegner
+Desc=%caster% zieht eine funkelnde Leuchtspur hinter sich her und verwirrt %target% kurzzeitig!
+
 [Nachladen]
 Type=Vorbereitung
 Target=Selbst
@@ -827,3 +832,74 @@ BaseDamage=6
 ScalingFactor=1.5
 ManaCost=40
 Desc=%caster% löst versteckte Pfeilfallen aus den Kammerwänden gegen %target% aus.
+
+[Wiehern]
+Type=Ablenkung
+Target=Gegner
+Desc=Ein lautes, gellendes Wiehern von %caster% schüchtert %target% ein und senkt die Angriffsgeschwindigkeit.
+
+[Tritt]
+Type=Schaden_Gering
+Target=Spieler
+BaseDamage=2
+ScalingFactor=0.3
+Desc=%caster% schlägt im Fluchtversuch panisch nach hinten aus und verpasst %target% einen Huftritt.
+
+[Suppenspende]
+Type=Spezial_Heilung
+Target=Spieler
+BaseHeal=4
+Desc=%caster% schüttelt sich freundlich und spendet %target% eine nahrhafte Pilzsuppe, die leichte Wunden schließt.
+
+[Tarnung]
+Type=Flucht_Verteidigung
+Target=Selbst
+BlockChance=50
+Desc=%caster% verschmilzt perfekt mit den dichten Blättern des Dschungels und erhöht seine Ausweichchance dramatisch!
+
+[Nachahmung]
+Type=Ablenkung
+Target=Gegner
+Desc=%caster% ahmt täuschend echt die unheimlichen Geräusche anderer Monster nach und irritiert %target%!
+
+[Ablenkung]
+Type=Flucht_Verteidigung
+Target=Selbst
+BlockChance=30
+Desc=%caster% flattert wild krächzend um den Kopf von %target% herum und senkt dessen Trefferchance.
+
+[Schlammwälzen]
+Type=Verteidigung
+Target=Selbst
+BlockChance=25
+Desc=%caster% wirft sich panisch in eine Schlammpfütze. Die dicke Dreckschicht fängt einen Teil des Schadens ab!
+
+[Haken_schlagen]
+Type=Flucht_Verteidigung
+Target=Selbst
+BlockChance=45
+Desc=%caster% schlägt Haken im Zickzack über den Boden, wodurch %target% das Ziel völlig aus den Augen verliert!
+
+[Stachelberührung]
+Type=Konter_Effekt
+Target=Spieler
+BaseDamage=2
+StatusEffect=Vergiftung
+EffectChance=100
+Desc=Bei der Berührung von %caster% sticht %target% sich an den giftigen Stacheln und erleidet sofort Schaden sowie Vergiftung!
+
+[Eiersuche]
+Type=Spezial_Bonus
+Target=Selbst
+Desc=%caster% schnüffelt intensiv am Boden herum und markiert eine Stelle, an der sich uralte Pflanzensamen verbergen könnten!
+
+[Bodenwühlen]
+Type=Ablenkung
+Target=Gegner
+Desc=%caster% lässt sich schwerfällig auf den Boden fallen und wühlt tief in der Erde. Das laute Schnaufen lenkt %target% komplett ab!
+
+[Strömungsflucht]
+Type=Flucht
+Target=Selbst
+BlockChance=50
+Desc=%caster% nutzt eine reißende Unterwasserströmung, um rasant davonzugleiten und %target% abzuhängen!

@@ -1,0 +1,17 @@
+[Stats]
+Name=Pilzkuh
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Eine seltene, rote Kuhart aus dem Pilzbiom, auf deren Rücken Pilze wachsen. Sie spendet müden Reisenden nahrhafte Suppen, flieht aber panisch bei einem Angriff.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Suppenspende=1
+Flucht=1

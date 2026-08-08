@@ -1,0 +1,17 @@
+[Stats]
+Name=Ozelot
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein extrem scheuer, wilder Urwaldbewohner, der sich bei Gefahr meisterhaft im dichten Unterholz tarnt und blitzschnell vor Angreifern flieht.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Tarnung=1
+Sprintflucht=1

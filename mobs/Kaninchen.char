@@ -1,0 +1,17 @@
+[Stats]
+Name=Kaninchen
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=3
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein kleines, extrem flinkes Tier der Wüsten und Ebenen, das im Kampf Haken schlägt, um jedem Angriff geschickt auszuweichen.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Haken_schlagen=1
+Flucht=1

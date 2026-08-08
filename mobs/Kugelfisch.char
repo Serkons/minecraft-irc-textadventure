@@ -1,0 +1,17 @@
+[Stats]
+Name=Kugelfisch
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=3
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein giftiger Meeresbewohner, der sich bei Gefahr prall aufbläst und Angreifer mit seinen schmerzhaften Stacheln sofort infiziert.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Aufblasen=1
+Stachelberührung=1

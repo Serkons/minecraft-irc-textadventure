@@ -1,0 +1,17 @@
+[Stats]
+Name=Tintenfisch
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein achtarmiger Bewohner der Ozeane und Flüsse, der bei Gefahr eine blickdichte Tintenwolke ausstößt und im Dunkeln flieht.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Tintenwolke=1
+Flucht=1

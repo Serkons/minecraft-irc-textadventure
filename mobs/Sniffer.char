@@ -1,0 +1,17 @@
+[Stats]
+Name=Sniffer
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=30
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Eine riesige, uralte Kreatur aus vergangenen Zeiten. Der Sniffer ist friedlich, schnüffelt ununterbrochen am Boden und gräbt im Kampf Staub auf, um Gegner abzulenken.
+
+[Info]
+Size=Big
+Drops=Kein Loot
+
+[Skills]
+Eiersuche=1
+Bodenwühlen=1

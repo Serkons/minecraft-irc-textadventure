@@ -1,0 +1,17 @@
+[Stats]
+Name=Schildkröte
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=30
+Mana=0
+ArmorPoints=4
+ExpDrop=2
+Desc=Ein gepanzertes Kriechtier von den Stränden. Bei Gefahr zieht sie sich in ihren unknackbaren Panzer zurück oder schwimmt rasant davon.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Panzer_Rückzug=1
+Strömungsflucht=1

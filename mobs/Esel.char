@@ -1,0 +1,17 @@
+[Stats]
+Name=Esel
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein gutmütiges, ausdauerndes Lasttier der Oberwelt, das mit Kisten ausgerüstet werden kann, um wertvolle Gegenstände auf langen Reisen zu transportieren.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Lastentrag=1
+Flucht=1

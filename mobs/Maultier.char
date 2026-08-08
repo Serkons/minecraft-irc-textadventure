@@ -1,0 +1,17 @@
+[Stats]
+Name=Maultier
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=20
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Eine geduldige und ausdauernde Kreuzung aus Pferd und Esel, die schwere Lastentruhen transportieren kann und bei Gefahr schnell das Weite sucht.
+
+[Info]
+Size=Medium
+Drops=Kein Loot
+
+[Skills]
+Lastentrag=1
+Flucht=1

@@ -1,0 +1,17 @@
+[Stats]
+Name=Fuchs
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein flinker, cleverer Waldbewohner, der tagsüber schläft und nachts auf Beutejagd geht. Im Kampf lenkt er Spieler geschickt ab, um Gegenstände zu mopsen.
+
+[Info]
+Size=Small
+Drops=Apfel.Apfel
+
+[Skills]
+Hechtsprung=1
+Beutediebstahl=1

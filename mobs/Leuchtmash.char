@@ -1,0 +1,17 @@
+[Stats]
+Name=Leuchtmarsh
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=10
+Mana=0
+ArmorPoints=0
+ExpDrop=2
+Desc=Ein seltenes, sanft leuchtendes Wesen aus den tiefen Sumpfgebieten, das im Dunkeln eine wunderschöne, funkelnde Spur hinter sich herzieht.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Leuchtspur=1
+Flucht=1

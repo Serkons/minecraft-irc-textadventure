@@ -1,0 +1,16 @@
+[Stats]
+Name=Lachs
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=3
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein flinker, rötlicher Fisch, der besonders gern in kalten Flüssen und Ozeanen schwimmt und bei Gefahr sofort flieht.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Flucht=1

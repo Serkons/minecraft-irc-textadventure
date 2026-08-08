@@ -1,0 +1,17 @@
+[Stats]
+Name=Papagei
+Type=Friedliches Tier
+Dimension=Oberwelt
+BaseHP=6
+Mana=0
+ArmorPoints=0
+ExpDrop=1
+Desc=Ein farbenfroher Vogel aus dem Dschungel, der gerne auf den Schultern von Piraten sitzt und im Kampf durch lautes Krächzen und Stimmenimitation Verwirrung stiftet.
+
+[Info]
+Size=Small
+Drops=Kein Loot
+
+[Skills]
+Nachahmung=1
+Ablenkung=1
