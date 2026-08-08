@@ -1,5 +1,5 @@
 [PlayerSkills]
-Liste=Rundumschlag.Gezielter Schuss.Schildblock.Heilung
+Liste=Rundumschlag.Gezielter Schuss.Schildblock.Heilung.Bergbau_Experte.Holzfaeller_Glueck.Meisterkoch.Eisenhaut.Pfeilregen.Ausdauernd
 
 [MonsterSkills]
 Zombie=Biss.Kratzen
@@ -12,6 +12,46 @@ Breeze_Prime=Windladung.Wirbelsturm.Fallen-Aktivierung
 ; ========================================================
 ;               DETAILS ZU DEN EINZELNEN SKILLS
 ; ========================================================
+
+; --- NEUE SPEZIAL- & SAMMELSKILLS (SPIELER) ---
+[Bergbau_Experte]
+Type=Passiv_Sammeln
+Target=Selbst
+DoubleDropChance=15
+HardnessReduction=0.2
+Desc=Erhöht die Chance auf doppelte Erze beim Minen und verringert die Blockhärte.
+
+[Holzfaeller_Glueck]
+Type=Passiv_Sammeln
+Target=Selbst
+ExtraLogChance=20
+Desc=Mit jedem Hieb an einem Baum besteht die Chance, zusätzliche Stämme zu ernten.
+
+[Meisterkoch]
+Type=Passiv_Handwerk
+Target=Selbst
+HealBonusFactor=1.3
+Desc=Erhöht die regenerierten HP von verzehrtem Essen um 30%.
+
+[Eisenhaut]
+Type=Passiv_Verteidigung
+Target=Selbst
+BonusArmor=3
+Desc=Härtet den Körper von %caster% ab und verleiht dauerhaft +3 Rüstungspunkte.
+
+[Pfeilregen]
+Type=Schaden_AoE
+Target=Gegner
+BaseDamage=2
+ScalingFactor=1.2
+ManaCost=20
+Desc=%caster% feuert eine Salve von Pfeilen ab, die alle anwesenden Gegner trifft.
+
+[Ausdauernd]
+Type=Passiv_Regeneration
+Target=Selbst
+ManaRegenBonus=2
+Desc=Erhöht die passive Manaregeneration von %caster% in jeder Kampfrunde um +2.
 
 ; --- SPIELER SKILLS ---
 [Rundumschlag]
