@@ -125,7 +125,7 @@ on *:TEXT:!login*:?: {
       msg %main_chan 👋 ☀️ ** %player ** hat die Welt betreten und schärft seine Fäuste! Willkommen zurück!
 
       ; Zweite Nachricht: Die farbliche Standortmeldung ( 03 = Grün,  07 = Orange/Gold,   = Reset)
-      msg %main_chan 📍 [%player] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  07Y:  %y  07Z:  %z
+      msg %main_chan 📍 [ %player ] Du erwachst im Biom:  3 $+ %biom  ( $+ %dimension $+ ) - Position:  7X:  %x  07Y:  %y  07Z:  %z
     }
   }
 }
@@ -133,7 +133,7 @@ on *:TEXT:!login*:?: {
 ; Befehl im Channel: !logout
 on *:TEXT:!logout:#: {
   var %player = $nick
-  var %main_chan = #MC-RPG ; <-- Hier wieder deinen Channel-Namen eintragen
+  var %main_chan = #RPG-MC
 
   ; 1. Prüfen, ob der Spieler registriert ist und eine Datei hat
   if (!$exists($charfile(%player))) {
@@ -157,7 +157,6 @@ on *:TEXT:!logout:#: {
     msg %main_chan 💤 ** %player ** hat sein Lager aufgeschlagen und sich abgemeldet. Bis zum nächsten Mal!
   }
 }
-
 ; -------------------------------------------------------------------------
 ; 🔄 AUTOMATISCHER LOGOUT (Setzt IsLoggedIn in der Datei wieder auf 0)
 ; -------------------------------------------------------------------------
