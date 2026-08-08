@@ -1,7 +1,7 @@
 [Settings]
 Maintenance=0
 GlobalMultiplier=1.0
-WorldAgeDays=1
+WorldAgeDays=6
 
 [Environment]
 TimeOfDay=Tag
@@ -12,4 +12,4 @@ MaxMobsPerArea=5
 GlobalDifficultyFactor=1.0
 
 [Settings,]
-WorldAgeDays=2
+WorldAgeDays=7

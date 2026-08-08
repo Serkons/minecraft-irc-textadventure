@@ -30,7 +30,7 @@ on *:START: {
 
 alias mcrpg_time_cycle {
   var %sys_dat = $mircdirsystem.dat
-  var %current = $readini(%sys_dat, Environment, TimeOfDay)
+  var -s %current = $readini(%sys_dat, Environment, TimeOfDay)
 
   if (%current == Tag) {
     writeini %sys_dat Environment TimeOfDay Nacht
@@ -78,7 +78,7 @@ on *:TEXT:!register:#: {
   var %biom_liste = $readini(%world_db, Oberwelt_Biome, Liste)
   var %total_biomes = $numtok(%biom_liste, 46)
   var %random_index = $rand(1, %total_biomes)
-  var %start_biom = $gettok(%biom_liste, %random_index, 46)
+  var %start_biom = 3 $gettok(%biom_liste, %random_index, 46) 
 
   ; Daten in die neue Charakterdatei schreiben
   writeini $charfile(%player) Info Name %player
@@ -93,7 +93,6 @@ on *:TEXT:!register:#: {
   writeini $charfile(%player) Info Name %player
   writeini $charfile(%player) Info Password %crypt_pass
 
-  msg $chan 📝 %player wurde erfolgreich in der Welt registriert! Dein Passwort wurde dir per PN zugeschickt.
   .msg %player 🗝️ Hallo %player $+ ! Dein generiertes Passwort lautet: ** %pass ** -> Melde dich im Channel an mit: /msg $me !login  %pass  an
 }
 
@@ -108,6 +107,13 @@ on *:TEXT:!move:#: {
   var %online = $readini($charfile(%player), Info, IsLoggedIn)
   if (%online != 1) {
     msg $chan ❌ %player $+ , du musst eingeloggt sein, um dich zu bewegen!
+    halt
+  }
+
+  ; --- NEU: HUNGER-CHECK ---
+  var %current_food = $readini($charfile(%player), Stats, CurrentFood)
+  if (%current_food <= 0) {
+    msg $chan 🍖 ❌ ** %player ** du bist völlig am Ende deiner Kräfte und hast verdammt großen Hunger! Du bist zu erschöpft, um weiterzuwandern. Iss erst ein 7!eat [Essen]!
     halt
   }
 
@@ -126,54 +132,52 @@ on *:TEXT:!move:#: {
   if (%dir_roll == 3) { var %richtung = Osten | var %new_x = %old_x + %dist | var %new_z = %old_z }
   if (%dir_roll == 4) { var %richtung = Westen | var %new_x = %old_x - %dist | var %new_z = %old_z }
 
+  ; --- NEU: HUNGER-ABZUG BERECHNEN (Distanz / 100, mindestens 1 Punkt Abzug) ---
+  var %food_loss = $floor($calc(%dist / 100))
+  if (%food_loss < 1) { var %food_loss = 1 }
+
+  var %new_food = %current_food - %food_loss
+  if (%new_food < 0) { var %new_food = 0 }
+
   ; 3. STANDARD-BIOM WÜRFELN (Falls kein geheimer Posten getroffen wird)
   var %world_db = $mircdirworld.db
   var %biom_liste = $readini(%world_db, Oberwelt_Biome, Liste)
   var %total_biomes = $numtok(%biom_liste, 46)
   var %new_biom = $gettok(%biom_liste, $rand(1, %total_biomes), 46)
-  var %entdeckung_text = Du hast ein neues Biom entdeckt:  3 $+ %new_biom
+  var %entdeckung_text = Du hast ein neues Biom entdeckt:  3 $+ %new_biom 
 
-  ; --- 4. CHECK AUF UNENDLICHE STRUKTUREN (Raster-Logik) ---
-
-  ; Wir berechnen den Restwert (Modulo) für ein 2500-Blöcke-Raster auf der Karte
-  ; $calc(Wert \\ 2500) gibt uns immer die Position innerhalb des aktuellen Kartenabschnitts
+  ; 4. CHECK AUF UNENDLICHE STRUKTUREN (Raster-Logik)
   var %mod_x = $calc(%new_x \\ 2500)
   var %mod_z = $calc(%new_z \\ 2500)
-
-  ; Da Modulo im Minusbereich negativ sein kann, machen wir die Werte absolut (immer positiv)
   if (%mod_x < 0) { var %mod_x = %mod_x + 2500 }
   if (%mod_z < 0) { var %mod_z = %mod_z + 2500 }
 
-  ; Check 1: ANTIKE STADT (Taucht in jedem Rasterabschnitt nahe der Sektoren-Mitte auf)
   if (%mod_x >= 1200) && (%mod_x <= 1300) && (%mod_z >= 1200) && (%mod_z <= 1300) {
     var %new_biom = Antike_Stadt
     var %new_y = -52
     var %entdeckung_text = 💀 ⚠️ **GEHEIMER ORT ENTDECKT:** Du bist in eine gewaltige, verlassene Stadt tief unter der Erde gestolpert... Stille umgibt dich, der Warden wacht!
   }
-
-  ; Check 2: OZEANMONUMENT (Taucht in jedem Rasterabschnitt auf)
-  if (%mod_x >= 400) && (%mod_x <= 600) && (%mod_z >= 1600) && (%mod_z <= 1800) {
+  elseif (%mod_x >= 400) && (%mod_x <= 600) && (%mod_z >= 1600) && (%mod_z <= 1800) {
     var %new_biom = Ozeanmonument
     var %entdeckung_text = 🔱 🌊 **GEHEIMER ORT ENTDECKT:** Aus den tiefen Wellen ragt ein monumentaler Prismin-Palast auf. Die Wächter haben dich im Visier!
   }
-
-  ; Check 3: WALDANWESEN (Taucht seltener auf, da das Fenster kleiner ist)
-  if (%mod_x >= 2100) && (%mod_x <= 2200) && (%mod_z >= 200) && (%mod_z <= 300) {
+  elseif (%mod_x >= 2100) && (%mod_x <= 2200) && (%mod_z >= 200) && (%mod_z <= 300) {
     var %new_biom = Waldanwesen
     var %entdeckung_text = 🏰 🌲 **GEHEIMER ORT ENTDECKT:** Mitten im dichten, dunklen Wald ragt ein gigantisches, unheimliches Holzgebäude auf. Hier hausen die Illager!
   }
 
-
-  ; 5. Neue Daten abspeichern
+  ; 5. Neue Daten abspeichern (Inklusive neuer Sättigung!)
   writeini $charfile(%player) Location Biom %new_biom
   writeini $charfile(%player) Location X %new_x
   writeini $charfile(%player) Location Y %new_y
   writeini $charfile(%player) Location Z %new_z
+  writeini $charfile(%player) Stats CurrentFood %new_food
 
-  ; 6. Ausgabe im Channel ( 12 = Blau,  07 = Gold,   = Reset)
-  msg $chan 🧭 🏃 ** %player ** wandert %dist Blöcke nach  12 $+ %richtung $+  ...
-  msg $chan 🗺️ [ %player ] %entdeckung_text  - Position:  7X:  %new_x  7Y:  %new_y  7Z:  %new_z
+  ; 6. Ausgabe im Channel ( 05=Braun für Hunger)
+  msg $chan 🧭 🏃 ** %player ** wandert %dist Blöcke nach  12 $+ %richtung $+  ... ( 5- $+ %food_loss 🍖 )
+  msg $chan 🗺️ [ %player ] %entdeckung_text $chr(124) Position:  7X:  %new_x  7Y:  %new_y  7Z:  %new_z
 }
+
 
 ; Befehl im Channel: !status oder !pos (Reagiert auf beide Schreibweisen)
 on *:TEXT:!status:#: { mcrpg_show_status $nick $chan }
@@ -216,10 +220,11 @@ alias mcrpg_show_status {
   var %z = $readini($charfile(%player), Location, Z)
 
   var %waffe = $readini($charfile(%player), Equipment, Waffe)
+  if (%streak == $null) || (!%streak) { var -s %streak = 0 }
 
   ; 4. Schöne, farbige Ausgabe im Channel generieren ( 03=Grün,  04=Rot,  07=Gold,  11=Hellblau,  =Reset)
-  msg %chan 📊 ⚔️ **[ STATUS - %player ]**  $chr(124) Level:  7 %level  $chr(124) HP:  4 %hp $+ / $+ %max_hp  4  $chr(124) Ausdauer:  11 $+ %mana $+ / $+ %max_mana  11⚡ $chr(124) 11 Hunger:  5 $+ %food $+ / $+ %max_food  05🍖
-  msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 $+ %streak   $chr(124) Waffe: %waffe
+  msg %chan 📊 ⚔️ **[ STATUS - %player ]**  $chr(124) Level:  7 %level  $chr(124) HP:  4 %hp $+ / $+ %max_hp  4  $chr(124) Ausdauer:  11 $+ %mana $+ / $+ %max_mana  11⚡ $chr(124) 11 Hunger:  5 %food / %max_food 
+  msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 %streak   $chr(124) Waffe: %waffe
 }
 
 

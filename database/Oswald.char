@@ -1,16 +1,17 @@
 [Info]
 IsLoggedIn=1
 Name=Oswald
-Password=TWVpbkdlaGVpbWVzMTIy
-ChangedPass=on
+Password=QjI3TzY1
+FirstLogin=on
+ChangedPass=off
 Desc=Ein mutiger Abenteurer, bereit die mIRC-Minecraft-Welt zu erkunden.
 
 [Location]
 Dimension=Oberwelt
-Biom=Dschungel
-X=797
+Biom=Tropfsteinhoehlen
+X=105
 Y=64
-Z=676
+Z=-217
 
 [Stats]
 Level=1
@@ -19,6 +20,8 @@ CurrentHP=20
 MaxHP=20
 CurrentMana=20
 MaxMana=20
+CurrentFood=0
+MaxFood=20
 Killstreak=0
 
 [Equipment]
