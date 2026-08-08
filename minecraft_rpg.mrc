@@ -175,6 +175,48 @@ on *:TEXT:!move:#: {
   msg $chan 🗺️ [ %player ] %entdeckung_text  - Position:  7X:  %new_x  7Y:  %new_y  7Z:  %new_z
 }
 
+; Befehl im Channel: !status oder !pos (Reagiert auf beide Schreibweisen)
+on *:TEXT:!status:#: { mcrpg_show_status $nick $chan }
+on *:TEXT:!pos:#: { mcrpg_show_status $nick $chan }
+
+alias mcrpg_show_status {
+  var %player = $1
+  var %chan = $2
+
+  ; 1. Prüfen, ob der Charakter registriert ist
+  if (!$exists($charfile(%player))) {
+    msg %chan ❌ %player $+ , du musst dich zuerst mit !register registrieren!
+    halt
+  }
+
+  ; 2. Prüfen, ob der Spieler eingeloggt ist
+  var %online = $readini($charfile(%player), Info, IsLoggedIn)
+  if (%online != 1) {
+    msg %chan ❌ %player $+ , du musst eingeloggt sein, um deinen Status zu sehen! Nutze !login in einer PN.
+    halt
+  }
+
+  ; 3. Sämtliche Daten via $charfile auslesen
+  var %level = $readini($charfile(%player), Stats, Level)
+  var %hp = $readini($charfile(%player), Stats, CurrentHP)
+  var %max_hp = $readini($charfile(%player), Stats, MaxHP)
+  var %mana = $readini($charfile(%player), Stats, CurrentMana)
+  var %max_mana = $readini($charfile(%player), Stats, MaxMana)
+  var %streak = $readini($charfile(%player), Stats, Killstreak)
+
+  var %dimension = $readini($charfile(%player), Location, Dimension)
+  var %biom = $readini($charfile(%player), Location, Biom)
+  var %x = $readini($charfile(%player), Location, X)
+  var %y = $readini($charfile(%player), Location, Y)
+  var %z = $readini($charfile(%player), Location, Z)
+
+  var %waffe = $readini($charfile(%player), Equipment, Waffe)
+
+  ; 4. Schöne, farbige Ausgabe im Channel generieren ( 03=Grün,  04=Rot,  07=Gold,  11=Hellblau,  =Reset)
+  msg %chan 📊 ⚔️ **[ STATUS - %player ]**  $chr(124) Level:  7 %level  $chr(124) HP:  4 %hp $+ / $+ %max_hp  4  $chr(124) Ausdauer:  11 $+ %mana $+ / $+ %max_mana  11⚡
+  msg %chan 📍 位置:  3 $+ %biom  ( $+ %dimension $+ ) $chr(124) Koordinaten:  7X:  %x  7Y:  %y  7Z:  %z  $chr(124) Killserie:  4 $+ %streak   $chr(124) Waffe: %waffe
+}
+
 
 
 ; Befehl per PN (Private Nachricht): !login [Passwort]
