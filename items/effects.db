@@ -1,10 +1,17 @@
 [NegativeEffects]
-Liste=Brennen.Wither.Vergiftung.Dunkelheit
+Liste=Brennen.Wither.Vergiftung.Dunkelheit.Levitation
 
 [PositiveEffects]
 Liste=Regeneration.Absorption
 
 ; --- DETAILS ZU DEN EFFEKTEN ---
+
+[Levitation]
+Type=Kampf_Einschraenkung
+DefaultDuration=3
+FallDamage=4
+Desc=%target% verliert den Boden unter den Füßen und schwebt hilflos in der Luft! Nahkampfangriffe sind blockiert!
+
 [Brennen]
 Type=Schaden_Ueber_Zeit
 ValuePerTurn=2
